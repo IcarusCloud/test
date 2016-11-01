@@ -101,30 +101,12 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  @--MESSAGE  AT TIME        0.0   DAYS    ( 1-JAN-1990):
  @           NUMBER OF ACTIVE CELLS IS 1125000                               
 
- @--MESSAGE  AT TIME        0.0   DAYS    ( 1-JAN-1990):
- @           THE MEMORY REQUIRED TO PROCESS THE SOLUTION SECTION IS          
- @                 1406 MBYTES                                               
-
- @--MESSAGE  AT TIME        0.0   DAYS    ( 1-JAN-1990):
- @              58738 CHARACTER VARIABLES USED                               
-    25 READING SWOF    
-    26 READING SGOF    
-    27 READING PVTO    
-    28 READING PVDG    
-    29 READING PVTW    
-    30 READING ROCK    
-    31 READING DENSITY 
-    32 READING SOLUTION
-    33 READING EQUIL   
-    34 READING PBVD    
-    35 READING SUMMARY 
-
  @--  ERROR  AT TIME        0.0   DAYS    ( 1-JAN-1990):
- @           UNABLE TO ALLOCATE MEMORY FOR ARRAY WORK                        
- @           OF TYPE DOUBLE  , LENGTH        185652388,                      
- @           AND REQUIRING     1416 MBYTES.                                  
+ @           UNABLE TO ALLOCATE MEMORY FOR ARRAY A                           
+ @           OF TYPE DOUBLE  , LENGTH         70875001,                      
+ @           AND REQUIRING   553710 KBYTES.                                  
  @           THE SYSTEM ERROR RETURNED WAS       41                          
- @                   1036 MBYTES PREVIOUSLY ALLOCATED                        
+ @                    852 MBYTES PREVIOUSLY ALLOCATED                        
  @           THIS IS AN OUT-OF-MEMORY CONDITION.                             
 
  Error summary 
@@ -133,4 +115,4 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  Problems               0
  Errors                 1
  Bugs                   0
- Final cpu       2.38 elapsed       3.00
+ Final cpu       0.58 elapsed       1.00
