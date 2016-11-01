@@ -547,7 +547,7 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
     44 READING SOLUTION
 1                             **********************************************************************   1
   MISCNUM  AT     0.00   DAYS *  10 by 2 oil/water/polymer                                             * ECLIPSE  VERSION 2009.1     
-  REPORT   0     1 JAN 1983   *  RUN                                                                   * RUN AT 14:14 ON 01 NOV 2016 
+  REPORT   0     1 JAN 1983   *  RUN                                                                   * RUN AT 15:08 ON 01 NOV 2016 
                               **************************************************************************
 
  (I,  J,  K) I=  1       2       3       4       5       6       7       8       9      10
@@ -612,7 +612,7 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
     97 READING SCHEDULE
 1                             **********************************************************************   2
   SMRYFILE AT     0.00   DAYS *  10 by 2 oil/water/polymer                                             * ECLIPSE  VERSION 2009.1     
-  REPORT   0     1 JAN 1983   *  RUN                                                                   * RUN AT 14:14 ON 01 NOV 2016 
+  REPORT   0     1 JAN 1983   *  RUN                                                                   * RUN AT 15:08 ON 01 NOV 2016 
                               **************************************************************************
 
 
@@ -760,3 +760,92 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
   140   FWIP                                                                                              STB                               
   141   FPR                                                                                              PSIA                               
  
+    98 READING WELSPECS
+    99 READING COMPDAT 
+   100 READING WCONPROD
+   101 READING WCONINJE
+   102 READING WALKALIN
+   103 READING WPOLYMER
+   104 READING TSTEP   
+1                             **********************************************************************   3
+  SIMULATE AT     0.00   DAYS *  10 by 2 oil/water/polymer                                             * ECLIPSE  VERSION 2009.1     
+  REPORT   0     1 JAN 1983   *  RUN                                                                   * RUN AT 15:08 ON 01 NOV 2016 
+                              **************************************************************************
+
+ STEP    1 TIME=    1.00  DAYS (  +1.0  DAYS INIT  4 ITS) (2-JAN-1983)           
+  PAV=  4134.5  PSIA   WCT= 0.00 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF   
+
+ STEP    2 TIME=    2.54  DAYS (  +1.5  DAYS TRNC  2 ITS) (3-JAN-1983)           
+  PAV=  4299.3  PSIA   WCT= 0.00 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF   
+
+ STEP    3 TIME=    5.89  DAYS (  +3.3  DAYS TRNC  3 ITS) (6-JAN-1983)           
+  PAV=  4515.8  PSIA   WCT= 0.00 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF   
+
+ STEP    4 TIME=   11.51  DAYS (  +5.6  DAYS TRNC  4 ITS) (12-JAN-1983)          
+  PAV=  4677.5  PSIA   WCT= 0.00 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF   
+
+ STEP    5 TIME=   20.70  DAYS (  +9.2  DAYS TRNC  6 ITS) (21-JAN-1983)          
+  PAV=  4737.8  PSIA   WCT=0.027 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF   
+
+ STEP    6 TIME=   35.35  DAYS ( +14.6  DAYS TRNC  3 ITS) (5-FEB-1983)           
+  PAV=  4694.2  PSIA   WCT=0.117 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF   
+
+ STEP    7 TIME=   50.00  DAYS ( +14.7  DAYS REPT  3 ITS) (20-FEB-1983)          
+  PAV=  4628.0  PSIA   WCT=0.207 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF   
+   105 READING WALKALIN
+   106 READING WPOLYMER
+   107 READING WSURFACT
+   108 READING TSTEP   
+1                             **********************************************************************   4
+  SIMULATE AT    50.00   DAYS *  10 by 2 oil/water/polymer                                             * ECLIPSE  VERSION 2009.1     
+  REPORT   1    20 FEB 1983   *  RUN                                                                   * RUN AT 15:08 ON 01 NOV 2016 
+                              **************************************************************************
+
+ STEP    8 TIME=   75.00  DAYS ( +25.0  DAYS HALF  4 ITS) (17-MAR-1983)          
+  PAV=  4542.5  PSIA   WCT=0.330 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF   
+
+ STEP    9 TIME=  100.00  DAYS ( +25.0  DAYS REPT  8 ITS) (11-APR-1983)          
+  PAV=  4520.4  PSIA   WCT=0.417 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF   
+   109 READING WALKALIN
+   110 READING WPOLYMER
+   111 READING WSURFACT
+   112 READING TSTEP   
+1                             **********************************************************************   5
+  SIMULATE AT   100.00   DAYS *  10 by 2 oil/water/polymer                                             * ECLIPSE  VERSION 2009.1     
+  REPORT   2    11 APR 1983   *  RUN                                                                   * RUN AT 15:08 ON 01 NOV 2016 
+                              **************************************************************************
+
+ STEP   10 TIME=  125.00  DAYS ( +25.0  DAYS HALF  5 ITS) (6-MAY-1983)           
+  PAV=  4492.7  PSIA   WCT=0.479 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF   
+
+ STEP   11 TIME=  137.50  DAYS ( +12.5  DAYS HALF  4 ITS) (18-MAY-1983)          
+  PAV=  4491.5  PSIA   WCT=0.504 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF   
+
+ STEP   12 TIME=  150.00  DAYS ( +12.5  DAYS REPT  4 ITS) (31-MAY-1983)          
+  PAV=  4493.7  PSIA   WCT=0.524 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF   
+   113 READING WALKALIN
+   114 READING WPOLYMER
+   115 READING WSURFACT
+   116 READING TSTEP   
+1                             **********************************************************************   6
+  SIMULATE AT   150.00   DAYS *  10 by 2 oil/water/polymer                                             * ECLIPSE  VERSION 2009.1     
+  REPORT   3    31 MAY 1983   *  RUN                                                                   * RUN AT 15:08 ON 01 NOV 2016 
+                              **************************************************************************
+
+ STEP   13 TIME=  169.20  DAYS ( +19.2  DAYS TRNC  3 ITS) (19-JUN-1983)          
+  PAV=  4486.9  PSIA   WCT=0.545 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF   
+
+ STEP   14 TIME=  184.60  DAYS ( +15.4  DAYS HALF  6 ITS) (4-JLY-1983)           
+  PAV=  4468.0  PSIA   WCT=0.555 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF   
+
+ STEP   15 TIME=  200.00  DAYS ( +15.4  DAYS REPT  4 ITS) (20-JLY-1983)          
+  PAV=  4449.2  PSIA   WCT=0.559 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF   
+   117 READING END     
+
+ Error summary 
+ Comments               1
+ Warnings               4
+ Problems               0
+ Errors                 0
+ Bugs                   0
+ Final cpu       0.00 elapsed       0.00
