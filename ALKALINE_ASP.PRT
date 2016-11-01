@@ -1,0 +1,847 @@
+
+
+
+ $$$$$   $$$   $      $$$  $$$$    $$$   $$$$$     $    $$$    $$$ 
+ $      $   $  $       $   $   $  $   $  $        $$   $   $  $   $
+ $      $      $       $   $   $  $      $         $   $   $  $   $
+ $$$$   $      $       $   $$$$    $$$   $$$$      $   $   $  $   $
+ $      $      $       $   $          $  $         $   $   $  $   $
+ $      $   $  $       $   $      $   $  $         $   $   $  $   $
+ $$$$$   $$$   $$$$$  $$$  $       $$$   $$$$$    $$$   $$$    $$$ 
+
+
+
+                       $$$$$   $$$   $      $$$  $$$$    $$$   $$$$$     $    $$$    $$$ 
+                       $      $   $  $       $   $   $  $   $  $        $$   $   $  $   $
+                       $      $      $       $   $   $  $      $         $   $   $  $   $
+                       $$$$   $      $       $   $$$$    $$$   $$$$      $   $   $  $   $
+                       $      $      $       $   $          $  $         $   $   $  $   $
+                       $      $   $  $       $   $      $   $  $         $   $   $  $   $
+                       $$$$$   $$$   $$$$$  $$$  $       $$$   $$$$$    $$$   $$$    $$$ 
+
+
+
+                                             $$$$$   $$$   $      $$$  $$$$    $$$   $$$$$     $    $$$    $$$ 
+                                             $      $   $  $       $   $   $  $   $  $        $$   $   $  $   $
+                                             $      $      $       $   $   $  $      $         $   $   $  $   $
+                                             $$$$   $      $       $   $$$$    $$$   $$$$      $   $   $  $   $
+                                             $      $      $       $   $          $  $         $   $   $  $   $
+                                             $      $   $  $       $   $      $   $  $         $   $   $  $   $
+                                             $$$$$   $$$   $$$$$  $$$  $       $$$   $$$$$    $$$   $$$    $$$ 
+
+
+
+                                                                   $$$$$   $$$   $      $$$  $$$$    $$$   $$$$$     $    $$$    $$$ 
+                                                                   $      $   $  $       $   $   $  $   $  $        $$   $   $  $   $
+                                                                   $      $      $       $   $   $  $      $         $   $   $  $   $
+                                                                   $$$$   $      $       $   $$$$    $$$   $$$$      $   $   $  $   $
+                                                                   $      $      $       $   $          $  $         $   $   $  $   $
+                                                                   $      $   $  $       $   $      $   $  $         $   $   $  $   $
+                                                                   $$$$$   $$$   $$$$$  $$$  $       $$$   $$$$$    $$$   $$$    $$$ 
+ 
+ Version =  2009.1
+ Arch    =  PC WINDOWS (32 bit)
+Annex    | Modification date    | Update date          | baseline             
+=====    | =================    | ===========          | ========             
+ECLIPSE  | 27-APR-2009 16:22:47 | 27-APR-2009 19:37:10 | S:\2009.1_w18i
+system   | 22-APR-2009 14:52:01 | 25-APR-2009 05:27:35 | S:\2009.1_w18
+utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
+ 
+
+1
+
+ ******** ECHO OF INPUT DATA FOR RUN ALKALINE_ASP
+
+ 0: -- This data file comes with a standard Eclipse installation
+ 0: -- This data tests ECLFR12148: Alkaline Model 1 in ASP floods - simplified model to take into account some effects of the
+ 0: -- alkaline on an ASP flooding performance.
+ 0: -- Some facilities are available to analyze the effect of the alkaline on the water-oil surface tension and
+ 0: -- adsorption reduction of surfactant and polymer.
+ 0: -- New keywords: ALKALINE (Runspec), ALSURFST, ALSURFAD, ALPOLADS, ALKADS, ALKROCK (PROPS), WALKALIN (Schedule) and some summary mne
+ 0: 
+ 0: RUNSPEC      ==============================================================
+ 0: TITLE
+ 0:   10 by 2 oil/water/polymer
+ 0: 
+ 0: DIMENS
+ 0:    10   2    2  /
+ 0: 
+ 0: OIL
+ 0: 
+ 0: WATER
+ 0: 
+ 0: POLYMER
+ 0: SURFACT
+ 0: ALKALINE
+ 0: 
+ 0: FIELD
+ 0: 
+ 0: TABDIMS
+ 0:     2    1   50    20    2   20 /
+ 0: 
+ 0: REGDIMS
+ 0:     2    1    0    0 /
+ 0: 
+ 0: WELLDIMS
+ 0:     2    2    1    2 /
+ 0: 
+ 0: START
+ 0:    1 'JAN' 1983  /
+ 0: 
+ 0: NSTACK
+ 0:     8 /
+ 0: UNIFOUT
+ 0: UNIFIN
+ 0: -- PARALLEL
+ 0: -- 2  /
+ 0: 
+ 0: GRID      ==============================================================
+ 0: 
+ 0: EQUALS
+ 0: 'DX'     75 /
+ 0: 'DY'     75 /
+ 0: 'DZ'     15 /
+ 0: 'PERMX'  50 /
+ 0: 'PERMY'  50 /
+ 0: 'PERMZ'  5 /
+ 0: 'TOPS'   4000.0 /
+ 0: 'PORO'   0.2 /
+ 0: /
+ 0: 
+ 0: PROPS     ==============================================================
+ 0: 
+ 0: SWFN
+ 0:     0.25   0.0    4.0
+ 0:     0.7     1.0    0.0  /
+ 0:     0.0    0.0   0.0
+ 0:     1.0    1.0   0.0 /
+ 0: 
+ 0: SOF2
+ 0:     0.3000   0.0000
+ 0:     0.7500  1.0000 /
+ 0:     0.0    0.0
+ 0:     1.0    1.0 /
+ 0: 
+ 0: PVTW
+ 0:     0.0  1.0  3.03E-06  0.5  0.0 /
+ 0: 
+ 0: PVDO
+ 0:        0.0   1.0      2.0
+ 0:        8000.0   0.92    2.0 /
+ 0: 
+ 0: ROCK
+ 0:     4000.0    .30E-05 /
+ 0: 
+ 0: DENSITY
+ 0:     52.0000  64.0000   .04400 /
+ 0: 
+ 0: --Alkaline settings
+ 0: 
+ 0: ALSURFST
+ 0: -- Alkaline        Water/Oil Surface Tension
+ 0: -- concentration        multiplier
+ 0: --   LB/STB
+ 0:       0.0                1.0
+ 0:       0.1                0.9
+ 0:       0.2                0.8
+ 0:       0.5                0.7 /
+ 0: 
+ 0: ALPOLADS
+ 0: -- Alkaline        polymer adsorption
+ 0: -- concentration        multiplier
+ 0: --   LB/STB
+ 0:       0.0                1.0
+ 0:       0.1                0.9
+ 0:       0.2                0.8
+ 0:       0.5                0.7  /
+ 0:       0.0                1.0
+ 0:       0.1                0.9
+ 0:       0.2                0.8
+ 0:       0.5                0.7  /
+ 0: 
+ 0: -- Alkaline multupliers for Surfactant Adsorption
+ 0: ALSURFAD
+ 0: -- alkaline             adsorption
+ 0: -- concentration        multiplier
+ 0: --   LB/STB
+ 0:      0.0                  1.00000
+ 0:      0.1                  0.99995
+ 0:      0.2                  0.99500
+ 0:      0.5                  0.50000 /
+ 0:      0.0                  1.00000
+ 0:      0.1                  0.99995
+ 0:      0.2                  0.99500
+ 0:      0.5                  0.50000 /
+ 0: 
+ 0: -- POLYMER KEYWORDS
+ 0: PLYVISC
+ 0: -- Polymer Viscosity
+ 0:      0.0   1.0
+ 0:    70.0  10.0 /
+ 0: 
+ 0: PLYROCK
+ 0: -- Polymer-Rock Properties
+ 0:    0.16  1.5  1000.0  1  0.005 /
+ 0:    0.16  1.5  1000.0  1  0.005 /
+ 0: 
+ 0: PLYADS
+ 0: -- Polymer Adsorption
+ 0:    0.0  0.00
+ 0:    20.0  0.010
+ 0:    70.0  0.010  /
+ 0:    0.0  0.000
+ 0:    20.0  0.010
+ 0:    70.0  0.010  /
+ 0: 
+ 0: TLMIXPAR
+ 0:  1.0 /
+ 0: 
+ 0: PLYMAX
+ 0: -- Polymer-Salt Concentrations for mixing
+ 0:   50.0  0.0 /
+ 0: 
+ 0: -- SURFACTANT KEYWORDS
+ 0: SURFVISC
+ 0:  0.0    0.34
+ 0:  30.     5.0  /
+ 0: 
+ 0: SURFADS
+ 0:  0.0      0.0000
+ 0:  1.0      0.0005
+ 0:  30.0     0.0005  /
+ 0:  0.0      0.0000
+ 0:  1.0      0.0005
+ 0:  30.0     0.0005  /
+ 0: 
+ 0: SURFST
+ 0:  0.0    0.05
+ 0:  1.0    1.0E-6
+ 0:  30.0   1.0E-6  /
+ 0: 
+ 0: SURFCAPD
+ 0:   -9    0.0
+ 0:   -4.5  0.0
+ 0:   -2    1.0
+ 0:   10    1.0 /
+ 0:   -9    0.0
+ 0:   -4.5  0.0
+ 0:   -2    1.0
+ 0:   10    1.0 /
+ 0: 
+ 0: SURFROCK
+ 0:  1  2650 /
+ 0:  2  2650 /
+ 0: 
+ 0: REGIONS    ========================================================
+ 0: 
+ 0: FIPNUM
+ 0:   40*1 /
+ 0: 
+ 0: MISCNUM
+ 0:   40*1 /
+ 0: 
+ 0: SURFNUM
+ 0:  40*2 /
+ 0: 
+ 0: RPTREGS
+ 0:   20*0 1 /
+ 0: 
+ 0: SOLUTION   =============================================================
+ 0: 
+ 0: EQUIL
+ 0:   4000  4000  6000  0   0   0   0   0   0  /
+ 0: 
+ 0: SUMMARY    =============================================================
+ 0: FWCT
+ 0: FCPR
+ 0: FCPT
+ 0: FCIR
+ 0: FCIT
+ 0: FCIP
+ 0: FCAD
+ 0: GCPR
+ 0:  'G' /
+ 0: GCPT
+ 0:  'G' /
+ 0: GCIR
+ 0:  'G' /
+ 0: GCIT
+ 0:  'G' /
+ 0: WCPR
+ 0:  'P' /
+ 0: WCPT
+ 0:  'P' /
+ 0: WCIR
+ 0:  'I' /
+ 0: WCIT
+ 0:  'I' /
+ 0: CCFR
+ 0:  'P' 10 1  1 /
+ 0:  /
+ 0: CCPT
+ 0:  'P' 10 1  1 /
+ 0:  /
+ 0: CCIT
+ 0:  'I'  1  1  1 /
+ 0:  /
+ 0: RCIP
+ 0:  1 2 /
+ 0: RCFT
+ 0:  1 2 /
+ 0:  /
+ 0: RCAD
+ 0:  1 2 /
+ 0: BCCN
+ 0:  1 1 1 /
+ 0:  /
+ 0: BCIP
+ 0:  1 1 1 /
+ 0:  /
+ 0: BCAD
+ 0:  1 1 1 /
+ 0:  /
+ 0: FOPR
+ 0: FSPR
+ 0: FSPT
+ 0: FSIR
+ 0: FSIT
+ 0: FSIP
+ 0: WBHP
+ 0: /
+ 0: WOPR
+ 0: /
+ 0: BSCN
+ 0:  1 1 1 /
+ 0:  /
+ 0: BSIP
+ 0:  1 1 1 /
+ 0:  /
+ 0: BOSAT
+ 0:  1 1 1 /
+ 0:  5 1 1 /
+ 0:  9 1 1 /
+ 0: /
+ 0: BWPC
+ 0: 1 1 1 /
+ 0:  5 1 1 /
+ 0:  9 1 1 /
+ 0:  /
+ 0: WTPRSUR
+ 0: 'OP' /
+ 0: 
+ 0: BTADSUR
+ 0:  5 1 1 /
+ 0: /
+ 0: FTPRSUR
+ 0: FTPTSUR
+ 0: FTIRSUR
+ 0: FTITSUR
+ 0: BTCNFSUR
+ 0:  1 1 1 /
+ 0:  2 1 1 /
+ 0:  /
+ 0: BTSTMALK
+ 0:  -- surface tension multiplier
+ 0:   1 1 1 /
+ 0:   5 1 1 /
+ 0:   10 1 1 /
+ 0: /
+ 0: BTCNFALK
+ 0:  -- block alkali concentration
+ 0:   1 1 1 /
+ 0:   5 1 1 /
+ 0:   10 1 1 /
+ 0: /
+ 0: RPTSMRY
+ 0:  1 /
+ 0: 
+ 0: RPTONLY
+ 0: ALL
+ 0: SEPARATE
+ 0: RUNSUM
+ 0: 
+ 0: SCHEDULE   =============================================================
+ 0: 
+ 0: WELSPECS
+ 0:  'I'  'G'   1  1  4000  'WAT'  0.0  'STD'  'SHUT'  'NO'  /
+ 0:  'P'  'G'  10 1  4000  'OIL'  0.0  'STD'  'SHUT'  'NO'  /
+ 0: /
+ 0: 
+ 0: COMPDAT
+ 0:    'I'    1   1   1  1  'OPEN'   0  .0   1.0 /
+ 0:   'P'  10  1  1  1  'OPEN'   0  .0   1.0 /
+ 0: /
+ 0: 
+ 0: WCONPROD
+ 0:   'P' 'OPEN' 'BHP' 5* 3999.0 /
+ 0: /
+ 0: 
+ 0: WCONINJE
+ 0:    'I' 'WAT' 'OPEN' 'RATE' 200.0 1* 100000 /
+ 0: /
+ 0: 
+ 0: -- CYCLE 1 WATER
+ 0: WALKALIN
+ 0:  'I' 0.0 /
+ 0: /
+ 0: 
+ 0: WPOLYMER
+ 0: -- Polymer-Salt concentrations for injection wells
+ 0:    'I' 0.0  0.0 /
+ 0:  /
+ 0: 
+ 0: TSTEP
+ 0:  50 /
+ 0: 
+ 0: -- CYCLE 2 SURFACTANT
+ 0: WALKALIN
+ 0:  'I' 50.0 /
+ 0: /
+ 0: 
+ 0: WPOLYMER
+ 0: -- Polymer-Salt concentrations for injection wells
+ 0:    'I' 50.0  0.0 /
+ 0:  /
+ 0: WSURFACT
+ 0:  'I'  30.0 /
+ 0: /
+ 0: 
+ 0: TSTEP
+ 0:  50 /
+ 0: 
+ 0: -- CYCLE 3 SURFACTANT
+ 0: WALKALIN
+ 0:  'I' 50.0 /
+ 0: /
+ 0: 
+ 0: WPOLYMER
+ 0: -- Polymer-Salt concentrations for injection wells
+ 0:    'I' 50.0  0.0 /
+ 0:  /
+ 0: 
+ 0: WSURFACT
+ 0:  'I'  30.0 /
+ 0: /
+ 0: 
+ 0: TSTEP
+ 0:  50 /
+ 0: 
+ 0: -- CYCLE 4 WATER
+ 0: WALKALIN
+ 0:  'I' 0.0 /
+ 0:  /
+ 0: WPOLYMER
+ 0: -- Polymer-Salt concentrations for injection wells
+ 0:  'I' 0.0  0.0 /
+ 0:  /
+ 0: WSURFACT
+ 0:  'I'  0.0 /
+ 0:  /
+ 0: 
+ 0: TSTEP
+ 0:   50 /
+ 0: 
+ 0: END
+ 0: 
+
+ ******** END OF INPUT DATA FOR RUN ALKALINE_ASP
+     1 READING RUNSPEC 
+     2 READING TITLE   
+     3 READING DIMENS  
+     4 READING OIL     
+     5 READING WATER   
+     6 READING POLYMER 
+     7 READING SURFACT 
+
+ @--MESSAGE  AT TIME        0.0   DAYS    ( 1-JAN-   0):
+ @           CHECKING FOR LICENSES                                           
+     8 READING ALKALINE
+
+ @--MESSAGE  AT TIME        0.0   DAYS    ( 1-JAN-   0):
+ @           CHECKING FOR LICENSES                                           
+     9 READING FIELD   
+    10 READING TABDIMS 
+    11 READING REGDIMS 
+    12 READING WELLDIMS
+    13 READING START   
+    14 READING NSTACK  
+    15 READING UNIFOUT 
+    16 READING UNIFIN  
+    17 READING GRID    
+
+ @--MESSAGE  AT TIME        0.0   DAYS    ( 1-JAN-1983):
+ @           CHECKING FOR LICENSES                                           
+
+ @--MESSAGE  AT TIME        0.0   DAYS    ( 1-JAN-1983):
+ @           THE MEMORY REQUIRED TO PROCESS THE GRID SECTION IS              
+ @                31696 BYTES                                                
+    18 READING EQUALS  
+    19 READING PROPS   
+
+ @--WARNING  AT TIME        0.0   DAYS    ( 1-JAN-1983):
+ @           PLEASE RE-CHECK TOPS DATA SPECIFIED.  THE FIRST                 
+ @           AND SECOND LAYERS HAVE SAME TOPS VALUE                          
+
+ @--MESSAGE  AT TIME        0.0   DAYS    ( 1-JAN-1983):
+ @           NEITHER OLDTRAN,OLDTRANR NOR NEWTRAN SPECIFIED                  
+ @           BLOCK CENTRE TRANSMISSIBILITIES TO BE CALCULATED                
+ @           USING  OLDTRAN                                                  
+
+ @--COMMENT  AT TIME        0.0   DAYS    ( 1-JAN-1983):
+ @           NO NON-NEIGHBOUR CONNECTIONS FOUND                              
+
+ @--MESSAGE  AT TIME        0.0   DAYS    ( 1-JAN-1983):
+ @           NUMBER OF ACTIVE CELLS IS 40                                    
+
+ @--MESSAGE  AT TIME        0.0   DAYS    ( 1-JAN-1983):
+ @           THE MEMORY REQUIRED TO PROCESS THE SOLUTION SECTION IS          
+ @               336756 BYTES                                                
+
+ @--MESSAGE  AT TIME        0.0   DAYS    ( 1-JAN-1983):
+ @              58543 CHARACTER VARIABLES USED                               
+    20 READING SWFN    
+    21 READING SOF2    
+    22 READING PVTW    
+    23 READING PVDO    
+    24 READING ROCK    
+    25 READING DENSITY 
+    26 READING ALSURFST
+    27 READING ALPOLADS
+    28 READING ALSURFAD
+    29 READING PLYVISC 
+    30 READING PLYROCK 
+    31 READING PLYADS  
+    32 READING TLMIXPAR
+    33 READING PLYMAX  
+    34 READING SURFVISC
+    35 READING SURFADS 
+    36 READING SURFST  
+    37 READING SURFCAPD
+    38 READING SURFROCK
+
+ @--WARNING  AT TIME        0.0   DAYS    ( 1-JAN-1983):
+ @           THE MASS DENSITY OF THE ROCK HAS BEEN                           
+ @           SPECIFIED IN SURFROCK TABLE NUMBER    1                         
+ @           THIS DENSITY WILL BE IGNORED AS THE POLYMER                     
+ @           OPTION IS ACTIVE                                                
+
+ @--WARNING  AT TIME        0.0   DAYS    ( 1-JAN-1983):
+ @           THE MASS DENSITY OF THE ROCK HAS BEEN                           
+ @           SPECIFIED IN SURFROCK TABLE NUMBER    2                         
+ @           THIS DENSITY WILL BE IGNORED AS THE POLYMER                     
+ @           OPTION IS ACTIVE                                                
+    39 READING REGIONS 
+
+ @--MESSAGE  AT TIME        0.0   DAYS    ( 1-JAN-1983):
+ @           PLYROCK TABLE:   2                                              
+ @           CRITICAL WATER SATURATION IS  0.000                             
+ @           DEAD PORE VOLUME SATURATION IS 0.1600                           
+    40 READING FIPNUM  
+    41 READING MISCNUM 
+    42 READING SURFNUM 
+    43 READING RPTREGS 
+    44 READING SOLUTION
+1                             **********************************************************************   1
+  MISCNUM  AT     0.00   DAYS *  10 by 2 oil/water/polymer                                             * ECLIPSE  VERSION 2009.1     
+  REPORT   0     1 JAN 1983   *  RUN                                                                   * RUN AT 13:03 ON 01 NOV 2016 
+                              **************************************************************************
+
+ (I,  J,  K) I=  1       2       3       4       5       6       7       8       9      10
+
+ (*,  1,  1)     1       1       1       1       1       1       1       1       1       1   
+ (*,  2,  1)     1       1       1       1       1       1       1       1       1       1   
+
+ (*,  1,  2)     1       1       1       1       1       1       1       1       1       1   
+ (*,  2,  2)     1       1       1       1       1       1       1       1       1       1   
+    45 READING EQUIL   
+    46 READING SUMMARY 
+    47 READING FWCT    
+    48 READING FCPR    
+    49 READING FCPT    
+    50 READING FCIR    
+    51 READING FCIT    
+    52 READING FCIP    
+    53 READING FCAD    
+    54 READING GCPR    
+    55 READING GCPT    
+    56 READING GCIR    
+    57 READING GCIT    
+    58 READING WCPR    
+    59 READING WCPT    
+    60 READING WCIR    
+    61 READING WCIT    
+    62 READING CCFR    
+    63 READING CCPT    
+    64 READING CCIT    
+    65 READING RCIP    
+    66 READING RCFT    
+    67 READING RCAD    
+    68 READING BCCN    
+    69 READING BCIP    
+    70 READING BCAD    
+    71 READING FOPR    
+    72 READING FSPR    
+    73 READING FSPT    
+    74 READING FSIR    
+    75 READING FSIT    
+    76 READING FSIP    
+    77 READING WBHP    
+    78 READING WOPR    
+    79 READING BSCN    
+    80 READING BSIP    
+    81 READING BOSAT   
+    82 READING BWPC    
+    83 READING WTPRSUR 
+    84 READING BTADSUR 
+    85 READING FTPRSUR 
+    86 READING FTPTSUR 
+    87 READING FTIRSUR 
+    88 READING FTITSUR 
+    89 READING BTCNFSUR
+    90 READING BTSTMALK
+    91 READING BTCNFALK
+    92 READING RPTSMRY 
+    93 READING RPTONLY 
+    94 READING ALL     
+    95 READING SEPARATE
+    96 READING RUNSUM  
+    97 READING SCHEDULE
+1                             **********************************************************************   2
+  SMRYFILE AT     0.00   DAYS *  10 by 2 oil/water/polymer                                             * ECLIPSE  VERSION 2009.1     
+  REPORT   0     1 JAN 1983   *  RUN                                                                   * RUN AT 13:03 ON 01 NOV 2016 
+                              **************************************************************************
+
+
+        KEYWORD     GROUP      WELL     GRID BLOCK     LOCAL BLOCK   LOCAL GRID   REGION   AQUIFER    UNITS
+
+    1   TIME                                                                                             DAYS                               
+    2   YEARS                                                                                          YEARS                                
+    3   FWCT                                                                                                                                
+    4   FCPR                                                                                            LB/DAY                              
+    5   FCPT                                                                                              LB                                
+    6   FCIR                                                                                            LB/DAY                              
+    7   FCIT                                                                                              LB                                
+    8   FCIP                                                                                              LB                                
+    9   FCAD                                                                                              LB                                
+   10   GCPR       G                                                                                    LB/DAY                              
+   11   GCPT       G                                                                                      LB                                
+   12   GCIR       G                                                                                    LB/DAY                              
+   13   GCIT       G                                                                                      LB                                
+   14   WCPR                 P                                                                          LB/DAY                              
+   15   WCPT                 P                                                                            LB                                
+   16   WCIR                 I                                                                          LB/DAY                              
+   17   WCIT                 I                                                                            LB                                
+   18   CCFR                 P         ( 10,  1,  1)                                                    LB/DAY                              
+   19   CCPT                 P         ( 10,  1,  1)                                                      LB                                
+   20   CCIT                 I         (  1,  1,  1)                                                      LB                                
+   21   RCIP                                                                         1                    LB                                
+   22   RCIP                                                                         2                    LB                                
+   23   RCFT                                                                       1-  2                  LB                                
+   24   RCAD                                                                         1                    LB                                
+   25   RCAD                                                                         2                    LB                                
+   26   BCCN                           (  1,  1,  1)                                                    LB/STB                              
+   27   BCIP                           (  1,  1,  1)                                                      LB                                
+   28   BCAD                           (  1,  1,  1)                                                                                        
+   29   FOPR                                                                                            STB/DAY                             
+   30   FSPR                                                                                            LB/DAY                              
+   31   FSPT                                                                                              LB                                
+   32   FSIR                                                                                            LB/DAY                              
+   33   FSIT                                                                                              LB                                
+   34   FSIP                                                                                              LB                                
+   35   WBHP                     1                                                                       PSIA                               
+   36   WBHP                     2                                                                       PSIA                               
+   37   WOPR                     1                                                                      STB/DAY                             
+   38   WOPR                     2                                                                      STB/DAY                             
+   39   BSCN                           (  1,  1,  1)                                                    LB/STB                              
+   40   BSIP                           (  1,  1,  1)                                                      LB                                
+   41   BOSAT                          (  1,  1,  1)                                                                                        
+   42   BOSAT                          (  5,  1,  1)                                                                                        
+   43   BOSAT                          (  9,  1,  1)                                                                                        
+   44   BWPC                           (  1,  1,  1)                                                                                        
+   45   BWPC                           (  5,  1,  1)                                                                                        
+   46   BWPC                           (  9,  1,  1)                                                                                        
+   47   WTPRSUR              OP                                                                         LB/DAY                              
+   48   BTADSUR                        (  5,  1,  1)                                                    LB/LB                               
+   49   FTPRSUR                                                                                         LB/DAY                              
+   50   FTPTSUR                                                                                           LB                                
+   51   FTIRSUR                                                                                         LB/DAY                              
+   52   FTITSUR                                                                                           LB                                
+   53   BTCNFSUR                       (  1,  1,  1)                                                    LB/STB                              
+   54   BTCNFSUR                       (  2,  1,  1)                                                    LB/STB                              
+   55   BTSTMALK                       (  1,  1,  1)                                                                                        
+   56   BTSTMALK                       (  5,  1,  1)                                                                                        
+   57   BTSTMALK                       ( 10,  1,  1)                                                                                        
+   58   BTCNFALK                       (  1,  1,  1)                                                    LB/STB                              
+   59   BTCNFALK                       (  5,  1,  1)                                                    LB/STB                              
+   60   BTCNFALK                       ( 10,  1,  1)                                                    LB/STB                              
+   61   FOPR                                                                                            STB/DAY                             
+   62   GOPR           1                                                                                STB/DAY                             
+   63   GOPR           2                                                                                STB/DAY                             
+   64   WOPR                     1                                                                      STB/DAY                             
+   65   WOPR                     2                                                                      STB/DAY                             
+   66   FOPT                                                                                              STB                               
+   67   GOPT           1                                                                                  STB                               
+   68   GOPT           2                                                                                  STB                               
+   69   WOPT                     1                                                                        STB                               
+   70   WOPT                     2                                                                        STB                               
+   71   FOIR                                                                                            STB/DAY                             
+   72   GOIR           1                                                                                STB/DAY                             
+   73   GOIR           2                                                                                STB/DAY                             
+   74   WOIR                     1                                                                      STB/DAY                             
+   75   WOIR                     2                                                                      STB/DAY                             
+   76   FOIT                                                                                              STB                               
+   77   GOIT           1                                                                                  STB                               
+   78   GOIT           2                                                                                  STB                               
+   79   WOIT                     1                                                                        STB                               
+   80   WOIT                     2                                                                        STB                               
+   81   FWPR                                                                                            STB/DAY                             
+   82   GWPR           1                                                                                STB/DAY                             
+   83   GWPR           2                                                                                STB/DAY                             
+   84   WWPR                     1                                                                      STB/DAY                             
+   85   WWPR                     2                                                                      STB/DAY                             
+   86   FWPT                                                                                              STB                               
+   87   GWPT           1                                                                                  STB                               
+   88   GWPT           2                                                                                  STB                               
+   89   WWPT                     1                                                                        STB                               
+   90   WWPT                     2                                                                        STB                               
+   91   FWIR                                                                                            STB/DAY                             
+   92   GWIR           1                                                                                STB/DAY                             
+   93   GWIR           2                                                                                STB/DAY                             
+   94   WWIR                     1                                                                      STB/DAY                             
+   95   WWIR                     2                                                                      STB/DAY                             
+   96   FWIT                                                                                              STB                               
+   97   GWIT           1                                                                                  STB                               
+   98   GWIT           2                                                                                  STB                               
+   99   WWIT                     1                                                                        STB                               
+  100   WWIT                     2                                                                        STB                               
+  101   FVPR                                                                                            RB/DAY                              
+  102   GVPR           1                                                                                RB/DAY                              
+  103   GVPR           2                                                                                RB/DAY                              
+  104   WVPR                     1                                                                      RB/DAY                              
+  105   WVPR                     2                                                                      RB/DAY                              
+  106   FVPT                                                                                              RB                                
+  107   GVPT           1                                                                                  RB                                
+  108   GVPT           2                                                                                  RB                                
+  109   WVPT                     1                                                                        RB                                
+  110   WVPT                     2                                                                        RB                                
+  111   FVIR                                                                                            RB/DAY                              
+  112   GVIR           1                                                                                RB/DAY                              
+  113   GVIR           2                                                                                RB/DAY                              
+  114   WVIR                     1                                                                      RB/DAY                              
+  115   WVIR                     2                                                                      RB/DAY                              
+  116   FVIT                                                                                              RB                                
+  117   GVIT           1                                                                                  RB                                
+  118   GVIT           2                                                                                  RB                                
+  119   WVIT                     1                                                                        RB                                
+  120   WVIT                     2                                                                        RB                                
+  121   FWCT                                                                                                                                
+  122   GWCT           1                                                                                                                    
+  123   GWCT           2                                                                                                                    
+  124   WWCT                     1                                                                                                          
+  125   WWCT                     2                                                                                                          
+  126   FWGR                                                                                           STB/MSCF                             
+  127   GWGR           1                                                                               STB/MSCF                             
+  128   GWGR           2                                                                               STB/MSCF                             
+  129   WWGR                     1                                                                     STB/MSCF                             
+  130   WWGR                     2                                                                     STB/MSCF                             
+  131   WBHP                     1                                                                       PSIA                               
+  132   WBHP                     2                                                                       PSIA                               
+  133   WTHP                     1                                                                       PSIA                               
+  134   WTHP                     2                                                                       PSIA                               
+  135   WPI                      1                                                                                                          
+  136   WPI                      2                                                                                                          
+  137   FOIP                                                                                              STB                               
+  138   FOIPL                                                                                             STB                               
+  139   FOIPG                                                                                             STB                               
+  140   FWIP                                                                                              STB                               
+  141   FPR                                                                                              PSIA                               
+ 
+    98 READING WELSPECS
+    99 READING COMPDAT 
+   100 READING WCONPROD
+   101 READING WCONINJE
+   102 READING WALKALIN
+   103 READING WPOLYMER
+   104 READING TSTEP   
+1                             **********************************************************************   3
+  SIMULATE AT     0.00   DAYS *  10 by 2 oil/water/polymer                                             * ECLIPSE  VERSION 2009.1     
+  REPORT   0     1 JAN 1983   *  RUN                                                                   * RUN AT 13:03 ON 01 NOV 2016 
+                              **************************************************************************
+
+ STEP    1 TIME=    1.00  DAYS (  +1.0  DAYS INIT  4 ITS) (2-JAN-1983)           
+  PAV=  4134.5  PSIA   WCT= 0.00 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF   
+
+ STEP    2 TIME=    2.54  DAYS (  +1.5  DAYS TRNC  2 ITS) (3-JAN-1983)           
+  PAV=  4299.3  PSIA   WCT= 0.00 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF   
+
+ STEP    3 TIME=    5.89  DAYS (  +3.3  DAYS TRNC  3 ITS) (6-JAN-1983)           
+  PAV=  4515.8  PSIA   WCT= 0.00 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF   
+
+ STEP    4 TIME=   11.51  DAYS (  +5.6  DAYS TRNC  4 ITS) (12-JAN-1983)          
+  PAV=  4677.5  PSIA   WCT= 0.00 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF   
+
+ STEP    5 TIME=   20.70  DAYS (  +9.2  DAYS TRNC  6 ITS) (21-JAN-1983)          
+  PAV=  4737.8  PSIA   WCT=0.027 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF   
+
+ STEP    6 TIME=   35.35  DAYS ( +14.6  DAYS TRNC  3 ITS) (5-FEB-1983)           
+  PAV=  4694.2  PSIA   WCT=0.117 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF   
+
+ STEP    7 TIME=   50.00  DAYS ( +14.7  DAYS REPT  3 ITS) (20-FEB-1983)          
+  PAV=  4628.0  PSIA   WCT=0.207 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF   
+   105 READING WALKALIN
+   106 READING WPOLYMER
+   107 READING WSURFACT
+   108 READING TSTEP   
+1                             **********************************************************************   4
+  SIMULATE AT    50.00   DAYS *  10 by 2 oil/water/polymer                                             * ECLIPSE  VERSION 2009.1     
+  REPORT   1    20 FEB 1983   *  RUN                                                                   * RUN AT 13:03 ON 01 NOV 2016 
+                              **************************************************************************
+
+ STEP    8 TIME=   75.00  DAYS ( +25.0  DAYS HALF  4 ITS) (17-MAR-1983)          
+  PAV=  4542.5  PSIA   WCT=0.330 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF   
+
+ STEP    9 TIME=  100.00  DAYS ( +25.0  DAYS REPT  8 ITS) (11-APR-1983)          
+  PAV=  4520.4  PSIA   WCT=0.417 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF   
+   109 READING WALKALIN
+   110 READING WPOLYMER
+   111 READING WSURFACT
+   112 READING TSTEP   
+1                             **********************************************************************   5
+  SIMULATE AT   100.00   DAYS *  10 by 2 oil/water/polymer                                             * ECLIPSE  VERSION 2009.1     
+  REPORT   2    11 APR 1983   *  RUN                                                                   * RUN AT 13:03 ON 01 NOV 2016 
+                              **************************************************************************
+
+ STEP   10 TIME=  125.00  DAYS ( +25.0  DAYS HALF  5 ITS) (6-MAY-1983)           
+  PAV=  4492.7  PSIA   WCT=0.479 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF   
+
+ STEP   11 TIME=  137.50  DAYS ( +12.5  DAYS HALF  4 ITS) (18-MAY-1983)          
+  PAV=  4491.5  PSIA   WCT=0.504 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF   
+
+ STEP   12 TIME=  150.00  DAYS ( +12.5  DAYS REPT  4 ITS) (31-MAY-1983)          
+  PAV=  4493.7  PSIA   WCT=0.524 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF   
+   113 READING WALKALIN
+   114 READING WPOLYMER
+   115 READING WSURFACT
+   116 READING TSTEP   
+1                             **********************************************************************   6
+  SIMULATE AT   150.00   DAYS *  10 by 2 oil/water/polymer                                             * ECLIPSE  VERSION 2009.1     
+  REPORT   3    31 MAY 1983   *  RUN                                                                   * RUN AT 13:03 ON 01 NOV 2016 
+                              **************************************************************************
+
+ STEP   13 TIME=  169.20  DAYS ( +19.2  DAYS TRNC  3 ITS) (19-JUN-1983)          
+  PAV=  4486.9  PSIA   WCT=0.545 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF   
+
+ STEP   14 TIME=  184.60  DAYS ( +15.4  DAYS HALF  6 ITS) (4-JLY-1983)           
+  PAV=  4468.0  PSIA   WCT=0.555 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF   
+
+ STEP   15 TIME=  200.00  DAYS ( +15.4  DAYS REPT  4 ITS) (20-JLY-1983)          
+  PAV=  4449.2  PSIA   WCT=0.559 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF   
+   117 READING END     
+
+ Error summary 
+ Comments               1
+ Warnings               3
+ Problems               0
+ Errors                 0
+ Bugs                   0
+ Final cpu       0.09 elapsed       5.00
