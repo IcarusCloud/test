@@ -1,0 +1,72 @@
+<eclipse>
+<message date="1/8/1985" time="0.00000000000000">
+ CHECKING FOR LICENSES                                                   
+</message>
+<message date="1/8/1985" time="0.00000000000000">
+ THE MEMORY REQUIRED TO PROCESS THE GRID SECTION IS                      
+      61100 BYTES                                                        
+</message>
+<message date="1/8/1985" time="0.00000000000000">
+ UNSPECIFIED TOPS VALUES OBTAINED BY ADDING DZ                           
+ TO TOPS VALUE FOR LAYER ABOVE                                           
+</message>
+<message date="1/8/1985" time="0.00000000000000">
+ NEITHER OLDTRAN,OLDTRANR NOR NEWTRAN SPECIFIED                          
+ BLOCK CENTRE TRANSMISSIBILITIES TO BE CALCULATED                        
+ USING  OLDTRAN                                                          
+</message>
+<message date="1/8/1985" time="0.00000000000000">
+ NUMBER OF ACTIVE CELLS IS 140                                           
+</message>
+<message date="1/8/1985" time="0.00000000000000">
+ THE MEMORY REQUIRED TO PROCESS THE SOLUTION SECTION IS                  
+     740100 BYTES                                                        
+</message>
+<message date="1/8/1985" time="0.00000000000000">
+    58556 CHARACTER VARIABLES USED                                       
+</message>
+<warning date="1/8/1985" time="0.00000000000000">
+ THE BOTTOM HOLE PRESSURE LIMIT FOR WELL DUMP                            
+ HAS BEEN DEFAULTED.  THE DEFAULT VALUE IS                               
+     14.7   PSIA                                                         
+</warning>
+<message date="1/8/1985" time="0.00000000000000">
+ THE TOP-UP PHASE IS SET TO WATER AS                                     
+ GROUP G1       HAS A TARGET OR LIMIT RESERVOIR                          
+ VOLUME RATE OR VOIDAGE REPLACEMENT FRACTION                             
+ FOR WATER INJECTION CONTROL                                             
+</message>
+<warning date="1/8/1985" time="0.00000000000000">
+ GUIDE RATE PHASE OF WELL INJ1     SET IN WGRUPCON                       
+ IS BEING CHANGED TO 'RAT' AS IT IS AN INJECTOR.                         
+</warning>
+<warning date="1/8/1985" time="0.00000000000000">
+ GUIDE RATE PHASE OF WELL INJ2     SET IN WGRUPCON                       
+ IS BEING CHANGED TO 'RAT' AS IT IS AN INJECTOR.                         
+</warning>
+<message date="1/8/1985" time="0.00000000000000">
+ DRSDT KEYWORD HAS NOT BEEN ENTERED, SO THE                              
+ MAXIMUM GAS RE-SOLUTION RATE IS DEFAULTED TO INFINITY.                  
+</message>
+<message date="28/5/1986" time="300.00000000000000">
+ ******************************************                              
+ * WELL PROD1    HAS CHANGED TO           *                              
+ * CONTROL BY RESERVOIR FLUID VOLUME RATE *                              
+ * FROM TIME    300.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="14/12/1986" time="500.00000000000000">
+ ******************************************                              
+ * GROUP G1       HAS CHANGED TO          *                              
+ *  GAS   PRODUCTION RATE CONTROL         *                              
+ * FROM TIME    500.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="2/7/1987" time="700.00000000000000">
+ ******************************************                              
+ * WELL PROD2    HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME    700.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+</eclipse>
