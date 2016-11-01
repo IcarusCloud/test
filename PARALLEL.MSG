@@ -1,0 +1,9 @@
+<eclipse>
+<message date="19/10/1982" time="0.00000000000000">
+ CHECKING FOR LICENSES                                                   
+</message>
+<error date="19/10/1982" time="0.00000000000000">
+ THE MASTER CANNOT START ALL THE SLAVE PROCESSES.                        
+ ERROR FLAG =    -4                                                      
+</error>
+</eclipse>
