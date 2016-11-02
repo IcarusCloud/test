@@ -21,12 +21,19 @@
 <message date="1/1/1990" time="0.00000000000000">
  NUMBER OF ACTIVE CELLS IS 1125000                                       
 </message>
+<message date="1/1/1990" time="0.00000000000000">
+ THE MEMORY REQUIRED TO PROCESS THE SOLUTION SECTION IS                  
+       1406 MBYTES                                                       
+</message>
+<message date="1/1/1990" time="0.00000000000000">
+    58738 CHARACTER VARIABLES USED                                       
+</message>
 <error date="1/1/1990" time="0.00000000000000">
- UNABLE TO ALLOCATE MEMORY FOR ARRAY A                                   
- OF TYPE DOUBLE  , LENGTH         70875001,                              
- AND REQUIRING   553710 KBYTES.                                          
+ UNABLE TO ALLOCATE MEMORY FOR ARRAY WORK                                
+ OF TYPE DOUBLE  , LENGTH        185652388,                              
+ AND REQUIRING     1416 MBYTES.                                          
  THE SYSTEM ERROR RETURNED WAS       41                                  
-          852 MBYTES PREVIOUSLY ALLOCATED                                
+         1036 MBYTES PREVIOUSLY ALLOCATED                                
  THIS IS AN OUT-OF-MEMORY CONDITION.                                     
 </error>
 </eclipse>
