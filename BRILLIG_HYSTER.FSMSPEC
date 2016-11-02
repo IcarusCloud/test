@@ -1,0 +1,291 @@
+ 'RESTART '           9 'CHAR'
+ '        ' '        ' '        ' '        ' '        ' '        ' '        '
+ '        ' '        '
+ 'DIMENS  '           6 'INTE'
+         445          20          15           8           0          -1
+ 'KEYWORDS'         445 'CHAR'
+ 'TIME    ' 'YEARS   ' 'FOPR    ' 'FWPR    ' 'FWIR    ' 'FGPR    ' 'FGIR    '
+ 'FGSR    ' 'FWCT    ' 'FGOR    ' 'FTPRFGS ' 'FTPRIWT ' 'FTIRIWT ' 'FAQR    '
+ 'FMWPR   ' 'FMWIN   ' 'FMWPA   ' 'FMWIA   ' 'FMWPU   ' 'FMWIU   ' 'FMWPT   '
+ 'FMWIT   ' 'FMWPG   ' 'FMWIG   ' 'FMWPS   ' 'FMWIS   ' 'FMWPV   ' 'FMWIV   '
+ 'FMWPO   ' 'FMWPP   ' 'FMWIP   ' 'FMWPL   ' 'FMWDR   ' 'FMWDT   ' 'FMWWO   '
+ 'FMWWT   ' 'WOPR    ' 'WOPR    ' 'WOPR    ' 'WOPR    ' 'WOPR    ' 'WOPR    '
+ 'WOPR    ' 'WOPR    ' 'WOPR    ' 'WOPR    ' 'WOPR    ' 'WOPR    ' 'WOPR    '
+ 'WOPR    ' 'WOPR    ' 'WOPR    ' 'WOPR    ' 'WOPR    ' 'WOPR    ' 'WOPR    '
+ 'WWPR    ' 'WWPR    ' 'WWPR    ' 'WWPR    ' 'WWPR    ' 'WWPR    ' 'WWPR    '
+ 'WWPR    ' 'WWPR    ' 'WWPR    ' 'WWPR    ' 'WWPR    ' 'WWPR    ' 'WWPR    '
+ 'WWPR    ' 'WWPR    ' 'WWPR    ' 'WWPR    ' 'WWPR    ' 'WWPR    ' 'WWIR    '
+ 'WWIR    ' 'WWIR    ' 'WWIR    ' 'WWIR    ' 'WWIR    ' 'WWIR    ' 'WWIR    '
+ 'WWIR    ' 'WWIR    ' 'WWIR    ' 'WWIR    ' 'WWIR    ' 'WWIR    ' 'WWIR    '
+ 'WWIR    ' 'WWIR    ' 'WWIR    ' 'WWIR    ' 'WWIR    ' 'WGPR    ' 'WGPR    '
+ 'WGPR    ' 'WGPR    ' 'WGPR    ' 'WGPR    ' 'WGPR    ' 'WGPR    ' 'WGPR    '
+ 'WGPR    ' 'WGPR    ' 'WGPR    ' 'WGPR    ' 'WGPR    ' 'WGPR    ' 'WGPR    '
+ 'WGPR    ' 'WGPR    ' 'WGPR    ' 'WGPR    ' 'WWCT    ' 'WWCT    ' 'WWCT    '
+ 'WWCT    ' 'WWCT    ' 'WWCT    ' 'WWCT    ' 'WWCT    ' 'WWCT    ' 'WWCT    '
+ 'WWCT    ' 'WWCT    ' 'WWCT    ' 'WWCT    ' 'WWCT    ' 'WWCT    ' 'WWCT    '
+ 'WWCT    ' 'WWCT    ' 'WWCT    ' 'WGOR    ' 'WGOR    ' 'WGOR    ' 'WGOR    '
+ 'WGOR    ' 'WGOR    ' 'WGOR    ' 'WGOR    ' 'WGOR    ' 'WGOR    ' 'WGOR    '
+ 'WGOR    ' 'WGOR    ' 'WGOR    ' 'WGOR    ' 'WGOR    ' 'WGOR    ' 'WGOR    '
+ 'WGOR    ' 'WGOR    ' 'WTPRFGS ' 'WTPRFGS ' 'WTPRFGS ' 'WTPRFGS ' 'WTPRFGS '
+ 'WTPRFGS ' 'WTPRFGS ' 'WTPRFGS ' 'WTPRFGS ' 'WTPRFGS ' 'WTPRFGS ' 'WTPRFGS '
+ 'WTPRFGS ' 'WTPRFGS ' 'WTPRFGS ' 'WTPRFGS ' 'WTPRFGS ' 'WTPRFGS ' 'WTPRFGS '
+ 'WTPRFGS ' 'WTPRIWT ' 'WTPRIWT ' 'WTPRIWT ' 'WTPRIWT ' 'WTPRIWT ' 'WTPRIWT '
+ 'WTPRIWT ' 'WTPRIWT ' 'WTPRIWT ' 'WTPRIWT ' 'WTPRIWT ' 'WTPRIWT ' 'WTPRIWT '
+ 'WTPRIWT ' 'WTPRIWT ' 'WTPRIWT ' 'WTPRIWT ' 'WTPRIWT ' 'WTPRIWT ' 'WTPRIWT '
+ 'WTIRIWT ' 'WTIRIWT ' 'WTIRIWT ' 'WTIRIWT ' 'WTIRIWT ' 'WTIRIWT ' 'WTIRIWT '
+ 'WTIRIWT ' 'WTIRIWT ' 'WTIRIWT ' 'WTIRIWT ' 'WTIRIWT ' 'WTIRIWT ' 'WTIRIWT '
+ 'WTIRIWT ' 'WTIRIWT ' 'WTIRIWT ' 'WTIRIWT ' 'WTIRIWT ' 'WTIRIWT ' 'WAPI    '
+ 'WAPI    ' 'WAPI    ' 'WAPI    ' 'WAPI    ' 'WAPI    ' 'WAPI    ' 'WAPI    '
+ 'WAPI    ' 'WAPI    ' 'WAPI    ' 'WAPI    ' 'WAPI    ' 'WAPI    ' 'WAPI    '
+ 'WAPI    ' 'WAPI    ' 'WAPI    ' 'WAPI    ' 'WAPI    ' 'WOPGR   ' 'WOPGR   '
+ 'WOPGR   ' 'WOPGR   ' 'WOPGR   ' 'WOPGR   ' 'WOPGR   ' 'WOPGR   ' 'WOPGR   '
+ 'WOPGR   ' 'WOPGR   ' 'WOPGR   ' 'WOPGR   ' 'WOPGR   ' 'WOPGR   ' 'WOPGR   '
+ 'WOPGR   ' 'WOPGR   ' 'WOPGR   ' 'WOPGR   ' 'WWPGR   ' 'WWPGR   ' 'WWPGR   '
+ 'WWPGR   ' 'WWPGR   ' 'WWPGR   ' 'WWPGR   ' 'WWPGR   ' 'WWPGR   ' 'WWPGR   '
+ 'WWPGR   ' 'WWPGR   ' 'WWPGR   ' 'WWPGR   ' 'WWPGR   ' 'WWPGR   ' 'WWPGR   '
+ 'WWPGR   ' 'WWPGR   ' 'WWPGR   ' 'WGPGR   ' 'WGPGR   ' 'WGPGR   ' 'WGPGR   '
+ 'WGPGR   ' 'WGPGR   ' 'WGPGR   ' 'WGPGR   ' 'WGPGR   ' 'WGPGR   ' 'WGPGR   '
+ 'WGPGR   ' 'WGPGR   ' 'WGPGR   ' 'WGPGR   ' 'WGPGR   ' 'WGPGR   ' 'WGPGR   '
+ 'WGPGR   ' 'WGPGR   ' 'GOPR    ' 'GOPR    ' 'GOPR    ' 'GOPR    ' 'GWPR    '
+ 'GWPR    ' 'GWPR    ' 'GWPR    ' 'GWIR    ' 'GWIR    ' 'GWIR    ' 'GWIR    '
+ 'GGPR    ' 'GGPR    ' 'GGPR    ' 'GGPR    ' 'GWCT    ' 'GWCT    ' 'GWCT    '
+ 'GWCT    ' 'GGOR    ' 'GGOR    ' 'GGOR    ' 'GGOR    ' 'GTPRFGS ' 'GTPRFGS '
+ 'GTPRFGS ' 'GTPRFGS ' 'GTPRIWT ' 'GTPRIWT ' 'GTPRIWT ' 'GTPRIWT ' 'GTIRIWT '
+ 'GTIRIWT ' 'GTIRIWT ' 'GTIRIWT ' 'GOPGR   ' 'GOPGR   ' 'GOPGR   ' 'GOPGR   '
+ 'GWPGR   ' 'GWPGR   ' 'GWPGR   ' 'GWPGR   ' 'GGPGR   ' 'GGPGR   ' 'GGPGR   '
+ 'GGPGR   ' 'GWIGR   ' 'GWIGR   ' 'GWIGR   ' 'GWIGR   ' 'GMWPR   ' 'GMWPR   '
+ 'GMWPR   ' 'GMWPR   ' 'GMWIN   ' 'GMWIN   ' 'GMWIN   ' 'GMWIN   ' 'GMWPA   '
+ 'GMWPA   ' 'GMWPA   ' 'GMWPA   ' 'GMWIA   ' 'GMWIA   ' 'GMWIA   ' 'GMWIA   '
+ 'GMWPU   ' 'GMWPU   ' 'GMWPU   ' 'GMWPU   ' 'GMWIU   ' 'GMWIU   ' 'GMWIU   '
+ 'GMWIU   ' 'GMWPT   ' 'GMWPT   ' 'GMWPT   ' 'GMWPT   ' 'GMWIT   ' 'GMWIT   '
+ 'GMWIT   ' 'GMWIT   ' 'GMWPG   ' 'GMWPG   ' 'GMWPG   ' 'GMWPG   ' 'GMWIG   '
+ 'GMWIG   ' 'GMWIG   ' 'GMWIG   ' 'GMWPS   ' 'GMWPS   ' 'GMWPS   ' 'GMWPS   '
+ 'GMWIS   ' 'GMWIS   ' 'GMWIS   ' 'GMWIS   ' 'GMWPV   ' 'GMWPV   ' 'GMWPV   '
+ 'GMWPV   ' 'GMWIV   ' 'GMWIV   ' 'GMWIV   ' 'GMWIV   ' 'GMWPO   ' 'GMWPO   '
+ 'GMWPO   ' 'GMWPO   ' 'GMWPP   ' 'GMWPP   ' 'GMWPP   ' 'GMWPP   ' 'GMWIP   '
+ 'GMWIP   ' 'GMWIP   ' 'GMWIP   ' 'GMWPL   ' 'GMWPL   ' 'GMWPL   ' 'GMWPL   '
+ 'GMWDR   ' 'GMWDR   ' 'GMWDR   ' 'GMWDR   ' 'GMWDT   ' 'GMWDT   ' 'GMWDT   '
+ 'GMWDT   ' 'GMWWO   ' 'GMWWO   ' 'GMWWO   ' 'GMWWO   ' 'GMWWT   ' 'GMWWT   '
+ 'GMWWT   ' 'GMWWT   ' 'RTIPTFGS' 'RTIPTFGS' 'RTIPTFGS' 'RTIPTIWT' 'RTIPTIWT'
+ 'RTIPTIWT' 'AAQR    ' 'AAQR    ' 'AAQR    '
+ 'WGNAMES '         445 'CHAR'
+ ':+:+:+:+' ':+:+:+:+' 'FIELD   ' 'FIELD   ' 'FIELD   ' 'FIELD   ' 'FIELD   '
+ 'FIELD   ' 'FIELD   ' 'FIELD   ' 'FIELD   ' 'FIELD   ' 'FIELD   ' 'FIELD   '
+ 'FIELD   ' 'FIELD   ' 'FIELD   ' 'FIELD   ' 'FIELD   ' 'FIELD   ' 'FIELD   '
+ 'FIELD   ' 'FIELD   ' 'FIELD   ' 'FIELD   ' 'FIELD   ' 'FIELD   ' 'FIELD   '
+ 'FIELD   ' 'FIELD   ' 'FIELD   ' 'FIELD   ' 'FIELD   ' 'FIELD   ' 'FIELD   '
+ 'FIELD   ' 'LU1     ' 'LU2     ' 'U3      ' 'U5      ' 'I1      ' 'I3      '
+ 'I5      ' 'I7      ' 'U1      ' 'U2      ' 'U4      ' 'L1      ' 'L2      '
+ 'L3      ' 'GI      ' 'I2      ' 'I4      ' 'I6      ' 'I8      ' ':+:+:+:+'
+ 'LU1     ' 'LU2     ' 'U3      ' 'U5      ' 'I1      ' 'I3      ' 'I5      '
+ 'I7      ' 'U1      ' 'U2      ' 'U4      ' 'L1      ' 'L2      ' 'L3      '
+ 'GI      ' 'I2      ' 'I4      ' 'I6      ' 'I8      ' ':+:+:+:+' 'LU1     '
+ 'LU2     ' 'U3      ' 'U5      ' 'I1      ' 'I3      ' 'I5      ' 'I7      '
+ 'U1      ' 'U2      ' 'U4      ' 'L1      ' 'L2      ' 'L3      ' 'GI      '
+ 'I2      ' 'I4      ' 'I6      ' 'I8      ' ':+:+:+:+' 'LU1     ' 'LU2     '
+ 'U3      ' 'U5      ' 'I1      ' 'I3      ' 'I5      ' 'I7      ' 'U1      '
+ 'U2      ' 'U4      ' 'L1      ' 'L2      ' 'L3      ' 'GI      ' 'I2      '
+ 'I4      ' 'I6      ' 'I8      ' ':+:+:+:+' 'LU1     ' 'LU2     ' 'U3      '
+ 'U5      ' 'I1      ' 'I3      ' 'I5      ' 'I7      ' 'U1      ' 'U2      '
+ 'U4      ' 'L1      ' 'L2      ' 'L3      ' 'GI      ' 'I2      ' 'I4      '
+ 'I6      ' 'I8      ' ':+:+:+:+' 'LU1     ' 'LU2     ' 'U3      ' 'U5      '
+ 'I1      ' 'I3      ' 'I5      ' 'I7      ' 'U1      ' 'U2      ' 'U4      '
+ 'L1      ' 'L2      ' 'L3      ' 'GI      ' 'I2      ' 'I4      ' 'I6      '
+ 'I8      ' ':+:+:+:+' 'LU1     ' 'LU2     ' 'U3      ' 'U5      ' 'I1      '
+ 'I3      ' 'I5      ' 'I7      ' 'U1      ' 'U2      ' 'U4      ' 'L1      '
+ 'L2      ' 'L3      ' 'GI      ' 'I2      ' 'I4      ' 'I6      ' 'I8      '
+ ':+:+:+:+' 'LU1     ' 'LU2     ' 'U3      ' 'U5      ' 'I1      ' 'I3      '
+ 'I5      ' 'I7      ' 'U1      ' 'U2      ' 'U4      ' 'L1      ' 'L2      '
+ 'L3      ' 'GI      ' 'I2      ' 'I4      ' 'I6      ' 'I8      ' ':+:+:+:+'
+ 'LU1     ' 'LU2     ' 'U3      ' 'U5      ' 'I1      ' 'I3      ' 'I5      '
+ 'I7      ' 'U1      ' 'U2      ' 'U4      ' 'L1      ' 'L2      ' 'L3      '
+ 'GI      ' 'I2      ' 'I4      ' 'I6      ' 'I8      ' ':+:+:+:+' 'LU1     '
+ 'LU2     ' 'U3      ' 'U5      ' 'I1      ' 'I3      ' 'I5      ' 'I7      '
+ 'U1      ' 'U2      ' 'U4      ' 'L1      ' 'L2      ' 'L3      ' 'GI      '
+ 'I2      ' 'I4      ' 'I6      ' 'I8      ' ':+:+:+:+' 'LU1     ' 'LU2     '
+ 'U3      ' 'U5      ' 'I1      ' 'I3      ' 'I5      ' 'I7      ' 'U1      '
+ 'U2      ' 'U4      ' 'L1      ' 'L2      ' 'L3      ' 'GI      ' 'I2      '
+ 'I4      ' 'I6      ' 'I8      ' ':+:+:+:+' 'LU1     ' 'LU2     ' 'U3      '
+ 'U5      ' 'I1      ' 'I3      ' 'I5      ' 'I7      ' 'U1      ' 'U2      '
+ 'U4      ' 'L1      ' 'L2      ' 'L3      ' 'GI      ' 'I2      ' 'I4      '
+ 'I6      ' 'I8      ' ':+:+:+:+' 'LU1     ' 'LU2     ' 'U3      ' 'U5      '
+ 'I1      ' 'I3      ' 'I5      ' 'I7      ' 'U1      ' 'U2      ' 'U4      '
+ 'L1      ' 'L2      ' 'L3      ' 'GI      ' 'I2      ' 'I4      ' 'I6      '
+ 'I8      ' ':+:+:+:+' 'ONE     ' 'TWO     ' ':+:+:+:+' ':+:+:+:+' 'ONE     '
+ 'TWO     ' ':+:+:+:+' ':+:+:+:+' 'ONE     ' 'TWO     ' ':+:+:+:+' ':+:+:+:+'
+ 'ONE     ' 'TWO     ' ':+:+:+:+' ':+:+:+:+' 'ONE     ' 'TWO     ' ':+:+:+:+'
+ ':+:+:+:+' 'ONE     ' 'TWO     ' ':+:+:+:+' ':+:+:+:+' 'ONE     ' 'TWO     '
+ ':+:+:+:+' ':+:+:+:+' 'ONE     ' 'TWO     ' ':+:+:+:+' ':+:+:+:+' 'ONE     '
+ 'TWO     ' ':+:+:+:+' ':+:+:+:+' 'ONE     ' 'TWO     ' ':+:+:+:+' ':+:+:+:+'
+ 'ONE     ' 'TWO     ' ':+:+:+:+' ':+:+:+:+' 'ONE     ' 'TWO     ' ':+:+:+:+'
+ ':+:+:+:+' 'ONE     ' 'TWO     ' ':+:+:+:+' ':+:+:+:+' 'ONE     ' 'TWO     '
+ ':+:+:+:+' ':+:+:+:+' 'ONE     ' 'TWO     ' ':+:+:+:+' ':+:+:+:+' 'ONE     '
+ 'TWO     ' ':+:+:+:+' ':+:+:+:+' 'ONE     ' 'TWO     ' ':+:+:+:+' ':+:+:+:+'
+ 'ONE     ' 'TWO     ' ':+:+:+:+' ':+:+:+:+' 'ONE     ' 'TWO     ' ':+:+:+:+'
+ ':+:+:+:+' 'ONE     ' 'TWO     ' ':+:+:+:+' ':+:+:+:+' 'ONE     ' 'TWO     '
+ ':+:+:+:+' ':+:+:+:+' 'ONE     ' 'TWO     ' ':+:+:+:+' ':+:+:+:+' 'ONE     '
+ 'TWO     ' ':+:+:+:+' ':+:+:+:+' 'ONE     ' 'TWO     ' ':+:+:+:+' ':+:+:+:+'
+ 'ONE     ' 'TWO     ' ':+:+:+:+' ':+:+:+:+' 'ONE     ' 'TWO     ' ':+:+:+:+'
+ ':+:+:+:+' 'ONE     ' 'TWO     ' ':+:+:+:+' ':+:+:+:+' 'ONE     ' 'TWO     '
+ ':+:+:+:+' ':+:+:+:+' 'ONE     ' 'TWO     ' ':+:+:+:+' ':+:+:+:+' 'ONE     '
+ 'TWO     ' ':+:+:+:+' ':+:+:+:+' 'ONE     ' 'TWO     ' ':+:+:+:+' ':+:+:+:+'
+ 'ONE     ' 'TWO     ' ':+:+:+:+' ':+:+:+:+' 'ONE     ' 'TWO     ' ':+:+:+:+'
+ ':+:+:+:+' 'ONE     ' 'TWO     ' ':+:+:+:+' ':+:+:+:+' 'ONE     ' 'TWO     '
+ ':+:+:+:+' ':+:+:+:+' ':+:+:+:+' ':+:+:+:+' ':+:+:+:+' ':+:+:+:+' ':+:+:+:+'
+ ':+:+:+:+' ':+:+:+:+' ':+:+:+:+' ':+:+:+:+'
+ 'NUMS    '         445 'INTE'
+      -32767      -32767           0           0           0           0
+           0           0           0           0           0           0
+           0           0           0           0           0           0
+           0           0           0           0           0           0
+           0           0           0           0           0           0
+           0           0           0           0           0           0
+           1           2           3           4           5           6
+           7           8           9          10          11          12
+          13          14          15          16          17          18
+          19          20           1           2           3           4
+           5           6           7           8           9          10
+          11          12          13          14          15          16
+          17          18          19          20           1           2
+           3           4           5           6           7           8
+           9          10          11          12          13          14
+          15          16          17          18          19          20
+           1           2           3           4           5           6
+           7           8           9          10          11          12
+          13          14          15          16          17          18
+          19          20           1           2           3           4
+           5           6           7           8           9          10
+          11          12          13          14          15          16
+          17          18          19          20           1           2
+           3           4           5           6           7           8
+           9          10          11          12          13          14
+          15          16          17          18          19          20
+           1           2           3           4           5           6
+           7           8           9          10          11          12
+          13          14          15          16          17          18
+          19          20           1           2           3           4
+           5           6           7           8           9          10
+          11          12          13          14          15          16
+          17          18          19          20           1           2
+           3           4           5           6           7           8
+           9          10          11          12          13          14
+          15          16          17          18          19          20
+           1           2           3           4           5           6
+           7           8           9          10          11          12
+          13          14          15          16          17          18
+          19          20           1           2           3           4
+           5           6           7           8           9          10
+          11          12          13          14          15          16
+          17          18          19          20           1           2
+           3           4           5           6           7           8
+           9          10          11          12          13          14
+          15          16          17          18          19          20
+           1           2           3           4           5           6
+           7           8           9          10          11          12
+          13          14          15          16          17          18
+          19          20           1           2           3           4
+           1           2           3           4           1           2
+           3           4           1           2           3           4
+           1           2           3           4           1           2
+           3           4           1           2           3           4
+           1           2           3           4           1           2
+           3           4           1           2           3           4
+           1           2           3           4           1           2
+           3           4           1           2           3           4
+           1           2           3           4           1           2
+           3           4           1           2           3           4
+           1           2           3           4           1           2
+           3           4           1           2           3           4
+           1           2           3           4           1           2
+           3           4           1           2           3           4
+           1           2           3           4           1           2
+           3           4           1           2           3           4
+           1           2           3           4           1           2
+           3           4           1           2           3           4
+           1           2           3           4           1           2
+           3           4           1           2           3           4
+           1           2           3           4           1           2
+           3           4           1           2           3           4
+           1           2           3           4           1           2
+           3           1           2           3           1           2
+           3
+ 'UNITS   '         445 'CHAR'
+ '  DAYS  ' 'YEARS   ' ' STB/DAY' ' STB/DAY' ' STB/DAY' 'MSCF/DAY' 'MSCF/DAY'
+ 'MSCF/DAY' '        ' 'MSCF/STB' 'MSCF/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY'
+ '        ' '        ' '        ' '        ' '        ' '        ' '        '
+ '        ' '        ' '        ' '        ' '        ' '        ' '        '
+ '        ' '        ' '        ' '        ' '        ' '        ' '        '
+ '        ' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY'
+ ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY'
+ ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY'
+ ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY'
+ ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY'
+ ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY'
+ ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY'
+ ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY'
+ ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' 'MSCF/DAY' 'MSCF/DAY'
+ 'MSCF/DAY' 'MSCF/DAY' 'MSCF/DAY' 'MSCF/DAY' 'MSCF/DAY' 'MSCF/DAY' 'MSCF/DAY'
+ 'MSCF/DAY' 'MSCF/DAY' 'MSCF/DAY' 'MSCF/DAY' 'MSCF/DAY' 'MSCF/DAY' 'MSCF/DAY'
+ 'MSCF/DAY' 'MSCF/DAY' 'MSCF/DAY' 'MSCF/DAY' '        ' '        ' '        '
+ '        ' '        ' '        ' '        ' '        ' '        ' '        '
+ '        ' '        ' '        ' '        ' '        ' '        ' '        '
+ '        ' '        ' '        ' 'MSCF/STB' 'MSCF/STB' 'MSCF/STB' 'MSCF/STB'
+ 'MSCF/STB' 'MSCF/STB' 'MSCF/STB' 'MSCF/STB' 'MSCF/STB' 'MSCF/STB' 'MSCF/STB'
+ 'MSCF/STB' 'MSCF/STB' 'MSCF/STB' 'MSCF/STB' 'MSCF/STB' 'MSCF/STB' 'MSCF/STB'
+ 'MSCF/STB' 'MSCF/STB' 'MSCF/DAY' 'MSCF/DAY' 'MSCF/DAY' 'MSCF/DAY' 'MSCF/DAY'
+ 'MSCF/DAY' 'MSCF/DAY' 'MSCF/DAY' 'MSCF/DAY' 'MSCF/DAY' 'MSCF/DAY' 'MSCF/DAY'
+ 'MSCF/DAY' 'MSCF/DAY' 'MSCF/DAY' 'MSCF/DAY' 'MSCF/DAY' 'MSCF/DAY' 'MSCF/DAY'
+ 'MSCF/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY'
+ ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY'
+ ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY'
+ ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY'
+ ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY'
+ ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' '        '
+ '        ' '        ' '        ' '        ' '        ' '        ' '        '
+ '        ' '        ' '        ' '        ' '        ' '        ' '        '
+ '        ' '        ' '        ' '        ' '        ' ' STB/DAY' ' STB/DAY'
+ ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY'
+ ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY'
+ ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY'
+ ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY'
+ ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY'
+ ' STB/DAY' ' STB/DAY' ' STB/DAY' 'MSCF/DAY' 'MSCF/DAY' 'MSCF/DAY' 'MSCF/DAY'
+ 'MSCF/DAY' 'MSCF/DAY' 'MSCF/DAY' 'MSCF/DAY' 'MSCF/DAY' 'MSCF/DAY' 'MSCF/DAY'
+ 'MSCF/DAY' 'MSCF/DAY' 'MSCF/DAY' 'MSCF/DAY' 'MSCF/DAY' 'MSCF/DAY' 'MSCF/DAY'
+ 'MSCF/DAY' 'MSCF/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY'
+ ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY'
+ 'MSCF/DAY' 'MSCF/DAY' 'MSCF/DAY' 'MSCF/DAY' '        ' '        ' '        '
+ '        ' 'MSCF/STB' 'MSCF/STB' 'MSCF/STB' 'MSCF/STB' 'MSCF/DAY' 'MSCF/DAY'
+ 'MSCF/DAY' 'MSCF/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY'
+ ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY'
+ ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' 'MSCF/DAY' 'MSCF/DAY' 'MSCF/DAY'
+ 'MSCF/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' ' STB/DAY' '        ' '        '
+ '        ' '        ' '        ' '        ' '        ' '        ' '        '
+ '        ' '        ' '        ' '        ' '        ' '        ' '        '
+ '        ' '        ' '        ' '        ' '        ' '        ' '        '
+ '        ' '        ' '        ' '        ' '        ' '        ' '        '
+ '        ' '        ' '        ' '        ' '        ' '        ' '        '
+ '        ' '        ' '        ' '        ' '        ' '        ' '        '
+ '        ' '        ' '        ' '        ' '        ' '        ' '        '
+ '        ' '        ' '        ' '        ' '        ' '        ' '        '
+ '        ' '        ' '        ' '        ' '        ' '        ' '        '
+ '        ' '        ' '        ' '        ' '        ' '        ' '        '
+ '        ' '        ' '        ' '        ' '        ' '        ' '        '
+ '        ' '        ' '        ' '        ' '        ' '        ' '        '
+ '        ' '        ' '  MSCF  ' '  MSCF  ' '  MSCF  ' '   STB  ' '   STB  '
+ '   STB  ' ' STB/DAY' ' STB/DAY' ' STB/DAY'
+ 'STARTDAT'           3 'INTE'
+           1           1        1990
+ 'RUNTIMEI'          50 'INTE'
+           2           0          10        2016          11           2
+          13          18          43        2016          11           2
+          13          18          46          30          12        1999
+           2         172           1          29           2           0
+           0           0           0           1           0           1
+           0           0           0           0           2           0
+           0           0           0           0           0           0
+           0           0           0           0           0           0
+           0           0
+ 'RUNTIMED'           5 'DOUB'
+   0.36500000000000D+04   0.30930000000000D+01   0.35000000000000D+01
+   0.00000000000000D+00   0.00000000000000D+00
