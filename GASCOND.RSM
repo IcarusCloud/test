@@ -1,6 +1,6 @@
 1                                                                                                                                  
  -------------------------------------------------------------------------------------------------------------------------------
- SUMMARY OF RUN GASCOND ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE desktop-td27ru7                                              
+ SUMMARY OF RUN GASCOND ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE alien                                                        
  -------------------------------------------------------------------------------------------------------------------------------
  TIME         YEARS        FOPR         GOPR         WOPR         FOPT         GOPT         WOPT         FOIR         GOIR         
  DAYS         YEARS        SM3/DAY      SM3/DAY      SM3/DAY      SM3          SM3          SM3          SM3/DAY      SM3/DAY      
@@ -14,7 +14,7 @@
  2000.000     5.475702     125.5829     125.5829     125.5829     299241.2     299241.2     299241.2            0            0     
 1                                                                                                                                  
  -------------------------------------------------------------------------------------------------------------------------------
- SUMMARY OF RUN GASCOND ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE desktop-td27ru7                                              
+ SUMMARY OF RUN GASCOND ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE alien                                                        
  -------------------------------------------------------------------------------------------------------------------------------
  TIME         WOIR         FOIT         GOIT         WOIT         FWPR         GWPR         WWPR         FWPT         GWPT         
  DAYS         SM3/DAY      SM3          SM3          SM3          SM3/DAY      SM3/DAY      SM3/DAY      SM3          SM3          
@@ -28,7 +28,7 @@
  2000.000            0            0            0            0     0.004080     0.004080     0.004080     8.797062     8.797062     
 1                                                                                                                                  
  -------------------------------------------------------------------------------------------------------------------------------
- SUMMARY OF RUN GASCOND ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE desktop-td27ru7                                              
+ SUMMARY OF RUN GASCOND ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE alien                                                        
  -------------------------------------------------------------------------------------------------------------------------------
  TIME         WWPT         FWIR         GWIR         WWIR         FWIT         GWIT         WWIT         FGPR         GGPR         
  DAYS         SM3          SM3/DAY      SM3/DAY      SM3/DAY      SM3          SM3          SM3          SM3/DAY      SM3/DAY      
@@ -42,7 +42,7 @@
  2000.000     8.797062            0            0            0            0            0            0     500000.0     500000.0     
 1                                                                                                                                  
  -------------------------------------------------------------------------------------------------------------------------------
- SUMMARY OF RUN GASCOND ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE desktop-td27ru7                                              
+ SUMMARY OF RUN GASCOND ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE alien                                                        
  -------------------------------------------------------------------------------------------------------------------------------
  TIME         WGPR         FGPT         GGPT         WGPT         FGIR         GGIR         WGIR         FGIT         GGIT         
  DAYS         SM3/DAY      SM3          SM3          SM3          SM3/DAY      SM3/DAY      SM3/DAY      SM3          SM3          
@@ -57,7 +57,7 @@
  2000.000     500000.0     1000000.     1000000.     1000000.            0            0            0            0            0     
 1                                                                                                                                  
  -------------------------------------------------------------------------------------------------------------------------------
- SUMMARY OF RUN GASCOND ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE desktop-td27ru7                                              
+ SUMMARY OF RUN GASCOND ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE alien                                                        
  -------------------------------------------------------------------------------------------------------------------------------
  TIME         WGIT         FVPR         GVPR         WVPR         FVPT         GVPT         WVPT         FVIR         GVIR         
  DAYS         SM3          RM3/DAY      RM3/DAY      RM3/DAY      RM3          RM3          RM3          RM3/DAY      RM3/DAY      
@@ -71,7 +71,7 @@
  2000.000            0     2275.584     2275.584     2275.584     4309438.     4309438.     4309438.            0            0     
 1                                                                                                                                  
  -------------------------------------------------------------------------------------------------------------------------------
- SUMMARY OF RUN GASCOND ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE desktop-td27ru7                                              
+ SUMMARY OF RUN GASCOND ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE alien                                                        
  -------------------------------------------------------------------------------------------------------------------------------
  TIME         WVIR         FVIT         GVIT         WVIT         FWCT         GWCT         WWCT         FGOR         GGOR         
  DAYS         RM3/DAY      RM3          RM3          RM3                                                 SM3/SM3      SM3/SM3      
@@ -85,7 +85,7 @@
  2000.000            0            0            0            0     3.25E-05     3.25E-05     3.25E-05     3981.433     3981.433     
 1                                                                                                                                  
  -------------------------------------------------------------------------------------------------------------------------------
- SUMMARY OF RUN GASCOND ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE desktop-td27ru7                                              
+ SUMMARY OF RUN GASCOND ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE alien                                                        
  -------------------------------------------------------------------------------------------------------------------------------
  TIME         WGOR         FWGR         GWGR         WWGR         WBHP         WTHP         WPI          FOIP         FOIPL        
  DAYS         SM3/SM3      SM3/SM3      SM3/SM3      SM3/SM3      BARSA        BARSA                     SM3          SM3          
@@ -99,7 +99,7 @@
  2000.000     3981.433     8.16E-09     8.16E-09     8.16E-09     254.6546            0     279432.9     2044606.     602520.3     
 1                                                                                                                                  
  -------------------------------------------------------------------------------------------------------------------------------
- SUMMARY OF RUN GASCOND ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE desktop-td27ru7                                              
+ SUMMARY OF RUN GASCOND ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE alien                                                        
  -------------------------------------------------------------------------------------------------------------------------------
  TIME         FOIPG        FWIP         FGIP         FGIPL        FGIPG        FPR                                                 
  DAYS         SM3          SM3          SM3          SM3          SM3          BARSA                                               
