@@ -1,0 +1,200 @@
+<eclipse>
+<message date="1/1/0" time="0.00000000000000">
+ CHECKING FOR LICENSES                                                   
+</message>
+<message date="26/1/1983" time="0.00000000000000">
+ CHECKING FOR LICENSES                                                   
+</message>
+<message date="26/1/1983" time="0.00000000000000">
+ THE MEMORY REQUIRED TO PROCESS THE GRID SECTION IS                      
+      69800 BYTES                                                        
+</message>
+<warning date="26/1/1983" time="0.00000000000000">
+ PLEASE RE-CHECK TOPS DATA SPECIFIED.  THE FIRST                         
+ AND SECOND LAYERS HAVE SAME TOPS VALUE                                  
+</warning>
+<message date="26/1/1983" time="0.00000000000000">
+ NEITHER OLDTRAN,OLDTRANR NOR NEWTRAN SPECIFIED                          
+ BLOCK CENTRE TRANSMISSIBILITIES TO BE CALCULATED                        
+ USING  OLDTRAN                                                          
+</message>
+<warning date="26/1/1983" time="0.00000000000000">
+ THERE ARE    0 CONNECTIONS BETWEEN ACTIVE MATRIX CELLS                  
+ AND INACTIVE FRACTURE CELLS AND      1  BETWEEN ACTIVE                  
+ FRACTURE CELLS AND INACTIVE MATRIX CELLS                                
+ THESE CONNECTIONS WILL BE IGNORED BY ECLIPSE.                           
+ (THESE CONNECTIONS ARE NOT DUE TO MINPV )                               
+</warning>
+<message date="26/1/1983" time="0.00000000000000">
+ TO GET A FULL LISTING OF THESE CONNECTIONS SET THE                      
+ MNEMONIC MINPV IN RPTGRID                                               
+</message>
+<comment date="26/1/1983" time="0.00000000000000">
+ NO NON-NEIGHBOUR CONNECTIONS FOUND                                      
+</comment>
+<comment date="26/1/1983" time="0.00000000000000">
+ 63 DUAL POROSITY CONNECTIONS FOUND                                      
+</comment>
+<message date="26/1/1983" time="0.00000000000000">
+ NUMBER OF ACTIVE CELLS IS 127                                           
+</message>
+<message date="26/1/1983" time="0.00000000000000">
+ THE MEMORY REQUIRED TO PROCESS THE SOLUTION SECTION IS                  
+     379228 BYTES                                                        
+</message>
+<message date="26/1/1983" time="0.00000000000000">
+    23544 CHARACTER VARIABLES USED                                       
+</message>
+<warning date="26/1/1983" time="0.00000000000000">
+ UNRECOGNISED MNEMONIC LANG             IN DATA                          
+ FOR KEYWORD RPTPROPS IS IGNORED                                         
+</warning>
+<message date="27/1/1983" time="1.00000000000000">
+ RESTART FILE WRITTEN   REPORT     1                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+<message date="5/2/1983" time="10.00000000000000">
+ RESTART FILE WRITTEN   REPORT     2                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+<message date="6/5/1983" time="100.00000000000000">
+ RESTART FILE WRITTEN   REPORT     3                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+<warning date="6/5/1983" time="100.00000000000000">
+ CROSSFLOW ABILITY FLAG MUST BE SET TO FALSE IN WELL P                   
+ IF THE SOLVENT MODEL IS BEING USED                                      
+ THE FLAG HAS BEEN RESET TO 0                                            
+</warning>
+<warning date="6/5/1983" time="100.00000000000000">
+ CROSSFLOW ABILITY FLAG MUST BE SET TO FALSE IN WELL I                   
+ IF THE SOLVENT MODEL IS BEING USED                                      
+ THE FLAG HAS BEEN RESET TO 0                                            
+</warning>
+<warning date="6/5/1983" time="100.00000000000000">
+ CONNECTION (   8   8   2) IN WELL P                                     
+ HAS ROCK Z-PERMEABILITY   0.0000E+00 .                                  
+ RESETTING KZ TO 10**(-10)                                               
+</warning>
+<warning date="6/5/1983" time="100.00000000000000">
+ CONNECTION (   1   1   2) IN WELL I                                     
+ HAS ROCK Z-PERMEABILITY   0.0000E+00 .                                  
+ RESETTING KZ TO 10**(-10)                                               
+</warning>
+<warning date="6/5/1983" time="100.00000000000000">
+ THE BOTTOM HOLE PRESSURE LIMIT FOR WELL I                               
+ HAS BEEN DEFAULTED. THE DEFAULT VALUE IS  100000.   PSIA                
+</warning>
+<problem date="6/5/1983" time="100.85484956263866">
+ NON-LINEAR EQUATION CONVERGENCE FAILURE                                 
+ ITERATION LIMIT REACHED - BUT TIME STEP                                 
+ ACCEPTED BECAUSE IT IS TOO SMALL TO CHOP.                               
+</problem>
+<message date="7/5/1983" time="101.00000000000000">
+ RESTART FILE WRITTEN   REPORT     4                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+<warning date="7/5/1983" time="101.90384815298715">
+ LINEAR EQUATIONS NOT FULLY CONVERGED - RUN MAY GO FASTER                
+ IF YOU (A) INCREASE NSTACK (= 20 - RUNSPEC SECTION)     23              
+     OR (B) MAKE NSTACK NEGATIVE ( EXTENDS STACK ON DISK )               
+</warning>
+<problem date="9/5/1983" time="103.62968110930495">
+ NON-LINEAR EQUATION CONVERGENCE FAILURE                                 
+ ITERATION LIMIT REACHED - TIME STEP CHOPPED FROM   0.21                 
+</problem>
+<message date="12/5/1983" time="106.21517012470194">
+ ******************************************                              
+ * WELL P        HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME    106.22   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="16/5/1983" time="110.00000000000000">
+ RESTART FILE WRITTEN   REPORT     5                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+<message date="14/8/1983" time="200.00000000000000">
+ RESTART FILE WRITTEN   REPORT     6                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+<message date="30/1/1986" time="1100.00000000000000">
+ RESTART FILE WRITTEN   REPORT     7                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+<message date="26/10/1988" time="2100.00000000000000">
+ RESTART FILE WRITTEN   REPORT     8                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+<warning date="26/10/1988" time="2100.00000000000000">
+ THE BOTTOM HOLE PRESSURE LIMIT FOR WELL I                               
+ HAS BEEN DEFAULTED. THE DEFAULT VALUE IS  100000.   PSIA                
+</warning>
+<message date="27/10/1988" time="2101.00000000000000">
+ RESTART FILE WRITTEN   REPORT     9                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+<message date="5/11/1988" time="2110.00000000000000">
+ RESTART FILE WRITTEN   REPORT    10                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+<message date="3/2/1989" time="2200.00000000000000">
+ RESTART FILE WRITTEN   REPORT    11                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+<message date="23/7/1991" time="3100.00000000000000">
+ RESTART FILE WRITTEN   REPORT    12                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+<message date="18/4/1994" time="4100.00000000000000">
+ RESTART FILE WRITTEN   REPORT    13                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+<message date="12/1/1997" time="5100.00000000000000">
+ RESTART FILE WRITTEN   REPORT    14                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+<message date="9/10/1999" time="6100.00000000000000">
+ RESTART FILE WRITTEN   REPORT    15                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+<warning date="9/10/1999" time="6100.00000000000000">
+ THE BOTTOM HOLE PRESSURE LIMIT FOR WELL I                               
+ HAS BEEN DEFAULTED. THE DEFAULT VALUE IS  100000.   PSIA                
+</warning>
+<message date="9/10/1999" time="6100.00000000000000">
+ ******************************************                              
+ * WELL P        HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME   6100.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="10/10/1999" time="6101.00000000000000">
+ RESTART FILE WRITTEN   REPORT    16                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+<message date="19/10/1999" time="6110.00000000000000">
+ RESTART FILE WRITTEN   REPORT    17                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+<message date="17/1/2000" time="6200.00000000000000">
+ RESTART FILE WRITTEN   REPORT    18                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+<message date="5/7/2002" time="7100.00000000000000">
+ RESTART FILE WRITTEN   REPORT    19                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+<message date="31/3/2005" time="8100.00000000000000">
+ RESTART FILE WRITTEN   REPORT    20                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+<message date="26/12/2007" time="9100.00000000000000">
+ RESTART FILE WRITTEN   REPORT    21                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+<message date="21/9/2010" time="10100.00000000000000">
+ RESTART FILE WRITTEN   REPORT    22                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+</eclipse>
