@@ -1,0 +1,64 @@
+<eclipse>
+<warning date="1/1/1990" time="0.00000000000000">
+ THE 17TH SWITCH OF OPTIONS HAS BEEN                                     
+ SUPERSEDED. SEE THE PINCH KEYWORD.                                      
+</warning>
+<error date="1/1/1990" time="0.00000000000000">
+ INPUT RESTART FILE                                                      
+ BRILLIG.X0002                                                           
+ DOES NOT EXIST                                                          
+</error>
+<error date="1/1/1990" time="0.00000000000000">
+  I/O ERROR UNABLE TO OPEN RESTART FILE                                  
+  ERROR CODE IS :            1                                           
+</error>
+<message date="1/1/1990" time="0.00000000000000">
+ CHECKING FOR LICENSES                                                   
+</message>
+<message date="1/1/1990" time="0.00000000000000">
+ THE MEMORY REQUIRED TO PROCESS THE GRID SECTION IS                      
+     943188 BYTES                                                        
+</message>
+<message date="1/1/1990" time="0.00000000000000">
+     83   PINCH-OUT CONNECTIONS GENERATED                                
+</message>
+<message date="1/1/1990" time="0.00000000000000">
+ PRE-PROCESSING HAS FOUND       83 NON-NEIGHBOUR CONNECTIONS             
+ WHICH EITHER JOIN ADJACENT CELLS OR CAN BE TREATED AS A                 
+ NORMAL CONNECTION. THE TRANSMISSIBILITY HAS BEEN ADDED TO               
+ THE APPROPRIATE CELL TRANSMISSIBILITY AND THE                           
+ NON-NEIGHBOUR CONNECTION REMOVED FROM THE SIMULATION                    
+</message>
+<message date="1/1/1990" time="0.00000000000000">
+ 127 NON-NEIGHBOUR CONNECTIONS PRESENT                                   
+</message>
+<message date="1/1/1990" time="0.00000000000000">
+ NUMBER OF ACTIVE CELLS IS 1639                                          
+</message>
+<message date="1/1/1990" time="0.00000000000000">
+ ADDITIONAL     0.317 MEGABYTES REQUIRED FOR SIMULATION                  
+</message>
+<message date="1/1/1990" time="0.00000000000000">
+ THE MEMORY REQUIRED TO PROCESS THE SOLUTION SECTION IS                  
+       3527 KBYTES                                                       
+</message>
+<message date="1/1/1990" time="0.00000000000000">
+    58691 CHARACTER VARIABLES USED                                       
+</message>
+<warning date="1/1/1990" time="0.00000000000000">
+ POST-PROCESSORS MAY HAVE TROUBLE READING RESULTS FOR TRACERS            
+ WHOSE NAME BEGIN WITH EITHER F OR S                                     
+</warning>
+<error date="1/1/1990" time="0.00000000000000">
+ INPUT RESTART FILE                                                      
+ BRILLIG.X0002                                                           
+ DOES NOT EXIST                                                          
+</error>
+<error date="1/1/1990" time="0.00000000000000">
+  I/O ERROR UNABLE TO OPEN RESTART FILE                                  
+  ERROR CODE IS :            1                                           
+</error>
+<error date="1/1/1990" time="0.00000000000000">
+ THERE ARE FATAL ERRORS WHILE OPENING A RESTART FILE                     
+</error>
+</eclipse>
