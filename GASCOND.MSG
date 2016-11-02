@@ -1,0 +1,49 @@
+<eclipse>
+<message date="1/1/1983" time="0.00000000000000">
+ CHECKING FOR LICENSES                                                   
+</message>
+<message date="1/1/1983" time="0.00000000000000">
+ THE MEMORY REQUIRED TO PROCESS THE GRID SECTION IS                      
+      71184 BYTES                                                        
+</message>
+<message date="1/1/1983" time="0.00000000000000">
+ UNSPECIFIED TOPS VALUES OBTAINED BY ADDING DZ                           
+ TO TOPS VALUE FOR LAYER ABOVE                                           
+</message>
+<message date="1/1/1983" time="0.00000000000000">
+ NEITHER OLDTRAN,OLDTRANR NOR NEWTRAN SPECIFIED                          
+ BLOCK CENTRE TRANSMISSIBILITIES TO BE CALCULATED                        
+ USING  OLDTRAN                                                          
+</message>
+<message date="1/1/1983" time="0.00000000000000">
+ NUMBER OF ACTIVE CELLS IS 162                                           
+</message>
+<message date="1/1/1983" time="0.00000000000000">
+ THE MEMORY REQUIRED TO PROCESS THE SOLUTION SECTION IS                  
+     537880 BYTES                                                        
+</message>
+<message date="1/1/1983" time="0.00000000000000">
+    58654 CHARACTER VARIABLES USED                                       
+</message>
+<warning date="1/1/1983" time="0.00000000000000">
+ THE BOTTOM HOLE PRESSURE LIMIT FOR WELL PRODUCER                        
+ HAS BEEN DEFAULTED.  THE DEFAULT VALUE IS                               
+      1.0   BARSA                                                        
+</warning>
+<message date="15/5/1984" time="500.00000000000000">
+ RESTART FILE WRITTEN   REPORT     1                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+<message date="27/9/1985" time="1000.00000000000000">
+ RESTART FILE WRITTEN   REPORT     2                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+<message date="9/2/1987" time="1500.00000000000000">
+ RESTART FILE WRITTEN   REPORT     3                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+<message date="23/6/1988" time="2000.00000000000000">
+ RESTART FILE WRITTEN   REPORT     4                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+</eclipse>
