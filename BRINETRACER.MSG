@@ -1,0 +1,149 @@
+<eclipse>
+<message date="1/1/1983" time="0.00000000000000">
+ CHECKING FOR LICENSES                                                   
+</message>
+<message date="1/1/1983" time="0.00000000000000">
+ THE MEMORY REQUIRED TO PROCESS THE GRID SECTION IS                      
+      64244 BYTES                                                        
+</message>
+<message date="1/1/1983" time="0.00000000000000">
+ NEITHER OLDTRAN,OLDTRANR NOR NEWTRAN SPECIFIED                          
+ TRANSMISSIBILITIES TO BE CALCULATED                                     
+ USING  NEWTRAN                                                          
+</message>
+<message date="1/1/1983" time="0.00000000000000">
+ NO FAULT NON-NEIGHBOUR TRANSMISSIBILITIES                               
+ AS NONNC IS SPECIFIED IN RUNSPEC.                                       
+</message>
+<message date="1/1/1983" time="0.00000000000000">
+ NUMBER OF ACTIVE CELLS IS 150                                           
+</message>
+<message date="1/1/1983" time="0.00000000000000">
+ THE MEMORY REQUIRED TO PROCESS THE SOLUTION SECTION IS                  
+     401912 BYTES                                                        
+</message>
+<message date="1/1/1983" time="0.00000000000000">
+    58565 CHARACTER VARIABLES USED                                       
+</message>
+<warning date="1/1/1983" time="0.00000000000000">
+ REFERENCE SALT CONCENTRATION HAS NOT BEEN SET                           
+ IN TABLE   1 IT WILL BE SET TO       0.0000                             
+</warning>
+<message date="1/1/1983" time="0.00000000000000">
+ AQUIFER      1 HAS      5 CONNECTIONS IN THE                            
+ GLOBAL GRID                                                             
+</message>
+<message date="1/1/1983" time="0.00000000000000">
+ AQUIFER      2 HAS      5 CONNECTIONS IN THE                            
+ GLOBAL GRID                                                             
+</message>
+<comment date="1/1/1983" time="0.00000000000000">
+ THE MINIMUM VALUE FOR NCAMAX IN THE AQUDIMS KEYWORD                     
+ IN RUNSPEC IS         5                                                 
+</comment>
+<warning date="1/1/1983" time="0.00000000000000">
+ SPURIOUS DATA BEFORE GSPT     KEYWORD                                   
+ /                                                                       
+</warning>
+<warning date="1/1/1983" time="0.00000000000000">
+ SPURIOUS DATA BEFORE GSIR     KEYWORD                                   
+ /                                                                       
+</warning>
+<warning date="1/1/1983" time="0.00000000000000">
+ SPURIOUS DATA BEFORE GSIT     KEYWORD                                   
+ /                                                                       
+</warning>
+<warning date="1/1/1983" time="0.00000000000000">
+ SPURIOUS DATA BEFORE GSPR     KEYWORD                                   
+ /                                                                       
+</warning>
+<warning date="1/1/1983" time="0.00000000000000">
+ SPURIOUS DATA BEFORE WSPR     KEYWORD                                   
+ /                                                                       
+</warning>
+<warning date="1/1/1983" time="0.00000000000000">
+ SPURIOUS DATA BEFORE WSPT     KEYWORD                                   
+ /                                                                       
+</warning>
+<warning date="1/1/1983" time="0.00000000000000">
+ SPURIOUS DATA BEFORE WSIR     KEYWORD                                   
+ /                                                                       
+</warning>
+<warning date="1/1/1983" time="0.00000000000000">
+ SPURIOUS DATA BEFORE WSIT     KEYWORD                                   
+ /                                                                       
+</warning>
+<warning date="1/1/1983" time="0.00000000000000">
+ SPURIOUS DATA BEFORE CSFR     KEYWORD                                   
+ /                                                                       
+</warning>
+<message date="1/1/1983" time="0.00000000000000">
+ THE TOP-UP PHASE IS SET TO WATER AS                                     
+ GROUP FIELD    HAS A TARGET OR LIMIT RESERVOIR                          
+ VOLUME RATE OR VOIDAGE REPLACEMENT FRACTION                             
+ FOR WATER INJECTION CONTROL                                             
+</message>
+<warning date="1/1/1983" time="0.00000000000000">
+ THE BOTTOM HOLE PRESSURE LIMIT FOR WELL INJECTOR                        
+ HAS BEEN DEFAULTED. THE DEFAULT VALUE IS  100000.   PSIA                
+</warning>
+<message date="1/1/1983" time="0.00000000000000">
+ RESTART FILE WRITTEN   REPORT     0                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+<message date="2/1/1983" time="1.00000000000000">
+ RESTART FILE WRITTEN   REPORT     1                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+<message date="11/1/1983" time="10.00000000000000">
+ RESTART FILE WRITTEN   REPORT     2                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+<message date="11/4/1983" time="100.00000000000000">
+ RESTART FILE WRITTEN   REPORT     3                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+<message date="20/7/1983" time="200.00000000000000">
+ RESTART FILE WRITTEN   REPORT     4                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+<message date="28/10/1983" time="300.00000000000000">
+ RESTART FILE WRITTEN   REPORT     5                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+<message date="5/2/1984" time="400.00000000000000">
+ RESTART FILE WRITTEN   REPORT     6                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+<message date="15/5/1984" time="500.00000000000000">
+ RESTART FILE WRITTEN   REPORT     7                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+<message date="20/1/1985" time="750.00000000000000">
+ RESTART FILE WRITTEN   REPORT     8                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+<message date="27/9/1985" time="1000.00000000000000">
+ RESTART FILE WRITTEN   REPORT     9                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+<message date="23/6/1988" time="2000.00000000000000">
+ RESTART FILE WRITTEN   REPORT    10                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+<message date="20/3/1991" time="3000.00000000000000">
+ RESTART FILE WRITTEN   REPORT    11                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+<message date="18/2/1992" time="3335.37231344321708">
+ ******************************************                              
+ * WELL PRODUCER HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME   3335.37   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="14/12/1993" time="4000.00000000000000">
+ RESTART FILE WRITTEN   REPORT    12                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+</eclipse>
