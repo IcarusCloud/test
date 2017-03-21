@@ -1,9 +1,9 @@
  =======================================================
- TIMING REPORTS AT CPU=     0 SECS - ELAPSED=     0 SECS
+ TIMING REPORTS AT CPU=     0 SECS - ELAPSED=     1 SECS
  =======================================================
- ZZSS    1  0  0
-                RR      1  0  0
- SR      1  0  0
+ ZZSS    1 67100
+                RR      1 67100
+ SR      1 33  0
  I        BLOCK   1  1  1 SIZE   7.5000E+01  7.5000E+01  3.0000E+01 PERM   5.0000E+01  5.0000E+01  5.0000E+01 PORO   2.0000E-01
  P        BLOCK  20 20  1 SIZE   7.5000E+01  7.5000E+01  3.0000E+01 PERM   5.0000E+01  5.0000E+01  5.0000E+01 PORO   2.0000E-01
 0INITIAL SOLUTION FOR WELL P       
@@ -16,7 +16,7 @@
    4.29750E+03  4.29750E+03  0.00000E+00  1.00000E+00
 1                             **********************************************************************   3
   WELSPECS AT     0.00   DAYS * GAS-WATER TEST CASE                                                    * ECLIPSE  VERSION 2009.1     
-  REPORT   0     1 JAN 1983   *  RUN                                                                   * RUN AT 23:24 ON 21 MAR 2017 
+  REPORT   0     1 JAN 1983   *  RUN                                                                   * RUN AT 23:48 ON 21 MAR 2017 
                               **************************************************************************
 
    I                               
@@ -966,11 +966,11 @@
  @--MESSAGE  AT TIME       10.0   DAYS    (11-JAN-1983):
  @           RESTART FILE WRITTEN   REPORT     1                             
  =======================================================
- TIMING REPORTS AT CPU=     0 SECS - ELAPSED=     0 SECS
+ TIMING REPORTS AT CPU=     0 SECS - ELAPSED=     1 SECS
  =======================================================
- ZZSS    1  0  0
-                RR      1  0  0
- SR      1  0  0
+ ZZSS    1 40100
+                RR      1 40100
+ SR      1 19  0
  WCPC   28  0  0
  WCCM   57  0  0
  WCXP   27  0  0
@@ -11081,11 +11081,11 @@
  @--MESSAGE  AT TIME     3000.0   DAYS    (20-MAR-1991):
  @           RESTART FILE WRITTEN   REPORT     2                             
  =======================================================
- TIMING REPORTS AT CPU=     0 SECS - ELAPSED=     0 SECS
+ TIMING REPORTS AT CPU=     0 SECS - ELAPSED=     1 SECS
  =======================================================
- ZZSS    1  0  0
-                RR      1  0  0
- SR      1  0  0
+ ZZSS    1  9100
+                RR      1  9100
+ SR      1  4  0
  WCPC  360  0  0
  WCCM  644  0  0
  WCXP  282  0  0
@@ -11103,7 +11103,7 @@
  @           TO WATER FLOW, TO MATCH THE INJECTED PHASE.                     
 1                             **********************************************************************  10
   WELSPECS AT  3000.00   DAYS * GAS-WATER TEST CASE                                                    * ECLIPSE  VERSION 2009.1     
-  REPORT   2    20 MAR 1991   *  RUN                                                                   * RUN AT 23:24 ON 21 MAR 2017 
+  REPORT   2    20 MAR 1991   *  RUN                                                                   * RUN AT 23:48 ON 21 MAR 2017 
                               **************************************************************************
 
    I                               
@@ -11754,11 +11754,11 @@
  @--MESSAGE  AT TIME     3010.0   DAYS    (30-MAR-1991):
  @           RESTART FILE WRITTEN   REPORT     3                             
  =======================================================
- TIMING REPORTS AT CPU=     0 SECS - ELAPSED=     0 SECS
+ TIMING REPORTS AT CPU=     0 SECS - ELAPSED=     1 SECS
  =======================================================
- ZZSS    1  0  0
-                RR      1  0  0
- SR      1  0  0
+ ZZSS    1  9100
+                RR      1  9100
+ SR      1  4  0
  WCPC  379  0  0
  WCCM  673  0  0
  WCXP  290  0  0
@@ -17342,11 +17342,11 @@
  @--MESSAGE  AT TIME     6000.0   DAYS    ( 6-JUN-1999):
  @           RESTART FILE WRITTEN   REPORT     4                             
  =======================================================
- TIMING REPORTS AT CPU=     0 SECS - ELAPSED=     0 SECS
+ TIMING REPORTS AT CPU=     1 SECS - ELAPSED=     1 SECS
  =======================================================
- ZZSS    1  0  0
-                RR      1  0  0
- SR      1  0  0
+ ZZSS    1  6100
+                RR      1  6100
+ SR      1  3  0
  WCPC  552  0  0
  WCCM  980  0  0
  WCXP  424  0  0
