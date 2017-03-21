@@ -1,0 +1,84 @@
+<eclipse>
+<message date="19/10/1982" time="0.00000000000000">
+ CHECKING FOR LICENSES                                                   
+</message>
+<message date="19/10/1982" time="0.00000000000000">
+ THE MEMORY REQUIRED TO PROCESS THE GRID SECTION IS                      
+     129788 BYTES                                                        
+</message>
+<message date="19/10/1982" time="0.00000000000000">
+ NUMBER OF ACTIVE CELLS IS 300                                           
+</message>
+<message date="19/10/1982" time="0.00000000000000">
+ THE MEMORY REQUIRED TO PROCESS THE SOLUTION SECTION IS                  
+     605304 BYTES                                                        
+</message>
+<message date="19/10/1982" time="0.00000000000000">
+    23576 CHARACTER VARIABLES USED                                       
+</message>
+<comment date="19/10/1982" time="0.00000000000000">
+ THE MINIMUM VALUE FOR MHRPAR IN THE HMDIMS KEYWORD                      
+ IN RUNSPEC IS     1                                                     
+</comment>
+<message date="19/10/1982" time="0.00000000000000">
+ *****************************                                           
+ * GRADIENTS WILL BE ENCODED *                                           
+ *****************************                                           
+</message>
+<message date="23/10/1982" time="4.00000000000000">
+ RESTART FILE WRITTEN   REPORT     1                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+                  WATER AND GAS PHASE PRESSURES                          
+                  FLUID VISCOSITIES                                      
+                  PHASE RESERVOIR DENSITIES                              
+                  DATA REQUIRED TO RESTART THE GRADIENT OPTION           
+</message>
+<message date="27/10/1982" time="8.00000000000000">
+ RESTART FILE WRITTEN   REPORT     2                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+                  WATER AND GAS PHASE PRESSURES                          
+                  FLUID VISCOSITIES                                      
+                  PHASE RESERVOIR DENSITIES                              
+                  DATA REQUIRED TO RESTART THE GRADIENT OPTION           
+</message>
+<message date="31/10/1982" time="12.00000000000000">
+ RESTART FILE WRITTEN   REPORT     3                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+                  WATER AND GAS PHASE PRESSURES                          
+                  FLUID VISCOSITIES                                      
+                  PHASE RESERVOIR DENSITIES                              
+                  DATA REQUIRED TO RESTART THE GRADIENT OPTION           
+</message>
+<message date="4/11/1982" time="16.00000000000000">
+ RESTART FILE WRITTEN   REPORT     4                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+                  WATER AND GAS PHASE PRESSURES                          
+                  FLUID VISCOSITIES                                      
+                  PHASE RESERVOIR DENSITIES                              
+                  DATA REQUIRED TO RESTART THE GRADIENT OPTION           
+</message>
+<message date="8/11/1982" time="20.00000000000000">
+ RESTART FILE WRITTEN   REPORT     5                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+                  WATER AND GAS PHASE PRESSURES                          
+                  FLUID VISCOSITIES                                      
+                  PHASE RESERVOIR DENSITIES                              
+                  DATA REQUIRED TO RESTART THE GRADIENT OPTION           
+</message>
+<message date="12/11/1982" time="24.00000000000000">
+ RESTART FILE WRITTEN   REPORT     6                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+                  WATER AND GAS PHASE PRESSURES                          
+                  FLUID VISCOSITIES                                      
+                  PHASE RESERVOIR DENSITIES                              
+                  DATA REQUIRED TO RESTART THE GRADIENT OPTION           
+</message>
+<message date="13/11/1982" time="25.00000000000000">
+ RESTART FILE WRITTEN   REPORT     7                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+                  WATER AND GAS PHASE PRESSURES                          
+                  FLUID VISCOSITIES                                      
+                  PHASE RESERVOIR DENSITIES                              
+                  DATA REQUIRED TO RESTART THE GRADIENT OPTION           
+</message>
+</eclipse>

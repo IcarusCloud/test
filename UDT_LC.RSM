@@ -1,6 +1,6 @@
 1                                                                                                                                  
  -------------------------------------------------------------------------------------------------------------------------------
- SUMMARY OF RUN UDT_LC ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE alien                                                         
+ SUMMARY OF RUN UDT_LC ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE desktop-td27ru7                                               
  -------------------------------------------------------------------------------------------------------------------------------
  TIME         YEARS        WUPRICE      WUPRICE      WUPRICE      WUPRICE      FOPR         GOPR         GOPR         WOPR         
  DAYS         YEARS                                                            STB/DAY      STB/DAY      STB/DAY      STB/DAY      
@@ -20,7 +20,7 @@
  100.0000     0.273785     25.06251     71.17771     77.22285     61.35703     28000.00     16000.00     12000.00     6000.000     
 1                                                                                                                                  
  -------------------------------------------------------------------------------------------------------------------------------
- SUMMARY OF RUN UDT_LC ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE alien                                                         
+ SUMMARY OF RUN UDT_LC ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE desktop-td27ru7                                               
  -------------------------------------------------------------------------------------------------------------------------------
  TIME         WOPR         WOPR         WOPR         FOPT         GOPT         GOPT         WOPT         WOPT         WOPT         
  DAYS         STB/DAY      STB/DAY      STB/DAY      STB          STB          STB          STB          STB          STB          
@@ -40,7 +40,7 @@
  100.0000     10000.00     8000.000     4000.000     2800000.     1600000.     1200000.     600000.0     1000000.     800000.0     
 1                                                                                                                                  
  -------------------------------------------------------------------------------------------------------------------------------
- SUMMARY OF RUN UDT_LC ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE alien                                                         
+ SUMMARY OF RUN UDT_LC ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE desktop-td27ru7                                               
  -------------------------------------------------------------------------------------------------------------------------------
  TIME         WOPT         FOIR         GOIR         GOIR         WOIR         WOIR         WOIR         WOIR         FOIT         
  DAYS         STB          STB/DAY      STB/DAY      STB/DAY      STB/DAY      STB/DAY      STB/DAY      STB/DAY      STB          
@@ -60,7 +60,7 @@
  100.0000     400000.0            0            0            0            0            0            0            0            0     
 1                                                                                                                                  
  -------------------------------------------------------------------------------------------------------------------------------
- SUMMARY OF RUN UDT_LC ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE alien                                                         
+ SUMMARY OF RUN UDT_LC ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE desktop-td27ru7                                               
  -------------------------------------------------------------------------------------------------------------------------------
  TIME         GOIT         GOIT         WOIT         WOIT         WOIT         WOIT         FWPR         GWPR         GWPR         
  DAYS         STB          STB          STB          STB          STB          STB          STB/DAY      STB/DAY      STB/DAY      
@@ -80,7 +80,7 @@
  100.0000            0            0            0            0            0            0     8187.968     251.7924     7936.176     
 1                                                                                                                                  
  -------------------------------------------------------------------------------------------------------------------------------
- SUMMARY OF RUN UDT_LC ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE alien                                                         
+ SUMMARY OF RUN UDT_LC ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE desktop-td27ru7                                               
  -------------------------------------------------------------------------------------------------------------------------------
  TIME         WWPR         WWPR         WWPR         WWPR         FWPT         GWPT         GWPT         WWPT         WWPT         
  DAYS         STB/DAY      STB/DAY      STB/DAY      STB/DAY      STB          STB          STB          STB          STB          
@@ -100,7 +100,7 @@
  100.0000     1.269058     250.5233     1334.280     6601.896     773228.3     10315.49     762912.8     80.32473     10235.17     
 1                                                                                                                                  
  -------------------------------------------------------------------------------------------------------------------------------
- SUMMARY OF RUN UDT_LC ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE alien                                                         
+ SUMMARY OF RUN UDT_LC ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE desktop-td27ru7                                               
  -------------------------------------------------------------------------------------------------------------------------------
  TIME         WWPT         WWPT         FWIR         GWIR         GWIR         WWIR         WWIR         WWIR         WWIR         
  DAYS         STB          STB          STB/DAY      STB/DAY      STB/DAY      STB/DAY      STB/DAY      STB/DAY      STB/DAY      
@@ -120,7 +120,7 @@
  100.0000     75759.57     687153.2            0            0            0            0            0            0            0     
 1                                                                                                                                  
  -------------------------------------------------------------------------------------------------------------------------------
- SUMMARY OF RUN UDT_LC ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE alien                                                         
+ SUMMARY OF RUN UDT_LC ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE desktop-td27ru7                                               
  -------------------------------------------------------------------------------------------------------------------------------
  TIME         FWIT         GWIT         GWIT         WWIT         WWIT         WWIT         WWIT         FGPR         GGPR         
  DAYS         STB          STB          STB          STB          STB          STB          STB          MSCF/DAY     MSCF/DAY     
@@ -140,7 +140,7 @@
  100.0000            0            0            0            0            0            0            0     31640.00     18080.00     
 1                                                                                                                                  
  -------------------------------------------------------------------------------------------------------------------------------
- SUMMARY OF RUN UDT_LC ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE alien                                                         
+ SUMMARY OF RUN UDT_LC ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE desktop-td27ru7                                               
  -------------------------------------------------------------------------------------------------------------------------------
  TIME         GGPR         WGPR         WGPR         WGPR         WGPR         FGPT         GGPT         GGPT         WGPT         
  DAYS         MSCF/DAY     MSCF/DAY     MSCF/DAY     MSCF/DAY     MSCF/DAY     MSCF         MSCF         MSCF         MSCF         
@@ -160,7 +160,7 @@
  100.0000     13560.00     6780.000     11300.00     9040.000     4520.000     3164000.     1808000.     1356000.     678000.0     
 1                                                                                                                                  
  -------------------------------------------------------------------------------------------------------------------------------
- SUMMARY OF RUN UDT_LC ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE alien                                                         
+ SUMMARY OF RUN UDT_LC ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE desktop-td27ru7                                               
  -------------------------------------------------------------------------------------------------------------------------------
  TIME         WGPT         WGPT         WGPT         FGIR         GGIR         GGIR         WGIR         WGIR         WGIR         
  DAYS         MSCF         MSCF         MSCF         MSCF/DAY     MSCF/DAY     MSCF/DAY     MSCF/DAY     MSCF/DAY     MSCF/DAY     
@@ -180,7 +180,7 @@
  100.0000     1130000.     904000.0     452000.0            0            0            0            0            0            0     
 1                                                                                                                                  
  -------------------------------------------------------------------------------------------------------------------------------
- SUMMARY OF RUN UDT_LC ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE alien                                                         
+ SUMMARY OF RUN UDT_LC ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE desktop-td27ru7                                               
  -------------------------------------------------------------------------------------------------------------------------------
  TIME         WGIR         FGIT         GGIT         GGIT         WGIT         WGIT         WGIT         WGIT         FVPR         
  DAYS         MSCF/DAY     MSCF         MSCF         MSCF         MSCF         MSCF         MSCF         MSCF         RB/DAY       
@@ -200,7 +200,7 @@
  100.0000            0            0            0            0            0            0            0            0     38281.09     
 1                                                                                                                                  
  -------------------------------------------------------------------------------------------------------------------------------
- SUMMARY OF RUN UDT_LC ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE alien                                                         
+ SUMMARY OF RUN UDT_LC ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE desktop-td27ru7                                               
  -------------------------------------------------------------------------------------------------------------------------------
  TIME         GVPR         GVPR         WVPR         WVPR         WVPR         WVPR         FVPT         GVPT         GVPT         
  DAYS         RB/DAY       RB/DAY       RB/DAY       RB/DAY       RB/DAY       RB/DAY       RB           RB           RB           
@@ -220,7 +220,7 @@
  100.0000     17442.21     20838.88     6447.555     10994.65     9931.030     10907.85     3781366.     1728732.     2052634.     
 1                                                                                                                                  
  -------------------------------------------------------------------------------------------------------------------------------
- SUMMARY OF RUN UDT_LC ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE alien                                                         
+ SUMMARY OF RUN UDT_LC ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE desktop-td27ru7                                               
  -------------------------------------------------------------------------------------------------------------------------------
  TIME         WVPT         WVPT         WVPT         WVPT         FVIR         GVIR         GVIR         WVIR         WVIR         
  DAYS         RB           RB           RB           RB           RB/DAY       RB/DAY       RB/DAY       RB/DAY       RB/DAY       
@@ -240,7 +240,7 @@
  100.0000     644482.0     1084250.     935054.6     1117579.            0            0            0            0            0     
 1                                                                                                                                  
  -------------------------------------------------------------------------------------------------------------------------------
- SUMMARY OF RUN UDT_LC ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE alien                                                         
+ SUMMARY OF RUN UDT_LC ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE desktop-td27ru7                                               
  -------------------------------------------------------------------------------------------------------------------------------
  TIME         WVIR         WVIR         FVIT         GVIT         GVIT         WVIT         WVIT         WVIT         WVIT         
  DAYS         RB/DAY       RB/DAY       RB           RB           RB           RB           RB           RB           RB           
@@ -260,7 +260,7 @@
  100.0000            0            0            0            0            0            0            0            0            0     
 1                                                                                                                                  
  -------------------------------------------------------------------------------------------------------------------------------
- SUMMARY OF RUN UDT_LC ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE alien                                                         
+ SUMMARY OF RUN UDT_LC ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE desktop-td27ru7                                               
  -------------------------------------------------------------------------------------------------------------------------------
  TIME         FWCT         GWCT         GWCT         WWCT         WWCT         WWCT         WWCT         FGOR         GGOR         
  DAYS                                                                                                    MSCF/STB     MSCF/STB     
@@ -280,7 +280,7 @@
  100.0000     0.226262     0.015493     0.398079     0.000211     0.024440     0.142944     0.622709     1.130000     1.130000     
 1                                                                                                                                  
  -------------------------------------------------------------------------------------------------------------------------------
- SUMMARY OF RUN UDT_LC ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE alien                                                         
+ SUMMARY OF RUN UDT_LC ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE desktop-td27ru7                                               
  -------------------------------------------------------------------------------------------------------------------------------
  TIME         GGOR         WGOR         WGOR         WGOR         WGOR         FWGR         GWGR         GWGR         WWGR         
  DAYS         MSCF/STB     MSCF/STB     MSCF/STB     MSCF/STB     MSCF/STB     STB/MSCF     STB/MSCF     STB/MSCF     STB/MSCF     
@@ -300,7 +300,7 @@
  100.0000     1.130000     1.130000     1.130000     1.130000     1.130000     0.258785     0.013927     0.585264     0.000187     
 1                                                                                                                                  
  -------------------------------------------------------------------------------------------------------------------------------
- SUMMARY OF RUN UDT_LC ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE alien                                                         
+ SUMMARY OF RUN UDT_LC ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE desktop-td27ru7                                               
  -------------------------------------------------------------------------------------------------------------------------------
  TIME         WWGR         WWGR         WWGR         WBHP         WBHP         WBHP         WBHP         WTHP         WTHP         
  DAYS         STB/MSCF     STB/MSCF     STB/MSCF     PSIA         PSIA         PSIA         PSIA         PSIA         PSIA         
@@ -320,7 +320,7 @@
  100.0000     0.022170     0.147597     1.460596     3465.658     3437.999     3463.686     3502.310            0            0     
 1                                                                                                                                  
  -------------------------------------------------------------------------------------------------------------------------------
- SUMMARY OF RUN UDT_LC ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE alien                                                         
+ SUMMARY OF RUN UDT_LC ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE desktop-td27ru7                                               
  -------------------------------------------------------------------------------------------------------------------------------
  TIME         WTHP         WTHP         WPI          WPI          WPI          WPI          FOIP         FOIPL        FOIPG        
  DAYS         PSIA         PSIA                                                             STB          STB          STB          
@@ -341,7 +341,7 @@
  100.0000            0            0     116.4049     112.7172     95.51041     58.05532     2491227.     2491227.            0     
 1                                                                                                                                  
  -------------------------------------------------------------------------------------------------------------------------------
- SUMMARY OF RUN UDT_LC ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE alien                                                         
+ SUMMARY OF RUN UDT_LC ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE desktop-td27ru7                                               
  -------------------------------------------------------------------------------------------------------------------------------
  TIME         FWIP         FGIP         FGIPL        FGIPG        FPR                                                              
  DAYS         STB          MSCF         MSCF         MSCF         PSIA                                                             

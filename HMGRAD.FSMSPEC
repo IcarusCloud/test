@@ -1,0 +1,41 @@
+ 'RESTART '           9 'CHAR'
+ '        ' '        ' '        ' '        ' '        ' '        ' '        '
+ '        ' '        '
+ 'DIMENS  '           6 'INTE'
+          26          10          10           3           0          -1
+ 'KEYWORDS'          26 'CHAR'
+ 'TIME    ' 'YEARS   ' 'FOPR    ' 'WGOR    ' 'WBHP    ' 'BGSAT   ' 'BGSAT   '
+ 'BOSAT   ' 'BOSAT   ' 'BPR     ' 'BPR     ' 'BOVIS   ' 'BOVIS   ' 'BGVIS   '
+ 'BGVIS   ' 'BODEN   ' 'BODEN   ' 'BGDEN   ' 'BGDEN   ' 'FOVIS   ' 'FWVIS   '
+ 'FGVIS   ' 'ROVIS   ' 'ROVISXXX' 'ROVISXXX' 'ROVISXXX'
+ 'WGNAMES '          26 'CHAR'
+ ':+:+:+:+' ':+:+:+:+' 'FIELD   ' 'PRODUCER' 'PRODUCER' ':+:+:+:+' ':+:+:+:+'
+ ':+:+:+:+' ':+:+:+:+' ':+:+:+:+' ':+:+:+:+' ':+:+:+:+' ':+:+:+:+' ':+:+:+:+'
+ ':+:+:+:+' ':+:+:+:+' ':+:+:+:+' ':+:+:+:+' ':+:+:+:+' 'FIELD   ' 'FIELD   '
+ 'FIELD   ' ':+:+:+:+' ':+:+:+:+' ':+:+:+:+' ':+:+:+:+'
+ 'NUMS    '          26 'INTE'
+      -32767      -32767           0           0           0         300
+           1         300           1         300           1         300
+           1         300           1         300           1         300
+           1           0           0           0           1           1
+           2           3
+ 'UNITS   '          26 'CHAR'
+ '  DAYS  ' 'YEARS   ' ' STB/DAY' 'MSCF/STB' '  PSIA  ' '        ' '        '
+ '        ' '        ' '  PSIA  ' '  PSIA  ' ' CPOISE ' ' CPOISE ' ' CPOISE '
+ ' CPOISE ' ' LB/FT3 ' ' LB/FT3 ' ' LB/FT3 ' ' LB/FT3 ' ' CPOISE ' ' CPOISE '
+ ' CPOISE ' ' CPOISE ' ' CPOISE ' ' CPOISE ' ' CPOISE '
+ 'STARTDAT'           3 'INTE'
+          19          10        1982
+ 'RUNTIMEI'          50 'INTE'
+           2           0           7        2017           3          21
+          23          20          32        2017           3          21
+          23          20          32          13          11        1982
+           2          13           1           0           0           0
+           0           0           2           0           0           1
+           0           0           0           0           2           0
+           0           0           0           0           0           0
+           0           0           0           0           0           0
+           0           0
+ 'RUNTIMED'           5 'DOUB'
+   0.25000000000000D+02   0.50000000000000D+00   0.50000000000000D+00
+   0.00000000000000D+00   0.00000000000000D+00
