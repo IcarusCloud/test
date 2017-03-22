@@ -16,7 +16,7 @@
    4.29750E+03  4.29750E+03  0.00000E+00  1.00000E+00
 1                             **********************************************************************   3
   WELSPECS AT     0.00   DAYS * GAS-WATER TEST CASE                                                    * ECLIPSE  VERSION 2009.1     
-  REPORT   0     1 JAN 1983   *  RUN                                                                   * RUN AT 21:55 ON 22 MAR 2017 
+  REPORT   0     1 JAN 1983   *  RUN                                                                   * RUN AT 21:58 ON 22 MAR 2017 
                               **************************************************************************
 
    I                               
@@ -11081,7 +11081,7 @@
  @--MESSAGE  AT TIME     3000.0   DAYS    (20-MAR-1991):
  @           RESTART FILE WRITTEN   REPORT     2                             
  =======================================================
- TIMING REPORTS AT CPU=     0 SECS - ELAPSED=     1 SECS
+ TIMING REPORTS AT CPU=     0 SECS - ELAPSED=     0 SECS
  =======================================================
  ZZSS    1  0  0
                 RR      1  0  0
@@ -11103,7 +11103,7 @@
  @           TO WATER FLOW, TO MATCH THE INJECTED PHASE.                     
 1                             **********************************************************************  10
   WELSPECS AT  3000.00   DAYS * GAS-WATER TEST CASE                                                    * ECLIPSE  VERSION 2009.1     
-  REPORT   2    20 MAR 1991   *  RUN                                                                   * RUN AT 21:55 ON 22 MAR 2017 
+  REPORT   2    20 MAR 1991   *  RUN                                                                   * RUN AT 21:58 ON 22 MAR 2017 
                               **************************************************************************
 
    I                               
@@ -11754,7 +11754,7 @@
  @--MESSAGE  AT TIME     3010.0   DAYS    (30-MAR-1991):
  @           RESTART FILE WRITTEN   REPORT     3                             
  =======================================================
- TIMING REPORTS AT CPU=     0 SECS - ELAPSED=     1 SECS
+ TIMING REPORTS AT CPU=     0 SECS - ELAPSED=     0 SECS
  =======================================================
  ZZSS    1  0  0
                 RR      1  0  0
@@ -17342,7 +17342,7 @@
  @--MESSAGE  AT TIME     6000.0   DAYS    ( 6-JUN-1999):
  @           RESTART FILE WRITTEN   REPORT     4                             
  =======================================================
- TIMING REPORTS AT CPU=     0 SECS - ELAPSED=     1 SECS
+ TIMING REPORTS AT CPU=     1 SECS - ELAPSED=     1 SECS
  =======================================================
  ZZSS    1  0  0
                 RR      1  0  0
