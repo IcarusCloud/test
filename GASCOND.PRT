@@ -1426,12 +1426,12 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  @           RESTART FILE WRITTEN   REPORT     2                             
  @           RESTART INCLUDES FLUIDS IN PLACE                                
  =======================================================
- TIMING REPORTS AT CPU=     0 SECS - ELAPSED=     1 SECS
+ TIMING REPORTS AT CPU=     0 SECS - ELAPSED=     0 SECS
  =======================================================
  ZZSS    1  0  0
                 RR      1  0  0
  SR      1  0  0
- TS      2100100
+ TS      2  0  0
                 NX     10  0  0
                                WC     32  0  0
                                LMRS   32  0  0
@@ -1750,12 +1750,12 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  @           RESTART FILE WRITTEN   REPORT     3                             
  @           RESTART INCLUDES FLUIDS IN PLACE                                
  =======================================================
- TIMING REPORTS AT CPU=     0 SECS - ELAPSED=     1 SECS
+ TIMING REPORTS AT CPU=     0 SECS - ELAPSED=     0 SECS
  =======================================================
  ZZSS    1  0  0
                 RR      1  0  0
  SR      1  0  0
- TS      3100100
+ TS      3  0  0
                 NX     12  0  0
                                WC     41  0  0
                                LMRS   41  0  0
@@ -2074,12 +2074,12 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  @           RESTART FILE WRITTEN   REPORT     4                             
  @           RESTART INCLUDES FLUIDS IN PLACE                                
  =======================================================
- TIMING REPORTS AT CPU=     0 SECS - ELAPSED=     1 SECS
+ TIMING REPORTS AT CPU=     0 SECS - ELAPSED=     0 SECS
  =======================================================
  ZZSS    1  0  0
                 RR      1  0  0
  SR      1  0  0
- TS      4 79100
+ TS      4  0  0
                 NX     14  0  0
                                WC     50  0  0
                                LMRS   50  0  0
@@ -2113,4 +2113,4 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  Problems               0
  Errors                 0
  Bugs                   0
- Final cpu       0.09 elapsed       1.00
+ Final cpu       0.00 elapsed       0.00

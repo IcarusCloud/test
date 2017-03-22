@@ -17342,13 +17342,13 @@
  @--MESSAGE  AT TIME     6000.0   DAYS    ( 6-JUN-1999):
  @           RESTART FILE WRITTEN   REPORT     4                             
  =======================================================
- TIMING REPORTS AT CPU=     0 SECS - ELAPSED=     0 SECS
+ TIMING REPORTS AT CPU=     0 SECS - ELAPSED=     1 SECS
  =======================================================
  ZZSS    1  0  0
                 RR      1  0  0
  SR      1  0  0
  WCPC  552  0  0
- WCCM  980  0  0
+ WCCM  980  3  0
  WCXP  424  0  0
  WCP   857  0  0
  WCFC  553  0  0

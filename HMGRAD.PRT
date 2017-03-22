@@ -2983,13 +2983,13 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  @                            PHASE RESERVOIR DENSITIES                      
  @                            DATA REQUIRED TO RESTART THE GRADIENT OPTION   
  =======================================================
- TIMING REPORTS AT CPU=     0 SECS - ELAPSED=     1 SECS
+ TIMING REPORTS AT CPU=     0 SECS - ELAPSED=     0 SECS
  =======================================================
- ZZSS    1 50100
-                RR      1 50100
+ ZZSS    1  0  0
+                RR      1  0  0
  SR      1  0  0
- TS      1 24  0
-                NX      5 24  0
+ TS      1  0  0
+                NX      5  0  0
                                WC     17  0  0
                                LMRS   17  0  0
                                CONV   17  0  0
@@ -3009,7 +3009,7 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
                                                              UPDA   13  0  0
                                               WSOL   12  0  0
                                XUIT   12  0  0
-                               LC     17 24  0
+                               LC     17  0  0
                 GRAD    5  0  0
                                GUST    5  0  0
                                HMRG    5  0  0
@@ -3034,7 +3034,7 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  WWX     1  0  0
  FWXR    1  0  0
  XW      1  0  0
- YW      1 26  0
+ YW      1  0  0
 1                             **********************************************************************  56
   SIMULATE AT     4.00   DAYS *  GRADIENT OPTION TEST CASE                                             * ECLIPSE  VERSION 2009.1     
   REPORT   1    23 OCT 1982   *  RUN                                                                   * RUN AT 22:31 ON 22 MAR 2017 
@@ -3675,13 +3675,13 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  @                            PHASE RESERVOIR DENSITIES                      
  @                            DATA REQUIRED TO RESTART THE GRADIENT OPTION   
  =======================================================
- TIMING REPORTS AT CPU=     0 SECS - ELAPSED=     1 SECS
+ TIMING REPORTS AT CPU=     0 SECS - ELAPSED=     0 SECS
  =======================================================
- ZZSS    1 40100
-                RR      1 40100
+ ZZSS    1  0  0
+                RR      1  0  0
  SR      1  0  0
- TS      2 19  0
-                NX      7 19  0
+ TS      2  0  0
+                NX      7  0  0
                                WC     23  0  0
                                LMRS   23  0  0
                                CONV   23  0  0
@@ -3701,7 +3701,7 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
                                                              UPDA   20  0  0
                                               WSOL   16  0  0
                                XUIT   16  0  0
-                               LC     23 19  0
+                               LC     23  0  0
                 GRAD    7  0  0
                                GUST    7  0  0
                                HMRG    7  0  0
@@ -3726,7 +3726,7 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  WWX     2  0  0
  FWXR    2  0  0
  XW      2  0  0
- YW      2 41  0
+ YW      2  0  0
 1                             **********************************************************************  70
   SIMULATE AT     8.00   DAYS *  GRADIENT OPTION TEST CASE                                             * ECLIPSE  VERSION 2009.1     
   REPORT   2    27 OCT 1982   *  RUN                                                                   * RUN AT 22:31 ON 22 MAR 2017 
@@ -4367,13 +4367,13 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  @                            PHASE RESERVOIR DENSITIES                      
  @                            DATA REQUIRED TO RESTART THE GRADIENT OPTION   
  =======================================================
- TIMING REPORTS AT CPU=     0 SECS - ELAPSED=     1 SECS
+ TIMING REPORTS AT CPU=     0 SECS - ELAPSED=     0 SECS
  =======================================================
- ZZSS    1 33100
-                RR      1 33100
+ ZZSS    1  0  0
+                RR      1  0  0
  SR      1  0  0
- TS      3 16  0
-                NX      9 16  0
+ TS      3  0  0
+                NX      9  0  0
                                WC     29  0  0
                                LMRS   29  0  0
                                CONV   29  0  0
@@ -4393,7 +4393,7 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
                                                              UPDA   26  0  0
                                               WSOL   20  0  0
                                XUIT   20  0  0
-                               LC     29 16  0
+                               LC     29  0  0
                 GRAD    9  0  0
                                GUST    9  0  0
                                HMRG    9  0  0
@@ -4417,8 +4417,8 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
                                               GW      9  0  0
  WWX     3  0  0
  FWXR    3  0  0
- XW      3 16  0
- YW      3 34  0
+ XW      3  0  0
+ YW      3  0  0
 1                             **********************************************************************  84
   SIMULATE AT    12.00   DAYS *  GRADIENT OPTION TEST CASE                                             * ECLIPSE  VERSION 2009.1     
   REPORT   3    31 OCT 1982   *  RUN                                                                   * RUN AT 22:31 ON 22 MAR 2017 
@@ -5050,13 +5050,13 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  @                            PHASE RESERVOIR DENSITIES                      
  @                            DATA REQUIRED TO RESTART THE GRADIENT OPTION   
  =======================================================
- TIMING REPORTS AT CPU=     0 SECS - ELAPSED=     1 SECS
+ TIMING REPORTS AT CPU=     0 SECS - ELAPSED=     0 SECS
  =======================================================
- ZZSS    1 28100
-                RR      1 28100
+ ZZSS    1  0  0
+                RR      1  0  0
  SR      1  0  0
- TS      4 14  0
-                NX     10 14  0
+ TS      4  0  0
+                NX     10  0  0
                                WC     34  0  0
                                LMRS   34  0  0
                                CONV   34  0  0
@@ -5076,7 +5076,7 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
                                                              UPDA   36  0  0
                                               WSOL   24  0  0
                                XUIT   24  0  0
-                               LC     34 14  0
+                               LC     34  0  0
                 GRAD   10  0  0
                                GUST   10  0  0
                                HMRG   10  0  0
@@ -5100,8 +5100,8 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
                                               GW     10  0  0
  WWX     4  0  0
  FWXR    4  0  0
- XW      4 14  0
- YW      4 44  0
+ XW      4  0  0
+ YW      4  0  0
 1                             **********************************************************************  98
   SIMULATE AT    16.00   DAYS *  GRADIENT OPTION TEST CASE                                             * ECLIPSE  VERSION 2009.1     
   REPORT   4     4 NOV 1982   *  RUN                                                                   * RUN AT 22:31 ON 22 MAR 2017 
@@ -5748,13 +5748,13 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  @                            PHASE RESERVOIR DENSITIES                      
  @                            DATA REQUIRED TO RESTART THE GRADIENT OPTION   
  =======================================================
- TIMING REPORTS AT CPU=     0 SECS - ELAPSED=     1 SECS
+ TIMING REPORTS AT CPU=     0 SECS - ELAPSED=     0 SECS
  =======================================================
- ZZSS    1 25100
-                RR      1 25100
+ ZZSS    1  0  0
+                RR      1  0  0
  SR      1  0  0
- TS      5 12  0
-                NX     12 12  0
+ TS      5  0  0
+                NX     12  0  0
                                WC     41  0  0
                                LMRS   41  0  0
                                CONV   41  0  0
@@ -5774,7 +5774,7 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
                                                              UPDA   45  0  0
                                               WSOL   29  0  0
                                XUIT   29  0  0
-                               LC     41 12  0
+                               LC     41  0  0
                 GRAD   12  0  0
                                GUST   12  0  0
                                HMRG   12  0  0
@@ -5798,8 +5798,8 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
                                               GW     12  0  0
  WWX     5  0  0
  FWXR    5  0  0
- XW      5 12  0
- YW      5 51  0
+ XW      5  0  0
+ YW      5  0  0
 1                             ********************************************************************** 112
   SIMULATE AT    20.00   DAYS *  GRADIENT OPTION TEST CASE                                             * ECLIPSE  VERSION 2009.1     
   REPORT   5     8 NOV 1982   *  RUN                                                                   * RUN AT 22:31 ON 22 MAR 2017 
@@ -6419,13 +6419,13 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  @                            PHASE RESERVOIR DENSITIES                      
  @                            DATA REQUIRED TO RESTART THE GRADIENT OPTION   
  =======================================================
- TIMING REPORTS AT CPU=     0 SECS - ELAPSED=     1 SECS
+ TIMING REPORTS AT CPU=     0 SECS - ELAPSED=     0 SECS
  =======================================================
- ZZSS    1 22100
-                RR      1 22100
+ ZZSS    1  0  0
+                RR      1  0  0
  SR      1  0  0
- TS      6 11  0
-                NX     13 11  0
+ TS      6  0  0
+                NX     13  0  0
                                WC     44  0  0
                                LMRS   44  0  0
                                CONV   44  0  0
@@ -6445,7 +6445,7 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
                                                              UPDA   50  0  0
                                               WSOL   31  0  0
                                XUIT   31  0  0
-                               LC     44 11  0
+                               LC     44  0  0
                 GRAD   13  0  0
                                GUST   13  0  0
                                HMRG   13  0  0
@@ -6469,8 +6469,8 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
                                               GW     13  0  0
  WWX     6  0  0
  FWXR    6  0  0
- XW      6 11  0
- YW      6 56  0
+ XW      6  0  0
+ YW      6  0  0
 1                             ********************************************************************** 126
   SIMULATE AT    24.00   DAYS *  GRADIENT OPTION TEST CASE                                             * ECLIPSE  VERSION 2009.1     
   REPORT   6    12 NOV 1982   *  RUN                                                                   * RUN AT 22:31 ON 22 MAR 2017 
@@ -7090,13 +7090,13 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  @                            PHASE RESERVOIR DENSITIES                      
  @                            DATA REQUIRED TO RESTART THE GRADIENT OPTION   
  =======================================================
- TIMING REPORTS AT CPU=     0 SECS - ELAPSED=     1 SECS
+ TIMING REPORTS AT CPU=     0 SECS - ELAPSED=     0 SECS
  =======================================================
- ZZSS    1 20100
-                RR      1 20100
+ ZZSS    1  0  0
+                RR      1  0  0
  SR      1  0  0
- TS      7 10  0
-                NX     14 10  0
+ TS      7  0  0
+                NX     14  0  0
                                WC     47  0  0
                                LMRS   47  0  0
                                CONV   47  0  0
@@ -7116,7 +7116,7 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
                                                              UPDA   53  0  0
                                               WSOL   33  0  0
                                XUIT   33  0  0
-                               LC     47 10  0
+                               LC     47  0  0
                 GRAD   14  0  0
                                GUST   14  0  0
                                HMRG   14  0  0
@@ -7140,8 +7140,8 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
                                               GW     14  0  0
  WWX     7  0  0
  FWXR    7  0  0
- XW      7 10  0
- YW      7 61  0
+ XW      7  0  0
+ YW      7  0  0
     80 READING END     
 
  Error summary 
@@ -7150,4 +7150,4 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  Problems               0
  Errors                 0
  Bugs                   0
- Final cpu       0.16 elapsed       1.00
+ Final cpu       0.00 elapsed       0.00

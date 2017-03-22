@@ -1800,12 +1800,12 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
    129 READING RUNSUM  
    130 READING SCHEDULE
  =======================================================
- TIMING REPORTS AT CPU=     0 SECS - ELAPSED=     1 SECS
+ TIMING REPORTS AT CPU=     0 SECS - ELAPSED=     0 SECS
  =======================================================
- ZZSS    1 66100
-                RR      1 66100
- SR      1 34  0
-                LC      1 11  0
+ ZZSS    1  0  0
+                RR      1  0  0
+ SR      1  0  0
+                LC      1  0  0
                 LCNS    1  0  0
                                LCNI    1  0  0
                                               LCNN    1  0  0
@@ -3491,10 +3491,10 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  =======================================================
  TIMING REPORTS AT CPU=     0 SECS - ELAPSED=     1 SECS
  =======================================================
- ZZSS    1 20100
-                RR      1 20100
- SR      1 10  0
-                LC      1  3  0
+ ZZSS    1  0  0
+                RR      1  0  0
+ SR      1  0  0
+                LC      1  0  0
                 LCNS    1  0  0
                                LCNI    1  0  0
                                               LCNN    1  0  0
@@ -3503,14 +3503,14 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
                                                              LCNW    1  0  0
                                                              LCNO    1  0  0
                                LCNC    1  0  0
- YW      2  7  0
- TS      1 63  0
-                NX     12 47  0
-                               WC     57  0  0
-                               AC     57  3  0
-                               LMRS   57  0  0
+ YW      2  3  0
+ TS      1 94100
+                NX     12 87100
+                               WC     57  3  0
+                               AC     57  0  0
+                               LMRS   57  3  0
                                CONV   57  0  0
-                               LMJC   45  3  0
+                               LMJC   45  0  0
                                LXX    45 10  0
                                               WGIN   45  0  0
                                               RGIN   45  0  0
@@ -3518,15 +3518,15 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
                                                              GINV   57  3  0
                                               WRES   45  0  0
                                               RRES   45  0  0
-                                              ITER   45  7  0
+                                              ITER   45  3  0
                                                              NORM  204  0  0
-                                                             SRCH  159  7  0
+                                                             SRCH  159  0  0
                                                              WADX  318  0  0
-                                                             ORTH  159  0  0
+                                                             ORTH  159  3  0
                                                              UPDA  159  0  0
                                               WSOL   45  0  0
-                               XUIT   45 13  0
-                               LC     45 17  0
+                               XUIT   45  0  0
+                               LC     45 71100
                                LCNS   45  0  0
                                               LCNI   45  0  0
                                                              LCNN   45  0  0
@@ -3535,25 +3535,25 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
                                                                             LCNW   45  0  0
                                                                             LCNO   45  0  0
                                               LCNC   45  0  0
-                TTRC   12  7  0
+                TTRC   12  0  0
                                TPRP   12  0  0
-                               TSOL   36  7  0
-                                              TMAT   48  3  0
-                                              TLIN   12  3  0
+                               TSOL   36  0  0
+                                              TMAT   48  0  0
+                                              TLIN   12  0  0
                                                              WGIN   12  0  0
                                                              RGIN   12  0  0
                                                                             GINV   12  0  0
                                                              WRES   12  0  0
                                                              RRES   12  0  0
-                                                             ITER   12  3  0
+                                                             ITER   12  0  0
                                                                             NORM   25  0  0
-                                                                            SRCH   13  3  0
+                                                                            SRCH   13  0  0
                                                                             WADX   26  0  0
                                                                             ORTH   13  0  0
                                                                             UPDA   13  0  0
                                                              WSOL   12  0  0
                 API    12  0  0
- WWX     1  0  0
+ WWX     1  3  0
  FWXR    1  0  0
  XW      1  0  0
    157 READING GECON   
@@ -4506,10 +4506,10 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  =======================================================
  TIMING REPORTS AT CPU=     1 SECS - ELAPSED=     1 SECS
  =======================================================
- ZZSS    1 14100
-                RR      1 14100
- SR      1  7  0
-                LC      1  2  0
+ ZZSS    1  0  0
+                RR      1  0  0
+ SR      1  0  0
+                LC      1  0  0
                 LCNS    1  0  0
                                LCNI    1  0  0
                                               LCNN    1  0  0
@@ -4518,57 +4518,57 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
                                                              LCNW    1  0  0
                                                              LCNO    1  0  0
                                LCNC    1  0  0
- YW      3  7  0
- TS      2 71  0
-                NX     15 50  0
-                               WC     77  0  0
-                               AC     77  2  0
-                               LMRS   77  0  0
+ YW      3  5  0
+ TS      2 92100
+                NX     15 85100
+                               WC     77  3  0
+                               AC     77  3  0
+                               LMRS   77  5  0
                                CONV   77  0  0
-                               LMJC   62  2  0
+                               LMJC   62  3  0
                                LXX    62 12  0
                                               WGIN   62  0  0
                                               RGIN   62  0  0
-                                              GINV   62  5  0
+                                              GINV   62  7  0
                                                              GINV   77  7  0
                                               WRES   62  0  0
                                               RRES   62  0  0
-                                              ITER   62  7  0
+                                              ITER   62  3  0
                                                              NORM  328  0  0
-                                                             SRCH  266  7  0
+                                                             SRCH  266  0  0
                                                              WADX  532  0  0
-                                                             ORTH  266  0  0
+                                                             ORTH  266  3  0
                                                              UPDA  266  0  0
                                               WSOL   62  0  0
-                               XUIT   62  9  0
-                               LC     62 21  0
-                               LCNS   62  2  0
-                                              LCNI   62  2  0
-                                                             LCNN   62  2  0
+                               XUIT   62  0  0
+                               LC     62 60100
+                               LCNS   62  0  0
+                                              LCNI   62  0  0
+                                                             LCNN   62  0  0
                                                                             LCNT   62  0  0
                                                                             LCNG   62  0  0
                                                                             LCNW   62  0  0
-                                                                            LCNO   62  2  0
+                                                                            LCNO   62  0  0
                                               LCNC   62  0  0
-                TTRC   15 10  0
-                               TPRP   15  2  0
-                               TSOL   45  7  0
-                                              TMAT   60  2  0
-                                              TLIN   15  5  0
+                TTRC   15  0  0
+                               TPRP   15  0  0
+                               TSOL   45  0  0
+                                              TMAT   60  0  0
+                                              TLIN   15  0  0
                                                              WGIN   15  0  0
                                                              RGIN   15  0  0
-                                                                            GINV   15  2  0
+                                                                            GINV   15  0  0
                                                              WRES   15  0  0
                                                              RRES   15  0  0
-                                                             ITER   15  2  0
+                                                             ITER   15  0  0
                                                                             NORM   33  0  0
-                                                                            SRCH   18  2  0
+                                                                            SRCH   18  0  0
                                                                             WADX   36  0  0
                                                                             ORTH   18  0  0
                                                                             UPDA   18  0  0
                                                              WSOL   15  0  0
                 API    15  0  0
- WWX     2  0  0
+ WWX     2  2  0
  FWXR    2  0  0
  XW      2  0  0
 1                             **********************************************************************  30
@@ -5618,12 +5618,12 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  @           RESTART FILE WRITTEN   REPORT     3                             
  @           RESTART INCLUDES FLUIDS IN PLACE                                
  =======================================================
- TIMING REPORTS AT CPU=     1 SECS - ELAPSED=     2 SECS
+ TIMING REPORTS AT CPU=     1 SECS - ELAPSED=     1 SECS
  =======================================================
- ZZSS    1 11 50
-                RR      1 11 50
- SR      1  6  0
-                LC      1  2  0
+ ZZSS    1  0  0
+                RR      1  0  0
+ SR      1  0  0
+                LC      1  0  0
                 LCNS    1  0  0
                                LCNI    1  0  0
                                               LCNN    1  0  0
@@ -5632,58 +5632,58 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
                                                              LCNW    1  0  0
                                                              LCNO    1  0  0
                                LCNC    1  0  0
- YW      4  7  0
- TS      3 76 50
-                NX     19 56 50
-                               WC    101  0  0
+ YW      4  6  0
+ TS      3 91100
+                NX     19 83100
+                               WC    101  2  0
                                AC    101  2  0
-                               LMRS  101  0  0
-                               CONV  101  2  0
+                               LMRS  101  4  0
+                               CONV  101  0  0
                                LMJC   82  2  0
                                LXX    82 20  0
                                               WGIN   82  0  0
                                               RGIN   82  0  0
-                                              GINV   82  7  0
-                                                             GINV  101 11  0
+                                              GINV   82  5  0
+                                                             GINV  101  5  0
                                               WRES   82  0  0
                                               RRES   82  0  0
                                               ITER   82 13  0
                                                              NORM  530  0  0
-                                                             SRCH  448  9  0
-                                                             WADX  896  2  0
-                                                             ORTH  448  2  0
-                                                             UPDA  448  0  0
+                                                             SRCH  448  7  0
+                                                             WADX  896  0  0
+                                                             ORTH  448  4  0
+                                                             UPDA  448  2  0
                                               WSOL   82  0  0
-                               XUIT   82  7 50
-                               LC     82 21  0
-                               LCNS   82  2  0
-                                              LCNI   82  2  0
-                                                             LCNN   82  2  0
+                               XUIT   82  4  0
+                               LC     82 50100
+                               LCNS   82  0  0
+                                              LCNI   82  0  0
+                                                             LCNN   82  0  0
                                                                             LCNT   82  0  0
                                                                             LCNG   82  0  0
                                                                             LCNW   82  0  0
-                                                                            LCNO   82  2  0
+                                                                            LCNO   82  0  0
                                               LCNC   82  0  0
-                TTRC   19  9  0
-                               TPRP   19  2  0
-                               TSOL   57  7  0
-                                              TMAT   76  2  0
-                                              TLIN   19  6  0
+                TTRC   19  0  0
+                               TPRP   19  0  0
+                               TSOL   57  0  0
+                                              TMAT   76  0  0
+                                              TLIN   19  0  0
                                                              WGIN   19  0  0
                                                              RGIN   19  0  0
-                                                                            GINV   19  4  0
+                                                                            GINV   19  0  0
                                                              WRES   19  0  0
                                                              RRES   19  0  0
-                                                             ITER   19  2  0
+                                                             ITER   19  0  0
                                                                             NORM   42  0  0
-                                                                            SRCH   23  2  0
+                                                                            SRCH   23  0  0
                                                                             WADX   46  0  0
                                                                             ORTH   23  0  0
                                                                             UPDA   23  0  0
                                                              WSOL   19  0  0
                 API    19  0  0
- WWX     3  0  0
- FWXR    3  0  0
+ WWX     3  2  0
+ FWXR    3  2  0
  XW      3  0  0
 1                             **********************************************************************  34
   SIMULATE AT  1095.00   DAYS *ECLIPSE TEST MODEL                                                      * ECLIPSE  VERSION 2009.1     
@@ -6676,10 +6676,10 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  =======================================================
  TIMING REPORTS AT CPU=     1 SECS - ELAPSED=     2 SECS
  =======================================================
- ZZSS    1  8 50
-                RR      1  8 50
- SR      1  4  0
-                LC      1  1  0
+ ZZSS    1  0  0
+                RR      1  0  0
+ SR      1  0  0
+                LC      1  0  0
                 LCNS    1  0  0
                                LCNI    1  0  0
                                               LCNN    1  0  0
@@ -6688,58 +6688,58 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
                                                              LCNW    1  0  0
                                                              LCNO    1  0  0
                                LCNC    1  0  0
- YW      5  8  0
- TS      4 78 50
-                NX     25 61 50
+ YW      5  7  0
+ TS      4 90100
+                NX     25 77 50
                                WC    137  4  0
                                AC    137  1  0
-                               LMRS  137  1  0
-                               CONV  137  1  0
-                               LMJC  112  3  0
-                               LXX   112 23  0
+                               LMRS  137  3  0
+                               CONV  137  0  0
+                               LMJC  112  1  0
+                               LXX   112 25  0
                                               WGIN  112  0  0
                                               RGIN  112  0  0
-                                              GINV  112  7  0
-                                                             GINV  137 10  0
+                                              GINV  112  5  0
+                                                             GINV  137  5  0
                                               WRES  112  0  0
                                               RRES  112  0  0
-                                              ITER  112 16  0
-                                                             NORM  790  0  0
-                                                             SRCH  678 11  0
-                                                             WADX 1356  1  0
-                                                             ORTH  678  1  0
-                                                             UPDA  678  0  0
+                                              ITER  112 18  0
+                                                             NORM  790  1  0
+                                                             SRCH  678 12  0
+                                                             WADX 1356  0  0
+                                                             ORTH  678  3  0
+                                                             UPDA  678  1  0
                                               WSOL  112  0  0
-                               XUIT  112  6 50
-                               LC    112 20  0
-                               LCNS  112  1  0
-                                              LCNI  112  1  0
-                                                             LCNN  112  1  0
+                               XUIT  112  4  0
+                               LC    112 38 50
+                               LCNS  112  0  0
+                                              LCNI  112  0  0
+                                                             LCNN  112  0  0
                                                                             LCNT  112  0  0
                                                                             LCNG  112  0  0
                                                                             LCNW  112  0  0
-                                                                            LCNO  112  1  0
+                                                                            LCNO  112  0  0
                                               LCNC  112  0  0
-                TTRC   25  7  0
-                               TPRP   25  1  0
-                               TSOL   75  6  0
-                                              TMAT  100  1  0
-                                              TLIN   25  4  0
+                TTRC   25  0  0
+                               TPRP   25  0  0
+                               TSOL   75  0  0
+                                              TMAT  100  0  0
+                                              TLIN   25  0  0
                                                              WGIN   25  0  0
                                                              RGIN   25  0  0
-                                                                            GINV   25  3  0
+                                                                            GINV   25  0  0
                                                              WRES   25  0  0
                                                              RRES   25  0  0
-                                                             ITER   25  1  0
+                                                             ITER   25  0  0
                                                                             NORM   57  0  0
-                                                                            SRCH   32  1  0
+                                                                            SRCH   32  0  0
                                                                             WADX   64  0  0
                                                                             ORTH   32  0  0
                                                                             UPDA   32  0  0
                                                              WSOL   25  0  0
                 API    25  0  0
- WWX     4  0  0
- FWXR    4  0  0
+ WWX     4  1  0
+ FWXR    4  1  0
  XW      4  0  0
 1                             **********************************************************************  38
   SIMULATE AT  1460.00   DAYS *ECLIPSE TEST MODEL                                                      * ECLIPSE  VERSION 2009.1     
@@ -7712,10 +7712,10 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  =======================================================
  TIMING REPORTS AT CPU=     1 SECS - ELAPSED=     2 SECS
  =======================================================
- ZZSS    1  7 50
-                RR      1  7 50
- SR      1  4  0
-                LC      1  1  0
+ ZZSS    1  0  0
+                RR      1  0  0
+ SR      1  0  0
+                LC      1  0  0
                 LCNS    1  0  0
                                LCNI    1  0  0
                                               LCNN    1  0  0
@@ -7724,58 +7724,58 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
                                                              LCNW    1  0  0
                                                              LCNO    1  0  0
                                LCNC    1  0  0
- YW      6  8  0
- TS      5 79 50
-                NX     30 64 50
+ YW      6  7  0
+ TS      5 91100
+                NX     30 77 50
                                WC    166  5  0
                                AC    166  1  0
-                               LMRS  166  1  0
+                               LMRS  166  2  0
                                CONV  166  1  0
-                               LMJC  136  2  0
-                               LXX   136 25  0
-                                              WGIN  136  0  0
+                               LMJC  136  1  0
+                               LXX   136 24  0
+                                              WGIN  136  1  0
                                               RGIN  136  0  0
-                                              GINV  136  7  0
-                                                             GINV  166 10  0
+                                              GINV  136  6  0
+                                                             GINV  166  6  0
                                               WRES  136  0  0
                                               RRES  136  0  0
-                                              ITER  136 18  0
-                                                             NORM  958  0  0
-                                                             SRCH  822 13  0
-                                                             WADX 1644  1  0
+                                              ITER  136 15  0
+                                                             NORM  958  1  0
+                                                             SRCH  822 10  0
+                                                             WADX 1644  0  0
                                                              ORTH  822  2  0
-                                                             UPDA  822  0  0
+                                                             UPDA  822  1  0
                                               WSOL  136  0  0
-                               XUIT  136  6 50
-                               LC    136 20  0
-                               LCNS  136  2  0
-                                              LCNI  136  2  0
+                               XUIT  136  5  0
+                               LC    136 36 50
+                               LCNS  136  1  0
+                                              LCNI  136  1  0
                                                              LCNN  136  1  0
                                                                             LCNT  136  0  0
                                                                             LCNG  136  0  0
-                                                                            LCNW  136  0  0
-                                                                            LCNO  136  1  0
+                                                                            LCNW  136  1  0
+                                                                            LCNO  136  0  0
                                               LCNC  136  0  0
-                TTRC   30  6  0
-                               TPRP   30  1  0
-                               TSOL   90  5  0
-                                              TMAT  120  1  0
-                                              TLIN   30  4  0
+                TTRC   30  2  0
+                               TPRP   30  0  0
+                               TSOL   90  2  0
+                                              TMAT  120  2  0
+                                              TLIN   30  0  0
                                                              WGIN   30  0  0
                                                              RGIN   30  0  0
-                                                                            GINV   30  2  0
+                                                                            GINV   30  0  0
                                                              WRES   30  0  0
                                                              RRES   30  0  0
-                                                             ITER   30  1  0
+                                                             ITER   30  0  0
                                                                             NORM   71  0  0
-                                                                            SRCH   41  1  0
+                                                                            SRCH   41  0  0
                                                                             WADX   82  0  0
                                                                             ORTH   41  0  0
                                                                             UPDA   41  0  0
                                                              WSOL   30  0  0
                 API    30  0  0
- WWX     5  0  0
- FWXR    5  0  0
+ WWX     5  1  0
+ FWXR    5  1  0
  XW      5  0  0
 1                             **********************************************************************  42
   SIMULATE AT  1825.00   DAYS *ECLIPSE TEST MODEL                                                      * ECLIPSE  VERSION 2009.1     
@@ -8958,10 +8958,10 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  =======================================================
  TIMING REPORTS AT CPU=     2 SECS - ELAPSED=     3 SECS
  =======================================================
- ZZSS    1  4 33
-                RR      1  4 33
- SR      1  2  0
-                LC      3  1  0
+ ZZSS    1  0  0
+                RR      1  0  0
+ SR      1  0  0
+                LC      3  0  0
                 LCNS    3  0  0
                                LCNI    3  0  0
                                               LCNN    3  0  0
@@ -8970,46 +8970,46 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
                                                              LCNW    3  0  0
                                                              LCNO    3  0  0
                                LCNC    3  0  0
- YW      7  6  0
- TS      6 85 67
-                NX     49 72 67
-                               WC    301  5  0
+ YW      7  5  0
+ TS      6 94100
+                NX     49 80 67
+                               WC    301  6 33
                                AC    301  1  0
                                LMRS  301  2  0
                                CONV  301  1  0
-                               LMJC  252  3  0
-                               LXX   252 28 33
-                                              WGIN  252  0  0
+                               LMJC  252  1  0
+                               LXX   252 26  0
+                                              WGIN  252  1  0
                                               RGIN  252  0  0
-                                              GINV  252  8 33
-                                                             GINV  299 10 33
+                                              GINV  252  8  0
+                                                             GINV  299  8  0
                                               WRES  252  0  0
                                               RRES  252  0  0
-                                              ITER  252 19  0
+                                              ITER  252 16  0
                                                              NORM 1580  1  0
-                                                             SRCH 1328 14  0
-                                                             WADX 2656  1  0
+                                                             SRCH 1328 11  0
+                                                             WADX 2656  0  0
                                                              ORTH 1328  2  0
-                                                             UPDA 1328  0  0
-                                              WSOL  252  1  0
-                               XUIT  252  7 33
-                               LC    252 23  0
+                                                             UPDA 1328  1  0
+                                              WSOL  252  0  0
+                               XUIT  252  6  0
+                               LC    252 34 33
                                LCNS  252  2  0
                                               LCNI  252  2  0
-                                                             LCNN  252  1  0
+                                                             LCNN  252  2  0
                                                                             LCNT  252  0  0
-                                                                            LCNG  252  0  0
+                                                                            LCNG  252  1  0
                                                                             LCNW  252  1  0
-                                                                            LCNO  252  1  0
+                                                                            LCNO  252  0  0
                                               LCNC  252  0  0
-                TTRC   47  5  0
-                               TPRP   47  1  0
+                TTRC   47  4  0
+                               TPRP   47  0  0
                                TSOL  141  4  0
-                                              TMAT  188  1  0
-                                              TLIN   47  3  0
+                                              TMAT  188  3  0
+                                              TLIN   47  1  0
                                                              WGIN   47  0  0
                                                              RGIN   47  0  0
-                                                                            GINV   47  2  0
+                                                                            GINV   47  0  0
                                                              WRES   47  0  0
                                                              RRES   47  0  0
                                                              ITER   47  1  0
@@ -9020,7 +9020,7 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
                                                                             UPDA   60  0  0
                                                              WSOL   47  0  0
                 API    47  0  0
- WWX     6  0  0
+ WWX     6  1  0
  FWXR    6  1  0
  XW      6  0  0
 1                             **********************************************************************  46
@@ -9915,10 +9915,10 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  =======================================================
  TIMING REPORTS AT CPU=     2 SECS - ELAPSED=     3 SECS
  =======================================================
- ZZSS    1  4 33
-                RR      1  4 33
- SR      1  2  0
-                LC      3  1  0
+ ZZSS    1  0  0
+                RR      1  0  0
+ SR      1  0  0
+                LC      3  0  0
                 LCNS    3  0  0
                                LCNI    3  0  0
                                               LCNN    3  0  0
@@ -9928,45 +9928,45 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
                                                              LCNO    3  0  0
                                LCNC    3  0  0
  YW      8  6  0
- TS      7 86 67
-                NX     56 72 67
-                               WC    334  6  0
+ TS      7 93100
+                NX     56 81 67
+                               WC    334  7 33
                                AC    334  1  0
-                               LMRS  334  1  0
+                               LMRS  334  2  0
                                CONV  334  1  0
-                               LMJC  278  3  0
-                               LXX   278 27 33
-                                              WGIN  278  0  0
+                               LMJC  278  1  0
+                               LXX   278 28  0
+                                              WGIN  278  1  0
                                               RGIN  278  0  0
-                                              GINV  278  7 33
-                                                             GINV  332  9 33
+                                              GINV  278  7  0
+                                                             GINV  332  7  0
                                               WRES  278  0  0
                                               RRES  278  0  0
-                                              ITER  278 20  0
+                                              ITER  278 19  0
                                                              NORM 1728  1  0
-                                                             SRCH 1450 14  0
-                                                             WADX 2900  1  0
-                                                             ORTH 1450  3  0
-                                                             UPDA 1450  1  0
-                                              WSOL  278  1  0
-                               XUIT  278  7 33
-                               LC    278 24  0
-                               LCNS  278  2  0
-                                              LCNI  278  2  0
-                                                             LCNN  278  1  0
+                                                             SRCH 1450 13  0
+                                                             WADX 2900  0  0
+                                                             ORTH 1450  2  0
+                                                             UPDA 1450  2  0
+                                              WSOL  278  0  0
+                               XUIT  278  7  0
+                               LC    278 32 33
+                               LCNS  278  3  0
+                                              LCNI  278  3  0
+                                                             LCNN  278  3  0
                                                                             LCNT  278  0  0
-                                                                            LCNG  278  0  0
-                                                                            LCNW  278  1  0
-                                                                            LCNO  278  1  0
+                                                                            LCNG  278  1  0
+                                                                            LCNW  278  2  0
+                                                                            LCNO  278  0  0
                                               LCNC  278  0  0
-                TTRC   54  5  0
-                               TPRP   54  1  0
+                TTRC   54  4  0
+                               TPRP   54  0  0
                                TSOL  162  4  0
-                                              TMAT  216  1  0
-                                              TLIN   54  3  0
+                                              TMAT  216  3  0
+                                              TLIN   54  1  0
                                                              WGIN   54  0  0
                                                              RGIN   54  0  0
-                                                                            GINV   54  2  0
+                                                                            GINV   54  0  0
                                                              WRES   54  0  0
                                                              RRES   54  0  0
                                                              ITER   54  1  0
@@ -9977,7 +9977,7 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
                                                                             UPDA   70  0  0
                                                              WSOL   54  0  0
                 API    54  0  0
- WWX     7  0  0
+ WWX     7  1  0
  FWXR    7  1  0
  XW      7  0  0
 1                             **********************************************************************  50
@@ -10896,12 +10896,12 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  @           RESTART FILE WRITTEN   REPORT     8                             
  @           RESTART INCLUDES FLUIDS IN PLACE                                
  =======================================================
- TIMING REPORTS AT CPU=     2 SECS - ELAPSED=     3 SECS
+ TIMING REPORTS AT CPU=     3 SECS - ELAPSED=     3 SECS
  =======================================================
- ZZSS    1  4 33
-                RR      1  4 33
- SR      1  2  0
-                LC      3  1  0
+ ZZSS    1  0  0
+                RR      1  0  0
+ SR      1  0  0
+                LC      3  0  0
                 LCNS    3  0  0
                                LCNI    3  0  0
                                               LCNN    3  0  0
@@ -10910,46 +10910,46 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
                                                              LCNW    3  0  0
                                                              LCNO    3  0  0
                                LCNC    3  0  0
- YW      9  6  0
- TS      8 86 67
-                NX     60 73 67
-                               WC    356  6  0
+ YW      9  7  0
+ TS      8 92100
+                NX     60 80 67
+                               WC    356  6 33
                                AC    356  1  0
-                               LMRS  356  1  0
+                               LMRS  356  2  0
                                CONV  356  1  0
-                               LMJC  296  3  0
-                               LXX   296 27 33
-                                              WGIN  296  0  0
+                               LMJC  296  1  0
+                               LXX   296 28  0
+                                              WGIN  296  1  0
                                               RGIN  296  0  0
-                                              GINV  296  6 33
-                                                             GINV  354  8 33
+                                              GINV  296  7  0
+                                                             GINV  354  7  0
                                               WRES  296  0  0
                                               RRES  296  0  0
                                               ITER  296 20  0
                                                              NORM 1832  1  0
-                                                             SRCH 1536 14  0
+                                                             SRCH 1536 12  0
                                                              WADX 3072  1  0
                                                              ORTH 1536  3  0
-                                                             UPDA 1536  1  0
-                                              WSOL  296  1  0
-                               XUIT  296  7 33
-                               LC    296 25  0
-                               LCNS  296  2  0
-                                              LCNI  296  2  0
-                                                             LCNN  296  1  0
+                                                             UPDA 1536  2  0
+                                              WSOL  296  0  0
+                               XUIT  296  6  0
+                               LC    296 31 33
+                               LCNS  296  4  0
+                                              LCNI  296  4  0
+                                                             LCNN  296  3  0
                                                                             LCNT  296  0  0
-                                                                            LCNG  296  0  0
-                                                                            LCNW  296  1  0
+                                                                            LCNG  296  1  0
+                                                                            LCNW  296  2  0
                                                                             LCNO  296  1  0
                                               LCNC  296  0  0
-                TTRC   58  5  0
-                               TPRP   58  1  0
+                TTRC   58  4  0
+                               TPRP   58  0  0
                                TSOL  174  4  0
-                                              TMAT  232  1  0
-                                              TLIN   58  3  0
+                                              TMAT  232  3  0
+                                              TLIN   58  1  0
                                                              WGIN   58  0  0
                                                              RGIN   58  0  0
-                                                                            GINV   58  2  0
+                                                                            GINV   58  0  0
                                                              WRES   58  0  0
                                                              RRES   58  0  0
                                                              ITER   58  1  0
@@ -10960,7 +10960,7 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
                                                                             UPDA   78  0  0
                                                              WSOL   58  0  0
                 API    58  0  0
- WWX     8  0  0
+ WWX     8  1  0
  FWXR    8  1  0
  XW      8  0  0
 1                             **********************************************************************  54
@@ -11872,12 +11872,12 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  @           RESTART FILE WRITTEN   REPORT     9                             
  @           RESTART INCLUDES FLUIDS IN PLACE                                
  =======================================================
- TIMING REPORTS AT CPU=     3 SECS - ELAPSED=     4 SECS
+ TIMING REPORTS AT CPU=     3 SECS - ELAPSED=     3 SECS
  =======================================================
- ZZSS    1  4 25
-                RR      1  4 25
- SR      1  2  0
-                LC      3  1  0
+ ZZSS    1  0  0
+                RR      1  0  0
+ SR      1  0  0
+                LC      3  0  0
                 LCNS    3  0  0
                                LCNI    3  0  0
                                               LCNN    3  0  0
@@ -11887,45 +11887,45 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
                                                              LCNO    3  0  0
                                LCNC    3  0  0
  YW     10  7  0
- TS      9 86 75
-                NX     64 73 75
-                               WC    377  5  0
+ TS      9 91100
+                NX     64 80 67
+                               WC    377  7 33
                                AC    377  1  0
-                               LMRS  377  1  0
+                               LMRS  377  2  0
                                CONV  377  1  0
-                               LMJC  313  2  0
-                               LXX   313 28 25
-                                              WGIN  313  0  0
+                               LMJC  313  1  0
+                               LXX   313 27  0
+                                              WGIN  313  1  0
                                               RGIN  313  0  0
-                                              GINV  313  7 25
-                                                             GINV  375  9 25
+                                              GINV  313  6  0
+                                                             GINV  375  6  0
                                               WRES  313  0  0
                                               RRES  313  0  0
-                                              ITER  313 20  0
+                                              ITER  313 19  0
                                                              NORM 1929  1  0
-                                                             SRCH 1616 14  0
+                                                             SRCH 1616 12  0
                                                              WADX 3232  1  0
                                                              ORTH 1616  3  0
-                                                             UPDA 1616  1  0
+                                                             UPDA 1616  2  0
                                               WSOL  313  1  0
-                               XUIT  313  7 25
-                               LC    313 25 25
-                               LCNS  313  2  0
-                                              LCNI  313  2  0
-                                                             LCNN  313  1  0
+                               XUIT  313  6  0
+                               LC    313 31 33
+                               LCNS  313  3  0
+                                              LCNI  313  3  0
+                                                             LCNN  313  3  0
                                                                             LCNT  313  0  0
-                                                                            LCNG  313  0  0
-                                                                            LCNW  313  1  0
+                                                                            LCNG  313  1  0
+                                                                            LCNW  313  2  0
                                                                             LCNO  313  1  0
                                               LCNC  313  0  0
-                TTRC   62  4  0
-                               TPRP   62  1  0
-                               TSOL  186  4  0
-                                              TMAT  248  1  0
-                                              TLIN   62  2  0
+                TTRC   62  5  0
+                               TPRP   62  0  0
+                               TSOL  186  5  0
+                                              TMAT  248  3  0
+                                              TLIN   62  1  0
                                                              WGIN   62  0  0
                                                              RGIN   62  0  0
-                                                                            GINV   62  2  0
+                                                                            GINV   62  0  0
                                                              WRES   62  0  0
                                                              RRES   62  0  0
                                                              ITER   62  1  0
@@ -11936,7 +11936,7 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
                                                                             UPDA   86  0  0
                                                              WSOL   62  0  0
                 API    62  0  0
- WWX     9  0  0
+ WWX     9  1  0
  FWXR    9  1  0
  XW      9  0  0
 1                             **********************************************************************  58
@@ -12816,10 +12816,10 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  =======================================================
  TIMING REPORTS AT CPU=     3 SECS - ELAPSED=     4 SECS
  =======================================================
- ZZSS    1  3 25
-                RR      1  3 25
- SR      1  2  0
-                LC      3  1  0
+ ZZSS    1  0  0
+                RR      1  0  0
+ SR      1  0  0
+                LC      3  0  0
                 LCNS    3  0  0
                                LCNI    3  0  0
                                               LCNN    3  0  0
@@ -12828,57 +12828,57 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
                                                              LCNW    3  0  0
                                                              LCNO    3  0  0
                                LCNC    3  0  0
- YW     11  7  0
- TS     10 86 75
-                NX     67 74 75
-                               WC    396  5  0
+ YW     11  8  0
+ TS     10 91 75
+                NX     67 79 50
+                               WC    396  7 25
                                AC    396  1  0
-                               LMRS  396  1  0
+                               LMRS  396  2  0
                                CONV  396  1  0
-                               LMJC  329  2  0
-                               LXX   329 28 25
-                                              WGIN  329  0  0
+                               LMJC  329  1  0
+                               LXX   329 27  0
+                                              WGIN  329  1  0
                                               RGIN  329  0  0
-                                              GINV  329  8 25
-                                                             GINV  394  9 25
+                                              GINV  329  7  0
+                                                             GINV  394  7  0
                                               WRES  329  0  0
                                               RRES  329  0  0
-                                              ITER  329 20  0
+                                              ITER  329 18  0
                                                              NORM 2029  1  0
-                                                             SRCH 1700 14  0
+                                                             SRCH 1700 12  0
                                                              WADX 3400  1  0
                                                              ORTH 1700  3  0
-                                                             UPDA 1700  1  0
+                                                             UPDA 1700  2  0
                                               WSOL  329  1  0
-                               XUIT  329  8 25
-                               LC    329 26 25
-                               LCNS  329  2  0
-                                              LCNI  329  2  0
-                                                             LCNN  329  1  0
+                               XUIT  329  6  0
+                               LC    329 31 25
+                               LCNS  329  3  0
+                                              LCNI  329  3  0
+                                                             LCNN  329  3  0
                                                                             LCNT  329  0  0
-                                                                            LCNG  329  0  0
-                                                                            LCNW  329  1  0
+                                                                            LCNG  329  1  0
+                                                                            LCNW  329  2  0
                                                                             LCNO  329  1  0
                                               LCNC  329  0  0
-                TTRC   65  4  0
-                               TPRP   65  1  0
-                               TSOL  195  4  0
-                                              TMAT  260  1  0
+                TTRC   65  5  0
+                               TPRP   65  0  0
+                               TSOL  195  5  0
+                                              TMAT  260  3  0
                                               TLIN   65  2  0
                                                              WGIN   65  0  0
                                                              RGIN   65  0  0
-                                                                            GINV   65  2  0
+                                                                            GINV   65  0  0
                                                              WRES   65  0  0
                                                              RRES   65  0  0
-                                                             ITER   65  1  0
-                                                                            NORM  157  0  0
+                                                             ITER   65  2  0
+                                                                            NORM  157  1  0
                                                                             SRCH   92  1  0
                                                                             WADX  184  0  0
                                                                             ORTH   92  0  0
                                                                             UPDA   92  0  0
                                                              WSOL   65  0  0
                 API    65  0  0
- WWX    10  0  0
+ WWX    10  1  0
  FWXR   10  1  0
  XW     10  0  0
    159 READING END     
@@ -12889,7 +12889,7 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  Problems               2
  Errors                 0
  Bugs                   0
- Final cpu       2.67 elapsed       4.00
+ Final cpu       2.81 elapsed       4.00
 1                                                                                                                                  
  -------------------------------------------------------------------------------------------------------------------------------
  SUMMARY OF RUN BRILLIG_HYSTER ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE desktop-td27ru7                                       

@@ -3886,11 +3886,11 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  SR      1  0  0
  TS      5100100
                 NX     50100100
-                               WC    264  0  0
+                               WC    264 12  0
                                LMRS  264  0  0
-                               CONV  264 90100
+                               CONV  264 71100
                                LMJC  214  0  0
-                               LXX   214 10  0
+                               LXX   214 12  0
                                               DPOR  428  0  0
                                               WGIN  214  0  0
                                               RGIN  214  0  0
@@ -3899,19 +3899,19 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
                                                              GINV  214  0  0
                                               WRES  214  0  0
                                               RRES  214  0  0
-                                              ITER  214 10  0
+                                              ITER  214 12  0
                                                              NORM 1619  0  0
                                                              SRCH 1405  0  0
                                                              WADX 2810  0  0
-                                                             ORTH 1405 10  0
+                                                             ORTH 1405  6  0
                                                              UPDA 1405  0  0
                                               WSOL  214  0  0
                                XUIT  214  0  0
                                LC    214  0  0
-                               LCNS  214  0  0
-                                              LCNI  214  0  0
-                                                             LCNN  214  0  0
-                                                                            LCNT  214  0  0
+                               LCNS  214  6  0
+                                              LCNI  214  6  0
+                                                             LCNN  214  6  0
+                                                                            LCNT  214  6  0
                                                                             LCNG  214  0  0
                                                                             LCNW  214  0  0
                                               LCNC  214  0  0
@@ -4314,10 +4314,10 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
                 RR      1  0  0
  SR      1  0  0
  TS      6100100
-                NX     56100100
-                               WC    276  0  0
+                NX     56 90100
+                               WC    276 10  0
                                LMRS  276  0  0
-                               CONV  276 90100
+                               CONV  276 64100
                                LMJC  220  0  0
                                LXX   220 10  0
                                               DPOR  440  0  0
@@ -4332,15 +4332,15 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
                                                              NORM 1645  0  0
                                                              SRCH 1425  0  0
                                                              WADX 2850  0  0
-                                                             ORTH 1425 10  0
+                                                             ORTH 1425  5  0
                                                              UPDA 1425  0  0
                                               WSOL  220  0  0
                                XUIT  220  0  0
                                LC    220  0  0
-                               LCNS  220  0  0
-                                              LCNI  220  0  0
-                                                             LCNN  220  0  0
-                                                                            LCNT  220  0  0
+                               LCNS  220  5  0
+                                              LCNI  220  5  0
+                                                             LCNN  220  5  0
+                                                                            LCNT  220  5  0
                                                                             LCNG  220  0  0
                                                                             LCNW  220  0  0
                                               LCNC  220  0  0
@@ -4751,13 +4751,13 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  ZZSS    1  0  0
                 RR      1  0  0
  SR      1  0  0
- TS      7 91100
-                NX     61 91100
-                               WC    290  0  0
+ TS      7100100
+                NX     61 85100
+                               WC    290 10  0
                                LMRS  290  0  0
-                               CONV  290 82100
+                               CONV  290 60100
                                LMJC  229  0  0
-                               LXX   229  9  0
+                               LXX   229 10  0
                                               DPOR  458  0  0
                                               WGIN  229  0  0
                                               RGIN  229  0  0
@@ -4766,26 +4766,26 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
                                                              GINV  229  0  0
                                               WRES  229  0  0
                                               RRES  229  0  0
-                                              ITER  229  9  0
+                                              ITER  229 10  0
                                                              NORM 1698  0  0
                                                              SRCH 1469  0  0
                                                              WADX 2938  0  0
-                                                             ORTH 1469  9  0
+                                                             ORTH 1469  5  0
                                                              UPDA 1469  0  0
                                               WSOL  229  0  0
                                XUIT  229  0  0
                                LC    229  0  0
-                               LCNS  229  0  0
-                                              LCNI  229  0  0
-                                                             LCNN  229  0  0
-                                                                            LCNT  229  0  0
+                               LCNS  229  5  0
+                                              LCNI  229  5  0
+                                                             LCNN  229  5  0
+                                                                            LCNT  229  5  0
                                                                             LCNG  229  0  0
                                                                             LCNW  229  0  0
                                               LCNC  229  0  0
  WWX     7  0  0
  FWXR    7  0  0
  XW      7  0  0
- YW      7  9  0
+ YW      7  0  0
                 LC      1  0  0
                 LCNS    1  0  0
                                LCNI    1  0  0
@@ -5153,13 +5153,13 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  ZZSS    1  0  0
                 RR      1  0  0
  SR      1  0  0
- TS      8 92100
-                NX     64 92100
-                               WC    299  0  0
+ TS      8100100
+                NX     64 85100
+                               WC    299 10  0
                                LMRS  299  0  0
-                               CONV  299 75100
+                               CONV  299 60100
                                LMJC  235  0  0
-                               LXX   235 17  0
+                               LXX   235 10  0
                                               DPOR  470  0  0
                                               WGIN  235  0  0
                                               RGIN  235  0  0
@@ -5167,27 +5167,27 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
                                               GINV  235  0  0
                                                              GINV  235  0  0
                                               WRES  235  0  0
-                                              RRES  235  9  0
-                                              ITER  235  9  0
+                                              RRES  235  0  0
+                                              ITER  235 10  0
                                                              NORM 1734  0  0
                                                              SRCH 1499  0  0
                                                              WADX 2998  0  0
-                                                             ORTH 1499  9  0
+                                                             ORTH 1499  5  0
                                                              UPDA 1499  0  0
                                               WSOL  235  0  0
                                XUIT  235  0  0
                                LC    235  0  0
-                               LCNS  235  0  0
-                                              LCNI  235  0  0
-                                                             LCNN  235  0  0
-                                                                            LCNT  235  0  0
+                               LCNS  235  5  0
+                                              LCNI  235  5  0
+                                                             LCNN  235  5  0
+                                                                            LCNT  235  5  0
                                                                             LCNG  235  0  0
                                                                             LCNW  235  0  0
                                               LCNC  235  0  0
  WWX     8  0  0
  FWXR    8  0  0
  XW      8  0  0
- YW      8  8  0
+ YW      8  0  0
                 LC      1  0  0
                 LCNS    1  0  0
                                LCNI    1  0  0
@@ -5664,13 +5664,13 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  ZZSS    1  0  0
                 RR      1  0  0
  SR      1  0  0
- TS      9 92100
-                NX     71 92100
-                               WC    319  0  0
+ TS      9100100
+                NX     71 86100
+                               WC    319  9  0
                                LMRS  319  0  0
-                               CONV  319 75100
+                               CONV  319 57100
                                LMJC  248  0  0
-                               LXX   248 17  0
+                               LXX   248  9  0
                                               DPOR  496  0  0
                                               WGIN  248  0  0
                                               RGIN  248  0  0
@@ -5678,27 +5678,27 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
                                               GINV  248  0  0
                                                              GINV  248  0  0
                                               WRES  248  0  0
-                                              RRES  248  9  0
+                                              RRES  248  0  0
                                               ITER  248  9  0
                                                              NORM 1789  0  0
                                                              SRCH 1541  0  0
                                                              WADX 3082  0  0
-                                                             ORTH 1541  9  0
+                                                             ORTH 1541  5  0
                                                              UPDA 1541  0  0
                                               WSOL  248  0  0
-                               XUIT  248  0  0
+                               XUIT  248  5  0
                                LC    248  0  0
-                               LCNS  248  0  0
-                                              LCNI  248  0  0
-                                                             LCNN  248  0  0
-                                                                            LCNT  248  0  0
+                               LCNS  248  5  0
+                                              LCNI  248  5  0
+                                                             LCNN  248  5  0
+                                                                            LCNT  248  5  0
                                                                             LCNG  248  0  0
                                                                             LCNW  248  0  0
                                               LCNC  248  0  0
  WWX     9  0  0
  FWXR    9  0  0
  XW      9  0  0
- YW      9  8  0
+ YW      9  0  0
                 LC      1  0  0
                 LCNS    1  0  0
                                LCNI    1  0  0
@@ -6071,13 +6071,13 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  ZZSS    1  0  0
                 RR      1  0  0
  SR      1  0  0
- TS     10 85100
-                NX     74 85100
-                               WC    325  0  0
+ TS     10 96100
+                NX     74 82100
+                               WC    325  9  0
                                LMRS  325  0  0
-                               CONV  325 69100
+                               CONV  325 55100
                                LMJC  251  0  0
-                               LXX   251 16  0
+                               LXX   251  9  0
                                               DPOR  502  0  0
                                               WGIN  251  0  0
                                               RGIN  251  0  0
@@ -6085,27 +6085,27 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
                                               GINV  251  0  0
                                                              GINV  251  0  0
                                               WRES  251  0  0
-                                              RRES  251  8  0
-                                              ITER  251  8  0
+                                              RRES  251  0  0
+                                              ITER  251  9  0
                                                              NORM 1799  0  0
                                                              SRCH 1548  0  0
                                                              WADX 3096  0  0
-                                                             ORTH 1548  8  0
+                                                             ORTH 1548  4  0
                                                              UPDA 1548  0  0
                                               WSOL  251  0  0
-                               XUIT  251  0  0
+                               XUIT  251  5  0
                                LC    251  0  0
-                               LCNS  251  0  0
-                                              LCNI  251  0  0
-                                                             LCNN  251  0  0
-                                                                            LCNT  251  0  0
+                               LCNS  251  4  0
+                                              LCNI  251  4  0
+                                                             LCNN  251  4  0
+                                                                            LCNT  251  4  0
                                                                             LCNG  251  0  0
                                                                             LCNW  251  0  0
                                               LCNC  251  0  0
  WWX    10  0  0
  FWXR   10  0  0
  XW     10  0  0
- YW     10  7  0
+ YW     10  0  0
                 LC      1  0  0
                 LCNS    1  0  0
                                LCNI    1  0  0
@@ -6478,13 +6478,13 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  ZZSS    1  0  0
                 RR      1  0  0
  SR      1  0  0
- TS     11 85100
-                NX     77 85100
-                               WC    331  0  0
+ TS     11 96100
+                NX     77 83100
+                               WC    331  9  0
                                LMRS  331  0  0
-                               CONV  331 69100
-                               LMJC  254  0  0
-                               LXX   254 16  0
+                               CONV  331 52100
+                               LMJC  254  4  0
+                               LXX   254  9  0
                                               DPOR  508  0  0
                                               WGIN  254  0  0
                                               RGIN  254  0  0
@@ -6492,27 +6492,27 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
                                               GINV  254  0  0
                                                              GINV  254  0  0
                                               WRES  254  0  0
-                                              RRES  254  8  0
-                                              ITER  254  8  0
+                                              RRES  254  0  0
+                                              ITER  254  9  0
                                                              NORM 1816  0  0
                                                              SRCH 1562  0  0
                                                              WADX 3124  0  0
-                                                             ORTH 1562  8  0
+                                                             ORTH 1562  4  0
                                                              UPDA 1562  0  0
                                               WSOL  254  0  0
-                               XUIT  254  0  0
+                               XUIT  254  4  0
                                LC    254  0  0
-                               LCNS  254  0  0
-                                              LCNI  254  0  0
-                                                             LCNN  254  0  0
-                                                                            LCNT  254  0  0
+                               LCNS  254  4  0
+                                              LCNI  254  4  0
+                                                             LCNN  254  4  0
+                                                                            LCNT  254  4  0
                                                                             LCNG  254  0  0
                                                                             LCNW  254  0  0
                                               LCNC  254  0  0
  WWX    11  0  0
  FWXR   11  0  0
  XW     11  0  0
- YW     11  7  0
+ YW     11  0  0
                 LC      1  0  0
                 LCNS    1  0  0
                                LCNI    1  0  0
@@ -6924,13 +6924,13 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  ZZSS    1  0  0
                 RR      1  0  0
  SR      1  0  0
- TS     12 79100
+ TS     12 92100
                 NX     81 79100
-                               WC    343  0  0
+                               WC    343  8  0
                                LMRS  343  0  0
-                               CONV  343 64100
-                               LMJC  262  0  0
-                               LXX   262 15  0
+                               CONV  343 50100
+                               LMJC  262  4  0
+                               LXX   262  8  0
                                               DPOR  524  0  0
                                               WGIN  262  0  0
                                               RGIN  262  0  0
@@ -6938,27 +6938,27 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
                                               GINV  262  0  0
                                                              GINV  262  0  0
                                               WRES  262  0  0
-                                              RRES  262  7  0
-                                              ITER  262  7  0
+                                              RRES  262  0  0
+                                              ITER  262  8  0
                                                              NORM 1863  0  0
                                                              SRCH 1601  0  0
                                                              WADX 3202  0  0
-                                                             ORTH 1601  7  0
+                                                             ORTH 1601  4  0
                                                              UPDA 1601  0  0
                                               WSOL  262  0  0
-                               XUIT  262  0  0
+                               XUIT  262  4  0
                                LC    262  0  0
-                               LCNS  262  0  0
-                                              LCNI  262  0  0
-                                                             LCNN  262  0  0
-                                                                            LCNT  262  0  0
+                               LCNS  262  4  0
+                                              LCNI  262  4  0
+                                                             LCNN  262  4  0
+                                                                            LCNT  262  4  0
                                                                             LCNG  262  0  0
                                                                             LCNW  262  0  0
                                               LCNC  262  0  0
  WWX    12  0  0
  FWXR   12  0  0
- XW     12  7  0
- YW     12  7  0
+ XW     12  0  0
+ YW     12  0  0
                 LC      1  0  0
                 LCNS    1  0  0
                                LCNI    1  0  0
@@ -7349,13 +7349,13 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  ZZSS    1  0  0
                 RR      1  0  0
  SR      1  0  0
- TS     13 80100
-                NX     84 74100
-                               WC    352  0  0
+ TS     13 92100
+                NX     84 77100
+                               WC    352  8  0
                                LMRS  352  0  0
-                               CONV  352 60100
-                               LMJC  268  0  0
-                               LXX   268 14  0
+                               CONV  352 46100
+                               LMJC  268  4  0
+                               LXX   268  8  0
                                               DPOR  536  0  0
                                               WGIN  268  0  0
                                               RGIN  268  0  0
@@ -7363,27 +7363,27 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
                                               GINV  268  0  0
                                                              GINV  268  0  0
                                               WRES  268  0  0
-                                              RRES  268  7  0
-                                              ITER  268  7  0
+                                              RRES  268  0  0
+                                              ITER  268  8  0
                                                              NORM 1897  0  0
                                                              SRCH 1629  0  0
                                                              WADX 3258  0  0
-                                                             ORTH 1629  7  0
+                                                             ORTH 1629  4  0
                                                              UPDA 1629  0  0
                                               WSOL  268  0  0
-                               XUIT  268  0  0
+                               XUIT  268  4  0
                                LC    268  0  0
-                               LCNS  268  0  0
-                                              LCNI  268  0  0
-                                                             LCNN  268  0  0
-                                                                            LCNT  268  0  0
+                               LCNS  268  4  0
+                                              LCNI  268  4  0
+                                                             LCNN  268  4  0
+                                                                            LCNT  268  4  0
                                                                             LCNG  268  0  0
                                                                             LCNW  268  0  0
                                               LCNC  268  0  0
  WWX    13  0  0
  FWXR   13  0  0
- XW     13  6  0
- YW     13  6  0
+ XW     13  0  0
+ YW     13  0  0
                 LC      1  0  0
                 LCNS    1  0  0
                                LCNI    1  0  0
@@ -7762,13 +7762,13 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  ZZSS    1  0  0
                 RR      1  0  0
  SR      1  0  0
- TS     14 80100
-                NX     87 74100
-                               WC    359  0  0
+ TS     14 92100
+                NX     87 77100
+                               WC    359  8  0
                                LMRS  359  0  0
-                               CONV  359 60100
-                               LMJC  272  0  0
-                               LXX   272 14  0
+                               CONV  359 46100
+                               LMJC  272  4  0
+                               LXX   272  8  0
                                               DPOR  544  0  0
                                               WGIN  272  0  0
                                               RGIN  272  0  0
@@ -7776,27 +7776,27 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
                                               GINV  272  0  0
                                                              GINV  272  0  0
                                               WRES  272  0  0
-                                              RRES  272  7  0
-                                              ITER  272  7  0
+                                              RRES  272  0  0
+                                              ITER  272  8  0
                                                              NORM 1922  0  0
                                                              SRCH 1650  0  0
                                                              WADX 3300  0  0
-                                                             ORTH 1650  7  0
+                                                             ORTH 1650  4  0
                                                              UPDA 1650  0  0
                                               WSOL  272  0  0
-                               XUIT  272  0  0
+                               XUIT  272  4  0
                                LC    272  0  0
-                               LCNS  272  0  0
-                                              LCNI  272  0  0
-                                                             LCNN  272  0  0
-                                                                            LCNT  272  0  0
+                               LCNS  272  4  0
+                                              LCNI  272  4  0
+                                                             LCNN  272  4  0
+                                                                            LCNT  272  4  0
                                                                             LCNG  272  0  0
                                                                             LCNW  272  0  0
                                               LCNC  272  0  0
  WWX    14  0  0
  FWXR   14  0  0
- XW     14  6  0
- YW     14  6  0
+ XW     14  0  0
+ YW     14  0  0
                 LC      1  0  0
                 LCNS    1  0  0
                                LCNI    1  0  0
@@ -8169,13 +8169,13 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  ZZSS    1  0  0
                 RR      1  0  0
  SR      1  0  0
- TS     15 80100
-                NX     90 74100
-                               WC    365  0  0
+ TS     15 92100
+                NX     90 77100
+                               WC    365  8  0
                                LMRS  365  0  0
-                               CONV  365 60100
-                               LMJC  275  0  0
-                               LXX   275 14  0
+                               CONV  365 46100
+                               LMJC  275  4  0
+                               LXX   275  8  0
                                               DPOR  550  0  0
                                               WGIN  275  0  0
                                               RGIN  275  0  0
@@ -8183,27 +8183,27 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
                                               GINV  275  0  0
                                                              GINV  275  0  0
                                               WRES  275  0  0
-                                              RRES  275  7  0
-                                              ITER  275  7  0
+                                              RRES  275  0  0
+                                              ITER  275  8  0
                                                              NORM 1941  0  0
                                                              SRCH 1666  0  0
                                                              WADX 3332  0  0
-                                                             ORTH 1666  7  0
+                                                             ORTH 1666  4  0
                                                              UPDA 1666  0  0
                                               WSOL  275  0  0
-                               XUIT  275  0  0
+                               XUIT  275  4  0
                                LC    275  0  0
-                               LCNS  275  0  0
-                                              LCNI  275  0  0
-                                                             LCNN  275  0  0
-                                                                            LCNT  275  0  0
+                               LCNS  275  4  0
+                                              LCNI  275  4  0
+                                                             LCNN  275  4  0
+                                                                            LCNT  275  4  0
                                                                             LCNG  275  0  0
                                                                             LCNW  275  0  0
                                               LCNC  275  0  0
  WWX    15  0  0
  FWXR   15  0  0
- XW     15  6  0
- YW     15  6  0
+ XW     15  0  0
+ YW     15  0  0
                 LC      1  0  0
                 LCNS    1  0  0
                                LCNI    1  0  0
@@ -8609,13 +8609,13 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  ZZSS    1  0  0
                 RR      1  0  0
  SR      1  0  0
- TS     16 80100
-                NX     94 74100
-                               WC    374  0  0
+ TS     16 92100
+                NX     94 77100
+                               WC    374  8  0
                                LMRS  374  0  0
-                               CONV  374 60100
-                               LMJC  280  0  0
-                               LXX   280 14  0
+                               CONV  374 46100
+                               LMJC  280  4  0
+                               LXX   280  8  0
                                               DPOR  560  0  0
                                               WGIN  280  0  0
                                               RGIN  280  0  0
@@ -8623,27 +8623,27 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
                                               GINV  280  0  0
                                                              GINV  280  0  0
                                               WRES  280  0  0
-                                              RRES  280  7  0
-                                              ITER  280  7  0
+                                              RRES  280  0  0
+                                              ITER  280  8  0
                                                              NORM 1957  0  0
                                                              SRCH 1677  0  0
                                                              WADX 3354  0  0
-                                                             ORTH 1677  7  0
+                                                             ORTH 1677  4  0
                                                              UPDA 1677  0  0
                                               WSOL  280  0  0
-                               XUIT  280  0  0
+                               XUIT  280  4  0
                                LC    280  0  0
-                               LCNS  280  0  0
-                                              LCNI  280  0  0
-                                                             LCNN  280  0  0
-                                                                            LCNT  280  0  0
+                               LCNS  280  4  0
+                                              LCNI  280  4  0
+                                                             LCNN  280  4  0
+                                                                            LCNT  280  4  0
                                                                             LCNG  280  0  0
                                                                             LCNW  280  0  0
                                               LCNC  280  0  0
  WWX    16  0  0
  FWXR   16  0  0
- XW     16  6  0
- YW     16  6  0
+ XW     16  0  0
+ YW     16  0  0
                 LC      1  0  0
                 LCNS    1  0  0
                                LCNI    1  0  0
@@ -9013,13 +9013,13 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  ZZSS    1  0  0
                 RR      1  0  0
  SR      1  0  0
- TS     17 80100
+ TS     17 93100
                 NX     97 74100
-                               WC    380  0  0
+                               WC    380  7  0
                                LMRS  380  0  0
-                               CONV  380 60100
-                               LMJC  283  0  0
-                               LXX   283 14  0
+                               CONV  380 45100
+                               LMJC  283  4  0
+                               LXX   283  7  0
                                               DPOR  566  0  0
                                               WGIN  283  0  0
                                               RGIN  283  0  0
@@ -9027,27 +9027,27 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
                                               GINV  283  0  0
                                                              GINV  283  0  0
                                               WRES  283  0  0
-                                              RRES  283  7  0
+                                              RRES  283  0  0
                                               ITER  283  7  0
                                                              NORM 1966  0  0
                                                              SRCH 1683  0  0
                                                              WADX 3366  0  0
-                                                             ORTH 1683  7  0
+                                                             ORTH 1683  4  0
                                                              UPDA 1683  0  0
                                               WSOL  283  0  0
-                               XUIT  283  0  0
+                               XUIT  283  4  0
                                LC    283  0  0
-                               LCNS  283  0  0
-                                              LCNI  283  0  0
-                                                             LCNN  283  0  0
-                                                                            LCNT  283  0  0
+                               LCNS  283  4  0
+                                              LCNI  283  4  0
+                                                             LCNN  283  4  0
+                                                                            LCNT  283  4  0
                                                                             LCNG  283  0  0
                                                                             LCNW  283  0  0
                                               LCNC  283  0  0
  WWX    17  0  0
  FWXR   17  0  0
- XW     17  6  0
- YW     17  6  0
+ XW     17  0  0
+ YW     17  0  0
                 LC      1  0  0
                 LCNS    1  0  0
                                LCNI    1  0  0
@@ -9417,13 +9417,13 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  ZZSS    1  0  0
                 RR      1  0  0
  SR      1  0  0
- TS     18 80100
+ TS     18 93100
                 NX    100 74100
-                               WC    386  0  0
+                               WC    386  7  0
                                LMRS  386  0  0
-                               CONV  386 60100
-                               LMJC  286  0  0
-                               LXX   286 14  0
+                               CONV  386 45100
+                               LMJC  286  4  0
+                               LXX   286  7  0
                                               DPOR  572  0  0
                                               WGIN  286  0  0
                                               RGIN  286  0  0
@@ -9431,27 +9431,27 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
                                               GINV  286  0  0
                                                              GINV  286  0  0
                                               WRES  286  0  0
-                                              RRES  286  7  0
+                                              RRES  286  0  0
                                               ITER  286  7  0
                                                              NORM 1982  0  0
                                                              SRCH 1696  0  0
                                                              WADX 3392  0  0
-                                                             ORTH 1696  7  0
+                                                             ORTH 1696  4  0
                                                              UPDA 1696  0  0
                                               WSOL  286  0  0
-                               XUIT  286  0  0
+                               XUIT  286  4  0
                                LC    286  0  0
-                               LCNS  286  0  0
-                                              LCNI  286  0  0
-                                                             LCNN  286  0  0
-                                                                            LCNT  286  0  0
+                               LCNS  286  4  0
+                                              LCNI  286  4  0
+                                                             LCNN  286  4  0
+                                                                            LCNT  286  4  0
                                                                             LCNG  286  0  0
                                                                             LCNW  286  0  0
                                               LCNC  286  0  0
  WWX    18  0  0
  FWXR   18  0  0
- XW     18  6  0
- YW     18  6  0
+ XW     18  0  0
+ YW     18  0  0
                 LC      1  0  0
                 LCNS    1  0  0
                                LCNI    1  0  0
@@ -9914,13 +9914,13 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  ZZSS    1  0  0
                 RR      1  0  0
  SR      1  0  0
- TS     19 77100
-                NX    104 71100
-                               WC    407  0  0
+ TS     19 93100
+                NX    104 74100
+                               WC    407  7  0
                                LMRS  407  0  0
-                               CONV  407 53100
-                               LMJC  303  0  0
-                               LXX   303 12  0
+                               CONV  407 45100
+                               LMJC  303  4  0
+                               LXX   303  7  0
                                               DPOR  606  0  0
                                               WGIN  303  0  0
                                               RGIN  303  0  0
@@ -9928,27 +9928,27 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
                                               GINV  303  0  0
                                                              GINV  303  0  0
                                               WRES  303  0  0
-                                              RRES  303  6  0
-                                              ITER  303  6  0
+                                              RRES  303  0  0
+                                              ITER  303  7  0
                                                              NORM 2051  0  0
                                                              SRCH 1748  0  0
                                                              WADX 3496  0  0
-                                                             ORTH 1748  6  0
+                                                             ORTH 1748  4  0
                                                              UPDA 1748  0  0
                                               WSOL  303  0  0
-                               XUIT  303  6  0
+                               XUIT  303  4  0
                                LC    303  0  0
-                               LCNS  303  0  0
-                                              LCNI  303  0  0
-                                                             LCNN  303  0  0
-                                                                            LCNT  303  0  0
+                               LCNS  303  4  0
+                                              LCNI  303  4  0
+                                                             LCNN  303  4  0
+                                                                            LCNT  303  4  0
                                                                             LCNG  303  0  0
                                                                             LCNW  303  0  0
                                               LCNC  303  0  0
  WWX    19  0  0
  FWXR   19  0  0
- XW     19  6  0
- YW     19  6  0
+ XW     19  0  0
+ YW     19  0  0
                 LC      1  0  0
                 LCNS    1  0  0
                                LCNI    1  0  0
@@ -10335,18 +10335,18 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  @           RESTART FILE WRITTEN   REPORT    20                             
  @           RESTART INCLUDES FLUIDS IN PLACE                                
  =======================================================
- TIMING REPORTS AT CPU=     0 SECS - ELAPSED=     1 SECS
+ TIMING REPORTS AT CPU=     0 SECS - ELAPSED=     2 SECS
  =======================================================
  ZZSS    1  0  0
                 RR      1  0  0
  SR      1  0  0
- TS     20 77100
-                NX    107 71100
-                               WC    419  0  0
+ TS     20 93100
+                NX    107 75 50
+                               WC    419 11  0
                                LMRS  419  0  0
-                               CONV  419 53100
-                               LMJC  312  0  0
-                               LXX   312 12  0
+                               CONV  419 43 50
+                               LMJC  312  4  0
+                               LXX   312  7  0
                                               DPOR  624  0  0
                                               WGIN  312  0  0
                                               RGIN  312  0  0
@@ -10354,27 +10354,27 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
                                               GINV  312  0  0
                                                              GINV  312  0  0
                                               WRES  312  0  0
-                                              RRES  312  6  0
-                                              ITER  312  6  0
+                                              RRES  312  0  0
+                                              ITER  312  7  0
                                                              NORM 2094  0  0
                                                              SRCH 1782  0  0
                                                              WADX 3564  0  0
-                                                             ORTH 1782  6  0
+                                                             ORTH 1782  3  0
                                                              UPDA 1782  0  0
                                               WSOL  312  0  0
-                               XUIT  312  6  0
+                               XUIT  312  4  0
                                LC    312  0  0
-                               LCNS  312  0  0
-                                              LCNI  312  0  0
-                                                             LCNN  312  0  0
-                                                                            LCNT  312  0  0
+                               LCNS  312  3  0
+                                              LCNI  312  3  0
+                                                             LCNN  312  3  0
+                                                                            LCNT  312  3  0
                                                                             LCNG  312  0  0
                                                                             LCNW  312  0  0
                                               LCNC  312  0  0
  WWX    20  0  0
  FWXR   20  0  0
- XW     20  6  0
- YW     20  6  0
+ XW     20  0  0
+ YW     20  0  0
                 LC      1  0  0
                 LCNS    1  0  0
                                LCNI    1  0  0
@@ -10743,18 +10743,18 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  @           RESTART FILE WRITTEN   REPORT    21                             
  @           RESTART INCLUDES FLUIDS IN PLACE                                
  =======================================================
- TIMING REPORTS AT CPU=     0 SECS - ELAPSED=     1 SECS
+ TIMING REPORTS AT CPU=     0 SECS - ELAPSED=     2 SECS
  =======================================================
  ZZSS    1  0  0
                 RR      1  0  0
  SR      1  0  0
- TS     21 78100
-                NX    110 72100
-                               WC    428  0  0
+ TS     21 93100
+                NX    110 75 50
+                               WC    428 11  0
                                LMRS  428  0  0
-                               CONV  428 56100
-                               LMJC  318  0  0
-                               LXX   318 11  0
+                               CONV  428 43 50
+                               LMJC  318  4  0
+                               LXX   318  7  0
                                               DPOR  636  0  0
                                               WGIN  318  0  0
                                               RGIN  318  0  0
@@ -10762,27 +10762,27 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
                                               GINV  318  0  0
                                                              GINV  318  0  0
                                               WRES  318  0  0
-                                              RRES  318  6  0
-                                              ITER  318  6  0
+                                              RRES  318  0  0
+                                              ITER  318  7  0
                                                              NORM 2125  0  0
                                                              SRCH 1807  0  0
                                                              WADX 3614  0  0
-                                                             ORTH 1807  6  0
+                                                             ORTH 1807  3  0
                                                              UPDA 1807  0  0
                                               WSOL  318  0  0
-                               XUIT  318  5  0
+                               XUIT  318  4  0
                                LC    318  0  0
-                               LCNS  318  0  0
-                                              LCNI  318  0  0
-                                                             LCNN  318  0  0
-                                                                            LCNT  318  0  0
+                               LCNS  318  3  0
+                                              LCNI  318  3  0
+                                                             LCNN  318  3  0
+                                                                            LCNT  318  3  0
                                                                             LCNG  318  0  0
                                                                             LCNW  318  0  0
                                               LCNC  318  0  0
  WWX    21  0  0
  FWXR   21  0  0
- XW     21  5  0
- YW     21  5  0
+ XW     21  0  0
+ YW     21  0  0
                 LC      1  0  0
                 LCNS    1  0  0
                                LCNI    1  0  0
@@ -11139,18 +11139,18 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  @           RESTART FILE WRITTEN   REPORT    22                             
  @           RESTART INCLUDES FLUIDS IN PLACE                                
  =======================================================
- TIMING REPORTS AT CPU=     0 SECS - ELAPSED=     1 SECS
+ TIMING REPORTS AT CPU=     0 SECS - ELAPSED=     2 SECS
  =======================================================
  ZZSS    1  0  0
                 RR      1  0  0
  SR      1  0  0
- TS     22 79100
-                NX    113 74100
-                               WC    435  0  0
+ TS     22 93100
+                NX    113 75 50
+                               WC    435 11  0
                                LMRS  435  0  0
-                               CONV  435 53100
-                               LMJC  322  0  0
-                               LXX   322 16  0
+                               CONV  435 43 50
+                               LMJC  322  4  0
+                               LXX   322  7  0
                                               DPOR  644  0  0
                                               WGIN  322  0  0
                                               RGIN  322  0  0
@@ -11158,27 +11158,27 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
                                               GINV  322  0  0
                                                              GINV  322  0  0
                                               WRES  322  0  0
-                                              RRES  322  5  0
-                                              ITER  322 10  0
+                                              RRES  322  0  0
+                                              ITER  322  7  0
                                                              NORM 2148  0  0
                                                              SRCH 1826  0  0
                                                              WADX 3652  0  0
-                                                             ORTH 1826 10  0
+                                                             ORTH 1826  3  0
                                                              UPDA 1826  0  0
                                               WSOL  322  0  0
-                               XUIT  322  5  0
+                               XUIT  322  4  0
                                LC    322  0  0
-                               LCNS  322  0  0
-                                              LCNI  322  0  0
-                                                             LCNN  322  0  0
-                                                                            LCNT  322  0  0
+                               LCNS  322  3  0
+                                              LCNI  322  3  0
+                                                             LCNN  322  3  0
+                                                                            LCNT  322  3  0
                                                                             LCNG  322  0  0
                                                                             LCNW  322  0  0
                                               LCNC  322  0  0
  WWX    22  0  0
  FWXR   22  0  0
- XW     22  5  0
- YW     22  5  0
+ XW     22  0  0
+ YW     22  0  0
                 LC      1  0  0
                 LCNS    1  0  0
                                LCNI    1  0  0
@@ -11195,4 +11195,4 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  Problems               2
  Errors                 0
  Bugs                   0
- Final cpu       0.30 elapsed       1.00
+ Final cpu       0.44 elapsed       2.00
