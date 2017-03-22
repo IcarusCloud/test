@@ -16,7 +16,7 @@
    4.29750E+03  4.29750E+03  0.00000E+00  1.00000E+00
 1                             **********************************************************************   3
   WELSPECS AT     0.00   DAYS * GAS-WATER TEST CASE                                                    * ECLIPSE  VERSION 2009.1     
-  REPORT   0     1 JAN 1983   *  RUN                                                                   * RUN AT 21:48 ON 22 MAR 2017 
+  REPORT   0     1 JAN 1983   *  RUN                                                                   * RUN AT 21:55 ON 22 MAR 2017 
                               **************************************************************************
 
    I                               
@@ -966,7 +966,7 @@
  @--MESSAGE  AT TIME       10.0   DAYS    (11-JAN-1983):
  @           RESTART FILE WRITTEN   REPORT     1                             
  =======================================================
- TIMING REPORTS AT CPU=     0 SECS - ELAPSED=     1 SECS
+ TIMING REPORTS AT CPU=     0 SECS - ELAPSED=     0 SECS
  =======================================================
  ZZSS    1  0  0
                 RR      1  0  0
@@ -11103,7 +11103,7 @@
  @           TO WATER FLOW, TO MATCH THE INJECTED PHASE.                     
 1                             **********************************************************************  10
   WELSPECS AT  3000.00   DAYS * GAS-WATER TEST CASE                                                    * ECLIPSE  VERSION 2009.1     
-  REPORT   2    20 MAR 1991   *  RUN                                                                   * RUN AT 21:48 ON 22 MAR 2017 
+  REPORT   2    20 MAR 1991   *  RUN                                                                   * RUN AT 21:55 ON 22 MAR 2017 
                               **************************************************************************
 
    I                               

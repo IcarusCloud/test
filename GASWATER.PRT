@@ -305,7 +305,7 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
     37 READING SCHEDULE
 1                             **********************************************************************   1
   PRESSURE AT     0.00   DAYS * GAS-WATER TEST CASE                                                    * ECLIPSE  VERSION 2009.1     
-  REPORT   0     1 JAN 1983   *  RUN                                                                   * RUN AT 21:48 ON 22 MAR 2017 
+  REPORT   0     1 JAN 1983   *  RUN                                                                   * RUN AT 21:55 ON 22 MAR 2017 
                               **************************************************************************
 
  UNITS   PSIA          
@@ -497,7 +497,7 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  (*, 20,  4)  4052.50 4052.50 4052.50 4052.50 4052.50
 1                             **********************************************************************   2
   SWAT     AT     0.00   DAYS * GAS-WATER TEST CASE                                                    * ECLIPSE  VERSION 2009.1     
-  REPORT   0     1 JAN 1983   *  RUN                                                                   * RUN AT 21:48 ON 22 MAR 2017 
+  REPORT   0     1 JAN 1983   *  RUN                                                                   * RUN AT 21:55 ON 22 MAR 2017 
                               **************************************************************************
 
  UNITS                 
@@ -519,7 +519,7 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  @           RESTART FILE WRITTEN   REPORT     0                             
 1                             **********************************************************************   4
   SIMULATE AT     0.00   DAYS * GAS-WATER TEST CASE                                                    * ECLIPSE  VERSION 2009.1     
-  REPORT   0     1 JAN 1983   *  RUN                                                                   * RUN AT 21:48 ON 22 MAR 2017 
+  REPORT   0     1 JAN 1983   *  RUN                                                                   * RUN AT 21:55 ON 22 MAR 2017 
                               **************************************************************************
 
  STEP    1 TIME=    1.00  DAYS (  +1.0  DAYS INIT  2 ITS) (2-JAN-1983)           
@@ -535,7 +535,7 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
   PAV=  4048.9  PSIA   WCT=1.000 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF   
 1                             **********************************************************************   5
   PRESSURE AT    10.00   DAYS * GAS-WATER TEST CASE                                                    * ECLIPSE  VERSION 2009.1     
-  REPORT   1    11 JAN 1983   *  RUN                                                                   * RUN AT 21:48 ON 22 MAR 2017 
+  REPORT   1    11 JAN 1983   *  RUN                                                                   * RUN AT 21:55 ON 22 MAR 2017 
                               **************************************************************************
 
  UNITS   PSIA          
@@ -727,7 +727,7 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  (*, 20,  4)  4063.80 4063.07 4062.15 4060.97 4059.71
 1                             **********************************************************************   6
   SWAT     AT    10.00   DAYS * GAS-WATER TEST CASE                                                    * ECLIPSE  VERSION 2009.1     
-  REPORT   1    11 JAN 1983   *  RUN                                                                   * RUN AT 21:48 ON 22 MAR 2017 
+  REPORT   1    11 JAN 1983   *  RUN                                                                   * RUN AT 21:55 ON 22 MAR 2017 
                               **************************************************************************
 
  UNITS                 
@@ -923,7 +923,7 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
     45 READING TSTEP   
 1                             **********************************************************************   7
   SIMULATE AT    10.00   DAYS * GAS-WATER TEST CASE                                                    * ECLIPSE  VERSION 2009.1     
-  REPORT   1    11 JAN 1983   *  RUN                                                                   * RUN AT 21:48 ON 22 MAR 2017 
+  REPORT   1    11 JAN 1983   *  RUN                                                                   * RUN AT 21:55 ON 22 MAR 2017 
                               **************************************************************************
 
  STEP    5 TIME=   20.37  DAYS ( +10.4  DAYS TRNC  3 ITS) (21-JAN-1983)          
@@ -1035,7 +1035,7 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
   PAV=  4095.7  PSIA   WCT=1.000 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF   
 1                             **********************************************************************   8
   PRESSURE AT  3000.00   DAYS * GAS-WATER TEST CASE                                                    * ECLIPSE  VERSION 2009.1     
-  REPORT   2    20 MAR 1991   *  RUN                                                                   * RUN AT 21:48 ON 22 MAR 2017 
+  REPORT   2    20 MAR 1991   *  RUN                                                                   * RUN AT 21:55 ON 22 MAR 2017 
                               **************************************************************************
 
  UNITS   PSIA          
@@ -1227,7 +1227,7 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  (*, 20,  4)  4100.02 4097.80 4094.93 4091.21 4087.18
 1                             **********************************************************************   9
   SWAT     AT  3000.00   DAYS * GAS-WATER TEST CASE                                                    * ECLIPSE  VERSION 2009.1     
-  REPORT   2    20 MAR 1991   *  RUN                                                                   * RUN AT 21:48 ON 22 MAR 2017 
+  REPORT   2    20 MAR 1991   *  RUN                                                                   * RUN AT 21:55 ON 22 MAR 2017 
                               **************************************************************************
 
  UNITS                 
@@ -1432,14 +1432,14 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
     47 READING TSTEP   
 1                             **********************************************************************  11
   SIMULATE AT  3000.00   DAYS * GAS-WATER TEST CASE                                                    * ECLIPSE  VERSION 2009.1     
-  REPORT   2    20 MAR 1991   *  RUN                                                                   * RUN AT 21:48 ON 22 MAR 2017 
+  REPORT   2    20 MAR 1991   *  RUN                                                                   * RUN AT 21:55 ON 22 MAR 2017 
                               **************************************************************************
 
  STEP   41 TIME= 3010.00  DAYS ( +10.0  DAYS REPT  8 ITS) (30-MAR-1991)          
   PAV=  4096.3  PSIA   WCT=1.000 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF   
 1                             **********************************************************************  12
   PRESSURE AT  3010.00   DAYS * GAS-WATER TEST CASE                                                    * ECLIPSE  VERSION 2009.1     
-  REPORT   3    30 MAR 1991   *  RUN                                                                   * RUN AT 21:48 ON 22 MAR 2017 
+  REPORT   3    30 MAR 1991   *  RUN                                                                   * RUN AT 21:55 ON 22 MAR 2017 
                               **************************************************************************
 
  UNITS   PSIA          
@@ -1631,7 +1631,7 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  (*, 20,  4)  4100.49 4098.21 4095.29 4091.52 4087.45
 1                             **********************************************************************  13
   SWAT     AT  3010.00   DAYS * GAS-WATER TEST CASE                                                    * ECLIPSE  VERSION 2009.1     
-  REPORT   3    30 MAR 1991   *  RUN                                                                   * RUN AT 21:48 ON 22 MAR 2017 
+  REPORT   3    30 MAR 1991   *  RUN                                                                   * RUN AT 21:55 ON 22 MAR 2017 
                               **************************************************************************
 
  UNITS                 
@@ -1827,7 +1827,7 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
     48 READING TSTEP   
 1                             **********************************************************************  14
   SIMULATE AT  3010.00   DAYS * GAS-WATER TEST CASE                                                    * ECLIPSE  VERSION 2009.1     
-  REPORT   3    30 MAR 1991   *  RUN                                                                   * RUN AT 21:48 ON 22 MAR 2017 
+  REPORT   3    30 MAR 1991   *  RUN                                                                   * RUN AT 21:55 ON 22 MAR 2017 
                               **************************************************************************
 
  STEP   42 TIME= 3019.76  DAYS (  +9.8  DAYS TRNC  2 ITS) (8-APR-1991)           
@@ -1888,7 +1888,7 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
   PAV=  4092.9  PSIA   WCT=1.000 GOR= 0.00000  MSCF/STB WGR= 0.00000  STB/MSCF   
 1                             **********************************************************************  15
   PRESSURE AT  6000.00   DAYS * GAS-WATER TEST CASE                                                    * ECLIPSE  VERSION 2009.1     
-  REPORT   4     6 JUN 1999   *  RUN                                                                   * RUN AT 21:48 ON 22 MAR 2017 
+  REPORT   4     6 JUN 1999   *  RUN                                                                   * RUN AT 21:55 ON 22 MAR 2017 
                               **************************************************************************
 
  UNITS   PSIA          
@@ -2080,7 +2080,7 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  (*, 20,  4)  4101.72 4099.42 4096.46 4092.62 4088.46
 1                             **********************************************************************  16
   SWAT     AT  6000.00   DAYS * GAS-WATER TEST CASE                                                    * ECLIPSE  VERSION 2009.1     
-  REPORT   4     6 JUN 1999   *  RUN                                                                   * RUN AT 21:48 ON 22 MAR 2017 
+  REPORT   4     6 JUN 1999   *  RUN                                                                   * RUN AT 21:55 ON 22 MAR 2017 
                               **************************************************************************
 
  UNITS                 
@@ -2281,4 +2281,4 @@ utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
  Problems               0
  Errors                 0
  Bugs                   0
- Final cpu       0.44 elapsed       1.00
+ Final cpu       0.48 elapsed       1.00
