@@ -1,0 +1,23 @@
+<eclipse>
+<message date="1/1/1982" time="0.00000000000000">
+ CHECKING FOR LICENSES                                                   
+</message>
+<message date="1/1/1982" time="0.00000000000000">
+ NUMBER OF ACTIVE CELLS IS 150                                           
+</message>
+<message date="22/12/1983" time="720.00000000000000">
+ ******************************************                              
+ * WELL P1       HAS CHANGED TO           *                              
+ * CONTROL BY OIL RATE                    *                              
+ * FROM TIME    720.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="11/3/1984" time="800.00000000000000">
+ RESTART FILE WRITTEN   REPORT    10                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+<message date="19/6/1984" time="900.00000000000000">
+ RESTART FILE WRITTEN   REPORT    11                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+</eclipse>

@@ -1,0 +1,97 @@
+<eclipse>
+<message date="1/1/1982" time="0.00000000000000">
+ CHECKING FOR LICENSES                                                   
+</message>
+<message date="1/1/1982" time="0.00000000000000">
+ THE MEMORY REQUIRED TO PROCESS THE GRID SECTION IS                      
+      85424 BYTES                                                        
+</message>
+<warning date="1/1/1982" time="0.00000000000000">
+ IN ORDER TO COMPLETE THE CIRCLE FOR THE GLOBAL RADIAL GRID,             
+ IT IS NECESSARY TO SET ITEM 3 OF THE COORDSYS KEYWORD TO COMP           
+</warning>
+<message date="1/1/1982" time="0.00000000000000">
+ UNSPECIFIED TOPS VALUES OBTAINED BY ADDING DZ                           
+ TO TOPS VALUE FOR LAYER ABOVE                                           
+</message>
+<message date="1/1/1982" time="0.00000000000000">
+ NEITHER OLDTRAN,OLDTRANR NOR NEWTRAN SPECIFIED                          
+ BLOCK CENTRE TRANSMISSIBILITIES TO BE CALCULATED                        
+ USING  OLDTRAN                                                          
+</message>
+<message date="1/1/1982" time="0.00000000000000">
+ NUMBER OF ACTIVE CELLS IS 150                                           
+</message>
+<message date="1/1/1982" time="0.00000000000000">
+ THE MEMORY REQUIRED TO PROCESS THE SOLUTION SECTION IS                  
+     445092 BYTES                                                        
+</message>
+<message date="1/1/1982" time="0.00000000000000">
+    58528 CHARACTER VARIABLES USED                                       
+</message>
+<message date="1/1/1982" time="0.00000000000000">
+ SAVE FILE HAS BEEN WRITTEN.                                             
+</message>
+<message date="1/1/1982" time="0.00000000000000">
+ RESTART FILE WRITTEN   REPORT     0                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+<message date="11/1/1982" time="10.00000000000000">
+ RESTART FILE WRITTEN   REPORT     1                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+<message date="20/2/1982" time="50.00000000000000">
+ RESTART FILE WRITTEN   REPORT     2                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+<message date="11/4/1982" time="100.00000000000000">
+ RESTART FILE WRITTEN   REPORT     3                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+<message date="20/7/1982" time="200.00000000000000">
+ RESTART FILE WRITTEN   REPORT     4                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+<message date="8/9/1982" time="250.00000000000000">
+ ******************************************                              
+ * WELL P1       HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME    250.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="28/10/1982" time="300.00000000000000">
+ RESTART FILE WRITTEN   REPORT     5                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+<message date="5/2/1983" time="400.00000000000000">
+ RESTART FILE WRITTEN   REPORT     6                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+<message date="16/5/1983" time="500.00000000000000">
+ RESTART FILE WRITTEN   REPORT     7                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+<message date="24/8/1983" time="600.00000000000000">
+ RESTART FILE WRITTEN   REPORT     8                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+<message date="22/12/1983" time="720.00000000000000">
+ RESTART FILE WRITTEN   REPORT     9                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+<message date="22/12/1983" time="720.00000000000000">
+ ******************************************                              
+ * WELL P1       HAS CHANGED TO           *                              
+ * CONTROL BY OIL RATE                    *                              
+ * FROM TIME    720.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="11/3/1984" time="800.00000000000000">
+ RESTART FILE WRITTEN   REPORT    10                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+<message date="19/6/1984" time="900.00000000000000">
+ RESTART FILE WRITTEN   REPORT    11                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+</eclipse>

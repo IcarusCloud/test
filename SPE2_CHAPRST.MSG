@@ -1,0 +1,56 @@
+<eclipse>
+<message date="1/1/1982" time="0.00000000000000">
+ CHECKING FOR LICENSES                                                   
+</message>
+<message date="1/1/1982" time="0.00000000000000">
+ THE MEMORY REQUIRED TO PROCESS THE GRID SECTION IS                      
+      85424 BYTES                                                        
+</message>
+<warning date="1/1/1982" time="0.00000000000000">
+ IN ORDER TO COMPLETE THE CIRCLE FOR THE GLOBAL RADIAL GRID,             
+ IT IS NECESSARY TO SET ITEM 3 OF THE COORDSYS KEYWORD TO COMP           
+</warning>
+<message date="1/1/1982" time="0.00000000000000">
+ UNSPECIFIED TOPS VALUES OBTAINED BY ADDING DZ                           
+ TO TOPS VALUE FOR LAYER ABOVE                                           
+</message>
+<message date="1/1/1982" time="0.00000000000000">
+ NEITHER OLDTRAN,OLDTRANR NOR NEWTRAN SPECIFIED                          
+ BLOCK CENTRE TRANSMISSIBILITIES TO BE CALCULATED                        
+ USING  OLDTRAN                                                          
+</message>
+<message date="1/1/1982" time="0.00000000000000">
+ NUMBER OF ACTIVE CELLS IS 150                                           
+</message>
+<message date="1/1/1982" time="0.00000000000000">
+ THE MEMORY REQUIRED TO PROCESS THE SOLUTION SECTION IS                  
+     448876 BYTES                                                        
+</message>
+<message date="1/1/1982" time="0.00000000000000">
+    58535 CHARACTER VARIABLES USED                                       
+</message>
+<message date="22/12/1983" time="720.00000000000000">
+ ******************************************                              
+ * WELL P1       HAS CHANGED TO           *                              
+ * CONTROL BY OIL RATE                    *                              
+ * FROM TIME    720.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="11/3/1984" time="800.00000000000000">
+ *********************************************                           
+ * THE CONNECTION IN BLOCK (  1,  1,  8)     *                           
+ * IN WELL P1       IS CLOSED                *                           
+ * AT TIME     830.00   DAYS  , BECAUSE      *                           
+ * ITS    WATER CUT      8.8004E-01          *                           
+ * VIOLATES THE LIMIT   8.0000E-01         . *                           
+ *********************************************                           
+</message>
+<message date="7/9/1984" time="980.00000000000000">
+ RESTART FILE WRITTEN   REPORT    14                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+<message date="27/9/1984" time="1000.00000000000000">
+ RESTART FILE WRITTEN   REPORT    15                                     
+ RESTART INCLUDES FLUIDS IN PLACE                                        
+</message>
+</eclipse>

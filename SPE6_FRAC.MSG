@@ -1,0 +1,122 @@
+<eclipse>
+<message date="1/1/1988" time="0.00000000000000">
+ CHECKING FOR LICENSES                                                   
+</message>
+<message date="1/1/1988" time="0.00000000000000">
+ THE MEMORY REQUIRED TO PROCESS THE GRID SECTION IS                      
+      51100 BYTES                                                        
+</message>
+<message date="1/1/1988" time="0.00000000000000">
+ UNSPECIFIED TOPS VALUES OBTAINED BY ADDING DZ                           
+ TO TOPS VALUE FOR LAYER ABOVE                                           
+</message>
+<message date="1/1/1988" time="0.00000000000000">
+ UNSPECIFIED DX VALUES FOR FRACTURE CELLS                                
+ COPIED FROM CORRESPONDING MATRIX CELLS                                  
+</message>
+<message date="1/1/1988" time="0.00000000000000">
+ UNSPECIFIED DY VALUES FOR FRACTURE CELLS                                
+ COPIED FROM CORRESPONDING MATRIX CELLS                                  
+</message>
+<message date="1/1/1988" time="0.00000000000000">
+ UNSPECIFIED DZ VALUES FOR FRACTURE CELLS                                
+ COPIED FROM CORRESPONDING MATRIX CELLS                                  
+</message>
+<message date="1/1/1988" time="0.00000000000000">
+ UNSPECIFIED TOPS VALUES FOR FRACTURE CELLS                              
+ COPIED FROM CORRESPONDING MATRIX CELLS                                  
+</message>
+<message date="1/1/1988" time="0.00000000000000">
+ NEITHER OLDTRAN,OLDTRANR NOR NEWTRAN SPECIFIED                          
+ BLOCK CENTRE TRANSMISSIBILITIES TO BE CALCULATED                        
+ USING  OLDTRAN                                                          
+</message>
+<comment date="1/1/1988" time="0.00000000000000">
+ NO NON-NEIGHBOUR CONNECTIONS FOUND                                      
+</comment>
+<comment date="1/1/1988" time="0.00000000000000">
+ 50 DUAL POROSITY CONNECTIONS FOUND                                      
+</comment>
+<message date="1/1/1988" time="0.00000000000000">
+ NUMBER OF ACTIVE CELLS IS 100                                           
+</message>
+<message date="1/1/1988" time="0.00000000000000">
+ THE MEMORY REQUIRED TO PROCESS THE SOLUTION SECTION IS                  
+     382496 BYTES                                                        
+</message>
+<message date="1/1/1988" time="0.00000000000000">
+    58528 CHARACTER VARIABLES USED                                       
+</message>
+<warning date="1/1/1988" time="0.00000000000000">
+ THE BOTTOM HOLE PRESSURE LIMIT FOR WELL P                               
+ HAS BEEN DEFAULTED.  THE DEFAULT VALUE IS                               
+     14.7   PSIA                                                         
+</warning>
+<message date="1/1/1988" time="0.00000000000000">
+ DRSDT KEYWORD HAS NOT BEEN ENTERED, SO THE                              
+ MAXIMUM GAS RE-SOLUTION RATE IS DEFAULTED TO INFINITY.                  
+</message>
+<message date="1/1/1988" time="0.00000000000000">
+ ******************************************                              
+ * WELL P        HAS CHANGED TO           *                              
+ * CONTROL BY LIQUID RATE                 *                              
+ * FROM TIME      0.00   DAYS  ,          *                              
+ * TO OBEY THE LIMIT ON DRAWDOWN.         *                              
+ ******************************************                              
+</message>
+<message date="14/1/1988" time="13.00000000000000">
+ ******************************************                              
+ * WELL P        HAS CHANGED TO           *                              
+ * CONTROL BY OIL RATE                    *                              
+ * FROM TIME     13.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="10/8/1988" time="222.62500000000003">
+ ******************************************                              
+ * WELL P        HAS CHANGED TO           *                              
+ * CONTROL BY LIQUID RATE                 *                              
+ * FROM TIME    222.63   DAYS  ,          *                              
+ * TO OBEY THE LIMIT ON DRAWDOWN.         *                              
+ ******************************************                              
+</message>
+<message date="31/12/1988" time="365.25000000000000">
+ RESTART FILE WRITTEN   REPORT     1                                     
+</message>
+<message date="31/12/1989" time="730.50000000000000">
+ RESTART FILE WRITTEN   REPORT     2                                     
+</message>
+<message date="31/12/1990" time="1095.75000000000000">
+ RESTART FILE WRITTEN   REPORT     3                                     
+</message>
+<message date="1/1/1992" time="1461.00000000000000">
+ RESTART FILE WRITTEN   REPORT     4                                     
+</message>
+<message date="31/12/1992" time="1826.25000000000000">
+ RESTART FILE WRITTEN   REPORT     5                                     
+</message>
+<problem date="14/3/1993" time="1899.30000000000018">
+ NON-LINEAR EQUATION CONVERGENCE FAILURE                                 
+ ITERATION LIMIT REACHED - TIME STEP CHOPPED FROM  36.52                 
+</problem>
+<message date="27/4/1993" time="1943.21493733040916">
+ ****************************************************************        
+ * WELL P        IS  SHUT   AT TIME    1970.43   DAYS   BECAUSE *        
+ * IT HAS AN OIL RATE   4.3643E-01  STB/DAY                     *        
+ * BELOW THE MINIMUM ECONOMIC VALUE   1.0000E+00  STB/DAY       *        
+ ****************************************************************        
+</message>
+<message date="31/12/1993" time="2191.50000000000000">
+ ******************************************                              
+ * WELL P        HAS BEEN SHUT OR STOPPED *                              
+ * SO THE RUN WILL TERMINATE.             *                              
+ ******************************************                              
+</message>
+<message date="31/12/1993" time="2191.50000000000000">
+ RESTART FILE WRITTEN   REPORT     6                                     
+</message>
+<comment date="31/12/1993" time="2191.50000000000000">
+ *********************************************                           
+ * RUN STOPPED. SEE ABOVE FOR THE REASON.    *                           
+ *********************************************                           
+</comment>
+</eclipse>

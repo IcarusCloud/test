@@ -1,0 +1,1853 @@
+
+
+
+ $$$$$   $$$   $      $$$  $$$$    $$$   $$$$$     $    $$$    $$$ 
+ $      $   $  $       $   $   $  $   $  $        $$   $   $  $   $
+ $      $      $       $   $   $  $      $         $   $   $  $   $
+ $$$$   $      $       $   $$$$    $$$   $$$$      $   $   $  $   $
+ $      $      $       $   $          $  $         $   $   $  $   $
+ $      $   $  $       $   $      $   $  $         $   $   $  $   $
+ $$$$$   $$$   $$$$$  $$$  $       $$$   $$$$$    $$$   $$$    $$$ 
+
+
+
+                       $$$$$   $$$   $      $$$  $$$$    $$$   $$$$$     $    $$$    $$$ 
+                       $      $   $  $       $   $   $  $   $  $        $$   $   $  $   $
+                       $      $      $       $   $   $  $      $         $   $   $  $   $
+                       $$$$   $      $       $   $$$$    $$$   $$$$      $   $   $  $   $
+                       $      $      $       $   $          $  $         $   $   $  $   $
+                       $      $   $  $       $   $      $   $  $         $   $   $  $   $
+                       $$$$$   $$$   $$$$$  $$$  $       $$$   $$$$$    $$$   $$$    $$$ 
+
+
+
+                                             $$$$$   $$$   $      $$$  $$$$    $$$   $$$$$     $    $$$    $$$ 
+                                             $      $   $  $       $   $   $  $   $  $        $$   $   $  $   $
+                                             $      $      $       $   $   $  $      $         $   $   $  $   $
+                                             $$$$   $      $       $   $$$$    $$$   $$$$      $   $   $  $   $
+                                             $      $      $       $   $          $  $         $   $   $  $   $
+                                             $      $   $  $       $   $      $   $  $         $   $   $  $   $
+                                             $$$$$   $$$   $$$$$  $$$  $       $$$   $$$$$    $$$   $$$    $$$ 
+
+
+
+                                                                   $$$$$   $$$   $      $$$  $$$$    $$$   $$$$$     $    $$$    $$$ 
+                                                                   $      $   $  $       $   $   $  $   $  $        $$   $   $  $   $
+                                                                   $      $      $       $   $   $  $      $         $   $   $  $   $
+                                                                   $$$$   $      $       $   $$$$    $$$   $$$$      $   $   $  $   $
+                                                                   $      $      $       $   $          $  $         $   $   $  $   $
+                                                                   $      $   $  $       $   $      $   $  $         $   $   $  $   $
+                                                                   $$$$$   $$$   $$$$$  $$$  $       $$$   $$$$$    $$$   $$$    $$$ 
+ 
+ Version =  2009.1
+ Arch    =  PC WINDOWS (32 bit)
+Annex    | Modification date    | Update date          | baseline             
+=====    | =================    | ===========          | ========             
+ECLIPSE  | 27-APR-2009 16:22:47 | 27-APR-2009 19:37:10 | S:\2009.1_w18i
+system   | 22-APR-2009 14:52:01 | 25-APR-2009 05:27:35 | S:\2009.1_w18
+utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
+ 
+
+1
+
+ ******** ECHO OF INPUT DATA FOR RUN SPE2_CHAPRST
+
+ 0: -- =====================================================================
+ 0: -- RESTART FROM CHAP RUN AT 720 DAYS
+ 0: -- CHANGES IN DATA TO TEST GRAF PROCESSING OF RESTART RUNS:
+ 0: -- WELL P1 RATE CHANGE TO 300 BPD, ON ECONOMIC CONTROL WCT 0.8
+ 0: -- WELL P2 3,1,1-2 OPENED AT 900 DAYS
+ 0: -- P2 CONNECTION 2 SHUT AT 960 DAYS
+ 0: -- RUN TO 1000 DAYS
+ 0: -- =====================================================================
+ 0: RUNSPEC
+ 0: TITLE
+ 0:       Test restart Chappelear 3 phase radial coning study
+ 0: 
+ 0: DIMENS
+ 0:    10    1   15  /
+ 0: 
+ 0: RADIAL
+ 0: 
+ 0: NONNC
+ 0: 
+ 0: OIL
+ 0: 
+ 0: WATER
+ 0: 
+ 0: GAS
+ 0: 
+ 0: DISGAS
+ 0: 
+ 0: FIELD
+ 0: 
+ 0: EQLDIMS
+ 0:     1  100   10    1   20 /
+ 0: 
+ 0: TABDIMS
+ 0:     1    1   19   15   15   15 /
+ 0: 
+ 0: REGDIMS
+ 0:    15    1    0    0  /
+ 0: 
+ 0: WELLDIMS
+ 0:     2    2    1    2 /
+ 0: 
+ 0: NUPCOL
+ 0:     4 /
+ 0: 
+ 0: START
+ 0:    1 'JAN' 1982  /
+ 0: 
+ 0: NSTACK
+ 0:    24 /
+ 0: 
+ 0: GRID     ===============================================================
+ 0: 
+ 0: INRAD
+ 0:   0.25 /
+ 0: DRV
+ 0:     1.75     2.32     5.01    10.84    23.39
+ 0:    50.55   109.21   235.92   509.68  1101.08  /
+ 0: 
+ 0: 
+ 0: EQUALS
+ 0: 
+ 0:       'DTHETA'  360   /  BOX DEFAULTS TO THE WHOLE GRID
+ 0: 
+ 0:       'DZ'      20     1 10  1  1  1  1  /  LAYER 1
+ 0:       'PERMR'   35    /
+ 0:       'PORO'    0.087 /
+ 0:       'TOPS'    9000  /
+ 0: 
+ 0:       'DZ'      15     1 10  1  1  2  2  /  LAYER 2
+ 0:       'PERMR'   47.5  /
+ 0:       'PORO'    0.097 /
+ 0: 
+ 0:       'DZ'      26     1 10  1  1  3  3  /  LAYER 3
+ 0:       'PERMR'   148   /
+ 0:       'PORO'    0.111 /
+ 0: 
+ 0:       'DZ'      15     1 10  1  1  4  4  /  LAYER 4
+ 0:       'PERMR'   202   /
+ 0:       'PORO'    0.160 /
+ 0: 
+ 0:       'DZ'      16     1 10  1  1  5  5  /  LAYER 5
+ 0:       'PERMR'   90    /
+ 0:       'PORO'    0.130 /
+ 0: 
+ 0:       'DZ'      14     1 10  1  1  6  6  /  LAYER 6
+ 0:       'PERMR'   418.5 /
+ 0:       'PORO'    0.170 /
+ 0: 
+ 0:       'DZ'      8      1 10  1  1  7  7  /  LAYER 7
+ 0:       'PERMR'   775   /
+ 0:       'PORO'    0.170 /
+ 0: 
+ 0:       'DZ'      8      1 10  1  1  8  8  /  LAYER 8
+ 0:       'PERMR'   60    /
+ 0:       'PORO'    0.080 /
+ 0: 
+ 0:       'DZ'      18     1 10  1  1  9  9  /  LAYER 9
+ 0:       'PERMR'   682   /
+ 0:       'PORO'    0.140 /
+ 0: 
+ 0:       'DZ'      12     1 10  1  1 10 10  /  LAYER 10
+ 0:       'PERMR'   472   /
+ 0:       'PORO'    0.130 /
+ 0: 
+ 0:       'DZ'      19     1 10  1  1 11 11  /  LAYER 11
+ 0:       'PERMR'   125   /
+ 0:       'PORO'    0.120 /
+ 0: 
+ 0:       'DZ'      18     1 10  1  1 12 12  /  LAYER 12
+ 0:       'PERMR'   300   /
+ 0:       'PORO'    0.105 /
+ 0: 
+ 0:       'DZ'      20     1 10  1  1 13 13  /  LAYER 13
+ 0:       'PERMR'   137.5 /
+ 0:       'PORO'    0.120 /
+ 0: 
+ 0:       'DZ'      50     1 10  1  1 14 14  /  LAYER 14
+ 0:       'PERMR'   191   /
+ 0:       'PORO'    0.116 /
+ 0: 
+ 0:       'DZ'      100    1 10  1  1 15 15  /  LAYER 15
+ 0:       'PERMR'   350   /
+ 0:       'PORO'    0.157 /
+ 0: 
+ 0: /   EQUALS IS TERMINATED BY A NULL RECORD
+ 0: 
+ 0: COPY
+ 0:          'PERMR'      'PERMZ'     /
+ 0: /
+ 0: MULTIPLY
+ 0:         'PERMZ'     0.1    /
+ 0: /
+ 0: 
+ 0: PROPS    ===============================================================
+ 0: SWFN
+ 0: 
+ 0:     0.22  0       7
+ 0:     0.3   0.07    4
+ 0:     0.4   0.15    3
+ 0:     0.5   0.24    2.5
+ 0:     0.6   0.33    2
+ 0:     0.8   0.65    1
+ 0:     0.9   0.83    0.5
+ 0:     1     1       0      /
+ 0: 
+ 0: SGFN       1 TABLES   19 NODES IN EACH           FIELD   16:31 18 JAN 85
+ 0:     .0000  .0000  .0000
+ 0:     .0400  .0000  .2000
+ 0:     .1000  .0220  .5000
+ 0:     .2000  .1000 1.0000
+ 0:     .3000  .2400 1.5000
+ 0:     .4000  .3400 2.0000
+ 0:     .5000  .4200 2.5000
+ 0:     .6000  .5000 3.0000
+ 0:     .7000  .8125 3.5000
+ 0:     .7800 1.0000 3.9000
+ 0: /
+ 0: 
+ 0: SOF3
+ 0:     0        0         0
+ 0:     0.2      0         0
+ 0:     0.38      0.00432   0
+ 0:     0.4      0.0048    0.004
+ 0:     0.48      0.05288   0.02
+ 0:     0.5      0.0649    0.036
+ 0:     0.58      0.11298   0.1
+ 0:     0.6      0.125     0.146
+ 0:     0.68      0.345     0.33
+ 0:     0.7      0.4       0.42
+ 0:     0.74      0.7       0.6
+ 0:     0.78     1         1          /
+ 0: 
+ 0: 
+ 0: PVTW
+ 0:         3600     1.00341        3.0D-6          0.96             0  /
+ 0: 
+ 0: ROCK
+ 0:          3600          4.0D-6   /
+ 0: 
+ 0: DENSITY
+ 0:            45   63.02   0.0702  /
+ 0: 
+ 0: PVDG
+ 0:       400    5.9   0.013
+ 0:       800    2.95  0.0135
+ 0:      1200    1.96  0.014
+ 0:      1600    1.47  0.0145
+ 0:      2000    1.18  0.015
+ 0:      2400    0.98  0.0155
+ 0:      2800    0.84  0.016
+ 0:      3200    0.74  0.0165
+ 0:      3600    0.65  0.017
+ 0:      4000    0.59  0.0175
+ 0:      4400    0.54  0.018
+ 0:      4800    0.49  0.0185
+ 0:      5200    0.45  0.019
+ 0:      5600    0.42  0.0195 /
+ 0: 
+ 0: PVTO
+ 0:    0.165      400   1.012    1.17  /
+ 0:    0.335      800   1.0255   1.14  /
+ 0:    0.500     1200   1.038    1.11  /
+ 0:    0.665     1600   1.051    1.08  /
+ 0:    0.828     2000   1.063    1.06  /
+ 0:    0.985     2400   1.075    1.03  /
+ 0:    1.130     2800   1.087    1.00  /
+ 0:    1.270     3200   1.0985   0.98  /
+ 0:    1.390     3600   1.11     0.95  /
+ 0:    1.500     4000   1.12     0.94  /
+ 0:    1.600     4400   1.13     0.92  /
+ 0:    1.676     4800   1.14     0.91  /
+ 0:    1.750     5200   1.148    0.9   /
+ 0:    1.810     5600   1.155    0.89
+ 0:              6000   1.1504   0.89
+ 0:              6400   1.1458   0.89
+ 0:              6800   1.1412   0.89
+ 0:              7200   1.1367   0.89  /
+ 0: /
+ 0: 
+ 0: 
+ 0: REGIONS  ===============================================================
+ 0: FIPNUM
+ 0:   10*1  10*2  10*3  10*4  10*5  10*6  10*7  10*8  10*9  10*10
+ 0:   10*11 10*12 10*13 10*14 10*15  /
+ 0: 
+ 0: 
+ 0: SOLUTION ===============================================================
+ 0: -- RESTART FROM 720 DAYS (REPORT STEP 9)
+ 0: RESTART
+ 0: 
+ 0: SUMMARY ================================================================
+ 0: -------- THIS SECTION SPECIFIES DATA TO BE WRITTEN TO THE SUMMARY FILES
+ 0: -------- AND WHICH MAY LATER BE USED WITH THE ECLIPSE GRAPHICS PACKAGE
+ 0: ------------------------------------------------------------------------
+ 0: 
+ 0: -- FIELD Water Cut, GOR and Pressure
+ 0: FWCT
+ 0: FGOR
+ 0: FPR
+ 0: 
+ 0: -- FIELD Rates for Oil, Water, Liquid & 3 Phase Voidage
+ 0: FOPR
+ 0: FWPR
+ 0: FLPR
+ 0: FVPR
+ 0: 
+ 0: -- BOTTOM HOLE PRESSURE FOR WELL
+ 0: WBHP
+ 0: 'P1'
+ 0: /
+ 0: 
+ 0: 
+ 0: WGPR
+ 0: /
+ 0: 
+ 0: WBHP
+ 0: P2 /
+ 0: 
+ 0: RUNSUM
+ 0: 
+ 0: SCHEDULE ===============================================================
+ 0: -------- THE SCHEDULE SECTION DEFINES THE OPERATIONS TO BE SIMULATED
+ 0: ------------------------------------------------------------------------
+ 0: 
+ 0: -- FREE GAS IS NOT ALLOWED TO DISSOLVE IN UNDERSATURATED OIL
+ 0: DRSDT
+ 0:  0.0 /
+ 0: -- RESTART AFTER 720 DAYS
+ 0: -- CUT OIL RATE TO 300 BPD TO COMPARE WITH NORMAL RUN
+ 0: WELTARG
+ 0: 'P1', 'ORAT'  300.000000 /
+ 0: /
+ 0: 
+ 0: -- SPECIFY UPPER LIMIT OF 1 DAY FOR NEXT TIME STEP, MAX STEP 30 DAYS
+ 0: TUNING
+ 0:   1  30 /
+ 0: /
+ 0:  12 1 50 /
+ 0: 
+ 0: -- ADVANCE TO 800 DAYS
+ 0: TSTEP
+ 0:  80.00000
+ 0: /
+ 0: 
+ 0: -- CONNECTION WCT LIMIT .8
+ 0: CECON                                            FIELD   14:12 14 JUN 90
+ 0: 'P1      '   1   1   7   8    .8000     1*        1*    /
+ 0: /
+ 0: 
+ 0: 
+ 0: -- ADVANCE TO 900 DAYS
+ 0: TSTEP
+ 0:  100.0000
+ 0: /
+ 0: --
+ 0: -- OPEN WELL P2
+ 0: --
+ 0: WELSPECS                                         FIELD   14:13 14 JUN 90
+ 0: 'P2      ','G       '   3   1     1*   'GAS'   1*   'STD'
+ 0:  'SHUT','YES' 1*  'SEG' 1*  /
+ 0: /
+ 0: 
+ 0: COMPDAT                                          FIELD   14:13 14 JUN 90
+ 0: 'P2      '  1*  1*   1   2 'OPEN'  1*    1*     .4000
+ 0:     1*      1*      1*     'Z' /
+ 0: /
+ 0: 
+ 0: WCONPROD                                         FIELD   14:14 14 JUN 90
+ 0: 'P2      ','OPEN','GRAT'     1*          1*      200.000000
+ 0:      1*          1*      3000.000    1*       1*     1*    /
+ 0: /
+ 0: 
+ 0: -- SPECIFY UPPER LIMIT OF 1 DAY FOR NEXT TIME STEP, MAX STEP 30 DAYS
+ 0: TUNING
+ 0:   1  30 /
+ 0: /
+ 0:  12 1 50 /
+ 0: 
+ 0: TSTEP
+ 0: 30 30 /
+ 0: 
+ 0: WELOPEN                                          FIELD   14:15 14 JUN 90
+ 0: 'P2      ', 'SHUT'          3    1    2  /
+ 0: /
+ 0: 
+ 0: 
+ 0: -- RESET OUTPUT CONTROLS TO GET FULL OUTPUT FOR LAST REPORT
+ 0: RPTSCHED
+ 0:    'PRES' 'SOIL' 'SWAT' 'SGAS' 'RS' 'RV' 'RESTART=2' 'FIP=2' 'WELLS=2' 'VFPPROD=1'
+ 0: 'SUMMARY=2' 'CPU=2' 'AQUCT' 'WELSPECS' 'NEWTON=2' /
+ 0: 
+ 0: -- ADVANCE TO END OF SIMULATION (1000 DAYS)
+ 0: TSTEP
+ 0:  2*20
+ 0: /
+ 0: 
+ 0: END      ==============================================================
+
+ ******** END OF INPUT DATA FOR RUN SPE2_CHAPRST
+     1 READING RUNSPEC 
+     2 READING TITLE   
+     3 READING DIMENS  
+     4 READING RADIAL  
+     5 READING NONNC   
+     6 READING OIL     
+     7 READING WATER   
+     8 READING GAS     
+     9 READING DISGAS  
+    10 READING FIELD   
+    11 READING EQLDIMS 
+    12 READING TABDIMS 
+    13 READING REGDIMS 
+    14 READING WELLDIMS
+    15 READING NUPCOL  
+    16 READING START   
+    17 READING NSTACK  
+    18 READING GRID    
+
+ @--MESSAGE  AT TIME        0.0   DAYS    ( 1-JAN-1982):
+ @           CHECKING FOR LICENSES                                           
+
+ @--MESSAGE  AT TIME        0.0   DAYS    ( 1-JAN-1982):
+ @           THE MEMORY REQUIRED TO PROCESS THE GRID SECTION IS              
+ @                85424 BYTES                                                
+    19 READING INRAD   
+    20 READING DRV     
+    21 READING EQUALS  
+    22 READING COPY    
+    23 READING MULTIPLY
+    24 READING PROPS   
+
+ @--WARNING  AT TIME        0.0   DAYS    ( 1-JAN-1982):
+ @           IN ORDER TO COMPLETE THE CIRCLE FOR THE GLOBAL RADIAL GRID,     
+ @           IT IS NECESSARY TO SET ITEM 3 OF THE COORDSYS KEYWORD TO COMP   
+
+ @--MESSAGE  AT TIME        0.0   DAYS    ( 1-JAN-1982):
+ @           UNSPECIFIED TOPS VALUES OBTAINED BY ADDING DZ                   
+ @           TO TOPS VALUE FOR LAYER ABOVE                                   
+
+ @--MESSAGE  AT TIME        0.0   DAYS    ( 1-JAN-1982):
+ @           NEITHER OLDTRAN,OLDTRANR NOR NEWTRAN SPECIFIED                  
+ @           BLOCK CENTRE TRANSMISSIBILITIES TO BE CALCULATED                
+ @           USING  OLDTRAN                                                  
+
+ @--MESSAGE  AT TIME        0.0   DAYS    ( 1-JAN-1982):
+ @           NUMBER OF ACTIVE CELLS IS 150                                   
+
+ @--MESSAGE  AT TIME        0.0   DAYS    ( 1-JAN-1982):
+ @           THE MEMORY REQUIRED TO PROCESS THE SOLUTION SECTION IS          
+ @               448876 BYTES                                                
+
+ @--MESSAGE  AT TIME        0.0   DAYS    ( 1-JAN-1982):
+ @              58535 CHARACTER VARIABLES USED                               
+    25 READING SWFN    
+    26 READING SGFN    
+    27 READING SOF3    
+    28 READING PVTW    
+    29 READING ROCK    
+    30 READING DENSITY 
+    31 READING PVDG    
+    32 READING PVTO    
+    33 READING REGIONS 
+    34 READING FIPNUM  
+    35 READING SOLUTION
+    36 READING RESTART 
+    37 READING SUMMARY 
+    38 READING FWCT    
+    39 READING FGOR    
+    40 READING FPR     
+    41 READING FOPR    
+    42 READING FWPR    
+    43 READING FLPR    
+    44 READING FVPR    
+    45 READING WBHP    
+    46 READING WGPR    
+    47 READING WBHP    
+    48 READING RUNSUM  
+    49 READING SCHEDULE
+    50 READING DRSDT   
+    51 READING WELTARG 
+    52 READING TUNING  
+    53 READING TSTEP   
+1                             **********************************************************************   1
+  SIMULATE AT   720.00   DAYS *      Test restart Chappelear 3 phase radial coning study               * ECLIPSE  VERSION 2009.1     
+  REPORT   9    22 DEC 1983   *  RUN                                                                   * RUN AT 14:33 ON 24 MAR 2017 
+                              **************************************************************************
+
+ @--MESSAGE  AT TIME      720.0   DAYS    (22-DEC-1983):
+ @           ******************************************                      
+ @           * WELL P1       HAS CHANGED TO           *                      
+ @           * CONTROL BY OIL RATE                    *                      
+ @           * FROM TIME    720.00   DAYS  .          *                      
+ @           ******************************************                      
+
+ STEP   24 TIME=  721.00  DAYS (  +1.0  DAYS INIT  3 ITS) (23-DEC-1983)          
+  PAV=  3424.1  PSIA   WCT=0.425 GOR=     2.65 MSCF/STB WGR=   0.2788 STB/MSCF   
+
+ STEP   25 TIME=  724.00  DAYS (  +3.0  DAYS MAXF  2 ITS) (26-DEC-1983)          
+  PAV=  3423.8  PSIA   WCT=0.424 GOR=     2.36 MSCF/STB WGR=   0.3125 STB/MSCF   
+
+ STEP   26 TIME=  733.00  DAYS (  +9.0  DAYS MAXF  2 ITS) (4-JAN-1984)           
+  PAV=  3422.9  PSIA   WCT=0.423 GOR=     2.16 MSCF/STB WGR=   0.3396 STB/MSCF   
+
+ STEP   27 TIME=  756.96  DAYS ( +24.0  DAYS TRNC  3 ITS) (27-JAN-1984)          
+  PAV=  3420.7  PSIA   WCT=0.420 GOR=     1.98 MSCF/STB WGR=   0.3657 STB/MSCF   
+
+ STEP   28 TIME=  778.48  DAYS ( +21.5  DAYS HALF  2 ITS) (18-FEB-1984)          
+  PAV=  3418.7  PSIA   WCT=0.418 GOR=     1.88 MSCF/STB WGR=   0.3819 STB/MSCF   
+
+ STEP   29 TIME=  800.00  DAYS ( +21.5  DAYS REPT  2 ITS) (11-MAR-1984)          
+  PAV=  3416.9  PSIA   WCT=0.416 GOR=     1.81 MSCF/STB WGR=   0.3930 STB/MSCF   
+    54 READING CECON   
+    55 READING TSTEP   
+1                             **********************************************************************   2
+  SIMULATE AT   800.00   DAYS *      Test restart Chappelear 3 phase radial coning study               * ECLIPSE  VERSION 2009.1     
+  REPORT  10    11 MAR 1984   *  RUN                                                                   * RUN AT 14:33 ON 24 MAR 2017 
+                              **************************************************************************
+
+ @--MESSAGE  AT TIME      800.0   DAYS    (11-MAR-1984):
+ @           *********************************************                   
+ @           * THE CONNECTION IN BLOCK (  1,  1,  8)     *                   
+ @           * IN WELL P1       IS CLOSED                *                   
+ @           * AT TIME     830.00   DAYS  , BECAUSE      *                   
+ @           * ITS    WATER CUT      8.8004E-01          *                   
+ @           * VIOLATES THE LIMIT   8.0000E-01         . *                   
+ @           *********************************************                   
+
+ STEP   30 TIME=  830.00  DAYS ( +30.0  DAYS MAXS  2 ITS) (10-APR-1984)          
+  PAV=  3414.3  PSIA   WCT=0.415 GOR=     1.77 MSCF/STB WGR=   0.4019 STB/MSCF   
+
+ STEP   31 TIME=  860.00  DAYS ( +30.0  DAYS MAXS  4 ITS) (10-MAY-1984)          
+  PAV=  3411.8  PSIA   WCT=0.399 GOR=     1.75 MSCF/STB WGR=   0.3781 STB/MSCF   
+
+ STEP   32 TIME=  880.00  DAYS ( +20.0  DAYS HALF  2 ITS) (30-MAY-1984)          
+  PAV=  3410.2  PSIA   WCT=0.401 GOR=     1.75 MSCF/STB WGR=   0.3816 STB/MSCF   
+
+ STEP   33 TIME=  900.00  DAYS ( +20.0  DAYS REPT  2 ITS) (19-JUN-1984)          
+  PAV=  3408.5  PSIA   WCT=0.402 GOR=     1.75 MSCF/STB WGR=   0.3834 STB/MSCF   
+    56 READING WELSPECS
+    57 READING COMPDAT 
+    58 READING WCONPROD
+    59 READING TUNING  
+    60 READING TSTEP   
+1                             **********************************************************************   3
+  SIMULATE AT   900.00   DAYS *      Test restart Chappelear 3 phase radial coning study               * ECLIPSE  VERSION 2009.1     
+  REPORT  11    19 JUN 1984   *  RUN                                                                   * RUN AT 14:33 ON 24 MAR 2017 
+                              **************************************************************************
+
+ STEP   34 TIME=  901.00  DAYS (  +1.0  DAYS INIT  2 ITS) (20-JUN-1984)          
+  PAV=  3408.4  PSIA   WCT=0.403 GOR=     2.41 MSCF/STB WGR=   0.2794 STB/MSCF   
+
+ STEP   35 TIME=  904.00  DAYS (  +3.0  DAYS MAXF  1 ITS) (23-JUN-1984)          
+  PAV=  3408.1  PSIA   WCT=0.403 GOR=     2.40 MSCF/STB WGR=   0.2822 STB/MSCF   
+
+ STEP   36 TIME=  913.00  DAYS (  +9.0  DAYS MAXF  2 ITS) (2-JLY-1984)           
+  PAV=  3407.2  PSIA   WCT=0.405 GOR=     2.37 MSCF/STB WGR=   0.2866 STB/MSCF   
+
+ STEP   37 TIME=  930.00  DAYS ( +17.0  DAYS REPT  2 ITS) (19-JLY-1984)          
+  PAV=  3405.5  PSIA   WCT=0.407 GOR=     2.34 MSCF/STB WGR=   0.2926 STB/MSCF   
+1                             **********************************************************************   4
+  SIMULATE AT   930.00   DAYS *      Test restart Chappelear 3 phase radial coning study               * ECLIPSE  VERSION 2009.1     
+  REPORT  12    19 JLY 1984   *  RUN                                                                   * RUN AT 14:33 ON 24 MAR 2017 
+                              **************************************************************************
+
+ STEP   38 TIME=  960.00  DAYS ( +30.0  DAYS REPT  2 ITS) (18-AUG-1984)          
+  PAV=  3402.5  PSIA   WCT=0.410 GOR=     2.32 MSCF/STB WGR=   0.2994 STB/MSCF   
+    61 READING WELOPEN 
+    62 READING RPTSCHED
+    63 READING TSTEP   
+1                             **********************************************************************   5
+  WELSPECS AT   960.00   DAYS *      Test restart Chappelear 3 phase radial coning study               * ECLIPSE  VERSION 2009.1     
+  REPORT  13    18 AUG 1984   *  RUN                                                                   * RUN AT 14:33 ON 24 MAR 2017 
+                              **************************************************************************
+
+
+                                                         WELL CONNECTION DATA
+                                                         --------------------
+
+  ----------------------------------------------------------------------------------------------------------------------------------
+  :  WELL   :    GRID    : CMPL:  CENTRE : OPEN: SAT :CONNECTION:  INT   :  K  H   :  SKIN  : CONNECTION : SATURATION SCALING DATA :
+  :  NAME   :    BLOCK   :  NO :  DEPTH  : SHUT: TAB :  FACTOR* :  DIAM  :  VALUE  : FACTOR :  D-FACTOR  : SWMIN SWMAX SGMIN SGMAX :
+  :         :            :     :   FEET  :     :     : CPB/D/PS :  FEET  :  MD-FEET:        :  DAY/MSCF  :                         :
+  ----------------------------------------------------------------------------------------------------------------------------------
+  : P2      :   3,  1,  1:   1 :   9010.0: OPEN:  0  :     1.454:  0.4000:    700.0:       0:           0:                         : 
+  : P2      :   3,  1,  2:   2 :   9027.5: SHUT:  0  :     1.480:  0.4000:    712.5:       0:           0:                         : 
+  ----------------------------------------------------------------------------------------------------------------------------------
+  * CONNECTION FACTORS IN THE ABOVE TABLE DO NOT INCLUDE MODIFIERS FOR ROCK COMPACTION, SCALE DAMAGE AND PI MULTIPLIER TABLES.
+    SEE SUMMARY OUTPUT FOR MODIFIED CONNECTION FACTORS.
+1                             **********************************************************************   6
+  SIMULATE AT   960.00   DAYS *      Test restart Chappelear 3 phase radial coning study               * ECLIPSE  VERSION 2009.1     
+  REPORT  13    18 AUG 1984   *  RUN                                                                   * RUN AT 14:33 ON 24 MAR 2017 
+                              **************************************************************************
+
+ IT= 0   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL-0.00297(  6,  1,  4)  6.0D-05     0.00  0.00000  0.00000                              
+ WAT-0.00089(  6,  1,  8)  3.8D-05     0.00  0.00000  0.00000                              
+ GAS-2.7E+01(  3,  1,  2)  1.0D-04     0.00  0.00000  0.00000                              
+
+       LINIT= 5 NSCHP=    0 NCHOP=    0 NSTAT1,2,3=    0  149    1 NTRAN=    1   
+ IT= 1   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.06370(  1,  1,  7) -2.6D-09    -2.85  0.00037 -0.00004                              
+ WAT 0.04050(  1,  1,  7)  2.1D-09    -2.85  0.00037 -0.00004                              
+ GAS-0.70760(  3,  1,  2) -5.8D-08    -1.08  0.00000  0.00008                              
+
+       LINIT= 3 NSCHP=    0 NCHOP=    0 NSTAT1,2,3=    0  150    0 NTRAN=    1   
+ IT= 2   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.00014(  6,  1,  4)  6.6D-12    -1.97  0.00026 -0.00150                              
+ WAT 0.00002(  1,  1,  7)  3.7D-13    -2.88  0.00037 -0.00002                              
+ GAS 0.00262(  6,  1,  2) -2.0D-11    -1.97  0.00000  0.00009                              
+
+       LINIT= 2 NSCHP=    0 NCHOP=    0 NSTAT1,2,3=    0  150    0 NTRAN=    0   
+ IT= 3   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL-0.00005(  2,  1,  7) -4.9D-14    -2.65  0.00037 -0.00002                              
+ WAT-0.00004(  2,  1,  7)  1.3D-14    -2.65  0.00037 -0.00002                              
+ GAS-0.00004(  6,  1,  2)  2.1D-14    -1.97  0.00000  0.00009                              
+
+
+ STEP   39 TIME=  980.00  DAYS ( +20.0  DAYS REPT  3 ITS) (7-SEP-1984)           
+  PAV=  3400.5  PSIA   WCT=0.412 GOR=     2.32 MSCF/STB WGR=   0.3023 STB/MSCF   
+
+      PR.RATE   PR.TOTAL  IN.RATE   IN.TOTAL  MAX SATURN CHANGE   MAX TIME TRNC ERR
+
+ OIL     300.    621713.       0.         0.  0.003(  8,  1,  3) -0.002(  5,  1,  5)
+ WAT     210.    313590.       0.         0.  0.001(  6,  1,  8)  0.000(  6,  1,  5)
+ GAS     695.   1524918.       0.         0. -0.003(  8,  1,  3)  0.002(  5,  1,  5)
+
+      MAX DP =   -2.87(  1,  1,  7)  MAX DRS= -0.0007(  3,  1,  1) 
+1                             **********************************************************************   7
+  WELLS    AT   980.00   DAYS *      Test restart Chappelear 3 phase radial coning study               * ECLIPSE  VERSION 2009.1     
+  REPORT  14     7 SEP 1984   *  RUN                                                                   * RUN AT 14:33 ON 24 MAR 2017 
+                              **************************************************************************
+
+
+                                                          PRODUCTION REPORT
+                                                          -----------------
+
+------------------------------------------------------------------------------------------------------------------------------------
+:  WELL  :  LOCATION :CTRL:    OIL    :   WATER   :    GAS    :   FLUID   :WATER: GAS/OIL: WAT/GAS: BHP OR : THP OR : STEADY-ST PI :
+:  NAME  :  (I,J,K)  :MODE:    RATE   :   RATE    :    RATE   :  RES.VOL. : CUT :  RATIO :  RATIO : CON.PR.: BLK.PR.: OR POTN OF   :
+: OR GRID:           :    :   STB/DAY :   STB/DAY :  MSCF/DAY :   RB/DAY  :     :MSCF/STB:STB/MSCF:  PSIA  :  PSIA  : PREFERRED PH :
+====================================================================================================================================
+:        :           :    :           :           :           :           :     :        :        :        :        :              :
+:FIELD               :    :      300.0:      210.0:      694.8:      746.5:0.412:    2.32:  0.3023:        :        :              :
+====================================================================================================================================
+:        :           :    :           :           :           :           :     :        :        :        :        :              :
+:G         GROUP     :    :      300.0:      210.0:      694.8:      746.5:0.412:    2.32:  0.3023:        :        :              :
+------------------------------------------------------------------------------------------------------------------------------------
+:        :           :    :           :           :           :           :     :        :        :        :        :              :
+:P1      :  1,  1    :ORAT:      300.0:      210.0:      494.8:      608.2:0.412:    1.65:  0.4244:  3166.7:     0.0:     4.2  O PI:
+:  BLOCK :  1,  1,  7:    :      300.0:      210.0:      494.8:      607.6:0.412:    1.65:  0.4244:  3166.7:  3237.5:     4.2  O PI:
+:  BLOCK :  1,  1,  8:SHUT:        0.0:        0.0:        0.0:        0.0:0.000:    0.00:  0.0000:  3169.6:  3372.6:     0.0  O PI:
+:        :           :    :           :           :           :           :     :        :        :        :        :              :
+:P2      :  3,  1    :GRAT:        0.0:        0.0:      200.0:      138.3:1.000:    0.00:  0.0000:  3368.7:     0.0:   124.5  G PI:
+:  BLOCK :  3,  1,  1:    :        0.0:        0.0:      200.0:      139.6:1.000:    0.00:  0.0000:  3368.7:  3370.3:   124.5  G PI:
+:  BLOCK :  3,  1,  2:SHUT:        0.0:        0.0:        0.0:        0.0:0.000:    0.00:  0.0000:  3370.9:  3375.4:     0.0  G PI:
+====================================================================================================================================
+
+
+                                                CUMULATIVE PRODUCTION/INJECTION TOTALS
+                                                --------------------------------------
+
+    --------------------------------------------------------------------------------------------------------------------------------
+    :  WELL  :  LOCATION :WELL:WELL:    OIL    :   WATER   :    GAS    :  RES.VOL. :    OIL    :   WATER   :    GAS    :  RES.VOL. :
+    :  NAME  :  (I,J,K)  :TYPE:CTRL: PRODUCTION: PRODUCTION: PRODUCTION: PRODUCTION: INJECTION : INJECTION : INJECTION : INJECTION :
+    : OR GRID:           :    :MODE:    MSTB   :    MSTB   :    MMSCF  :    MRBL   :    MSTB   :    MSTB   :    MMSCF  :    MRBL   :
+    ================================================================================================================================
+    :        :           :    :    :           :           :           :           :           :           :           :           :
+    :FIELD               :    :    :      621.7:      313.6:     1524.9:     1455.7:        0.0:        0.0:        0.0:        0.0: 
+    ================================================================================================================================
+    :        :           :    :    :           :           :           :           :           :           :           :           :
+    :G         GROUP     :    :    :      621.7:      313.6:     1524.9:     1455.7:        0.0:        0.0:        0.0:        0.0: 
+    --------------------------------------------------------------------------------------------------------------------------------
+    :        :           :    :    :           :           :           :           :           :           :           :           :
+    :P1      :  1,  1    :PROD:ORAT:      621.7:      313.6:     1508.9:     1444.6:        0.0:        0.0:        0.0:        0.0: 
+    :  BLOCK :  1,  1,  7:    :    :      608.3:      262.7:     1490.6:     1376.9:        0.0:        0.0:        0.0:        0.0: 
+    :  BLOCK :  1,  1,  8:    :SHUT:       13.4:       50.9:       18.3:       65.9:        0.0:        0.0:        0.0:        0.0: 
+    :        :           :    :    :           :           :           :           :           :           :           :           :
+    :P2      :  3,  1    :PROD:GRAT:        0.0:        0.0:       16.0:       11.1:        0.0:        0.0:        0.0:        0.0: 
+    :  BLOCK :  3,  1,  1:    :    :        0.0:        0.0:       10.3:        7.2:        0.0:        0.0:        0.0:        0.0: 
+    :  BLOCK :  3,  1,  2:    :SHUT:        0.0:        0.0:        5.7:        4.0:        0.0:        0.0:        0.0:        0.0: 
+    ================================================================================================================================
+1                             **********************************************************************   8
+  BALANCE  AT   980.00   DAYS *      Test restart Chappelear 3 phase radial coning study               * ECLIPSE  VERSION 2009.1     
+  REPORT  14     7 SEP 1984   *  RUN                                                                   * RUN AT 14:33 ON 24 MAR 2017 
+                              **************************************************************************
+
+
+                                                     ==================================================
+                                                     :               FIELD TOTALS                     :
+                                                     :         PAV =       3400.53  PSIA              :
+                                                     :         PORV=    110733232.   RB               :
+                                                     :(PRESSURE IS WEIGHTED BY HYDROCARBON PORE VOLUME:
+                                                     : PORE VOLUMES ARE TAKEN AT REFERENCE CONDITIONS):
+                           :--------------- OIL    STB  ---------------:-- WAT    STB  -:--------------- GAS   MSCF  ---------------:
+                           :     LIQUID         VAPOUR         TOTAL   :       TOTAL    :       FREE      DISSOLVED         TOTAL   :
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :CURRENTLY IN PLACE       :     28241314.                    28241314.:      73675470. :      7926499.     37596550.      45523049.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW THROUGH WELLS    :                                    621713.:        313590. :                                   1524918.:
+ :WELL  MATERIAL BAL. ERROR:                                         0.:             0. :                                         0.:
+ :FIELD MATERIAL BAL. ERROR:                                        -5.:             0. :                                        28.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :ORIGINALLY IN PLACE      :     28863023.                    28863023.:      73989060. :      6929463.     40118533.      47047995.:
+ ====================================================================================================================================
+
+
+                                                =================================
+                                                : FIPNUM  REPORT REGION    1    :
+                                                :     PAV =       3372.46  PSIA :
+                                                :     PORV=      4091564.   RB  :
+                           :--------------- OIL    STB  ---------------:-- WAT    STB  -:--------------- GAS   MSCF  ---------------:
+                           :     LIQUID         VAPOUR         TOTAL   :       TOTAL    :       FREE      DISSOLVED         TOTAL   :
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :CURRENTLY IN PLACE       :          -46.                         -46.:        896038. :      4571349.          -61.       4571287.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO OTHER REGIONS :            0.                           0.:           954. :       323144.            0.        323144.:
+ :OUTFLOW THROUGH WELLS    :                                         0.:             0. :                                     10318.:
+ :MATERIAL BALANCE ERROR.  :                                        46.:            29. :                                         5.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :ORIGINALLY IN PLACE      :            0.                           0.:        897021. :      4904755.            0.       4904755.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO REGION   2    :            0.                           0.:           954. :       323144.            0.        323144.:
+ ====================================================================================================================================
+
+
+                                                =================================
+                                                : FIPNUM  REPORT REGION    2    :
+                                                :     PAV =       3376.80  PSIA :
+                                                :     PORV=      3421394.   RB  :
+                           :--------------- OIL    STB  ---------------:-- WAT    STB  -:--------------- GAS   MSCF  ---------------:
+                           :     LIQUID         VAPOUR         TOTAL   :       TOTAL    :       FREE      DISSOLVED         TOTAL   :
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :CURRENTLY IN PLACE       :      1335458.                     1335458.:        749751. :      1710017.      1766869.       3476886.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO OTHER REGIONS :      -117188.                     -117188.:           366. :       392835.      -158255.        234580.:
+ :OUTFLOW THROUGH WELLS    :                                         0.:             0. :                                      5682.:
+ :MATERIAL BALANCE ERROR.  :                                        17.:             0. :                                       -90.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :ORIGINALLY IN PLACE      :      1218287.                     1218287.:        750118. :      2024708.      1692350.       3717058.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO REGION   1    :            0.                           0.:          -954. :      -323144.            0.       -323144.:
+ :OUTFLOW TO REGION   3    :      -117188.                     -117188.:          1320. :       715979.      -158255.        557724.:
+ ====================================================================================================================================
+
+
+                                                =================================
+                                                : FIPNUM  REPORT REGION    3    :
+                                                :     PAV =       3384.24  PSIA :
+                                                :     PORV=      6786352.   RB  :
+                           :--------------- OIL    STB  ---------------:-- WAT    STB  -:--------------- GAS   MSCF  ---------------:
+                           :     LIQUID         VAPOUR         TOTAL   :       TOTAL    :       FREE      DISSOLVED         TOTAL   :
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :CURRENTLY IN PLACE       :      4562952.                     4562952.:       1495439. :       348589.      6047192.       6395781.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO OTHER REGIONS :       192449.                      192449.:          7710. :       -47562.       261517.        213955.:
+ :OUTFLOW THROUGH WELLS    :                                         0.:             0. :                                         0.:
+ :MATERIAL BALANCE ERROR.  :                                       -23.:             5. :                                       240.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :ORIGINALLY IN PLACE      :      4755378.                     4755378.:       1503153. :            0.      6609976.       6609976.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO REGION   2    :       117188.                      117188.:         -1320. :      -715979.       158255.       -557724.:
+ :OUTFLOW TO REGION   4    :        75261.                       75261.:          9029. :       668417.       103262.        771679.:
+ ====================================================================================================================================
+
+
+                                                =================================
+                                                : FIPNUM  REPORT REGION    4    :
+                                                :     PAV =       3392.14  PSIA :
+                                                :     PORV=      5643536.   RB  :
+                           :--------------- OIL    STB  ---------------:-- WAT    STB  -:--------------- GAS   MSCF  ---------------:
+                           :     LIQUID         VAPOUR         TOTAL   :       TOTAL    :       FREE      DISSOLVED         TOTAL   :
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :CURRENTLY IN PLACE       :      3754219.                     3754219.:       1321911. :       240600.      4984266.       5224866.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO OTHER REGIONS :       134688.                      134688.:          1318. :        -1919.       182675.        180755.:
+ :OUTFLOW THROUGH WELLS    :                                         0.:             0. :                                         0.:
+ :MATERIAL BALANCE ERROR.  :                                        -2.:            -4. :                                       -43.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :ORIGINALLY IN PLACE      :      3888905.                     3888905.:       1323225. :            0.      5405578.       5405578.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO REGION   3    :       -75261.                      -75261.:         -9029. :      -668417.      -103262.       -771679.:
+ :OUTFLOW TO REGION   5    :       209949.                      209949.:         10347. :       666498.       285936.        952434.:
+ ====================================================================================================================================
+
+
+                                                =================================
+                                                : FIPNUM  REPORT REGION    5    :
+                                                :     PAV =       3398.13  PSIA :
+                                                :     PORV=      4891065.   RB  :
+                           :--------------- OIL    STB  ---------------:-- WAT    STB  -:--------------- GAS   MSCF  ---------------:
+                           :     LIQUID         VAPOUR         TOTAL   :       TOTAL    :       FREE      DISSOLVED         TOTAL   :
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :CURRENTLY IN PLACE       :      3181706.                     3181706.:       1232478. :       197162.      4229884.       4427046.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO OTHER REGIONS :       105508.                      105508.:          6679. :         -892.       143042.        142150.:
+ :OUTFLOW THROUGH WELLS    :                                         0.:             0. :                                         0.:
+ :MATERIAL BALANCE ERROR.  :                                        -2.:            -1. :                                        29.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :ORIGINALLY IN PLACE      :      3287211.                     3287211.:       1239155. :            0.      4569224.       4569224.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO REGION   4    :      -209949.                     -209949.:        -10347. :      -666498.      -285936.       -952434.:
+ :OUTFLOW TO REGION   6    :       315457.                      315457.:         17026. :       665606.       428978.       1094584.:
+ ====================================================================================================================================
+
+
+                                                =================================
+                                                : FIPNUM  REPORT REGION    6    :
+                                                :     PAV =       3403.92  PSIA :
+                                                :     PORV=      5596507.   RB  :
+                           :--------------- OIL    STB  ---------------:-- WAT    STB  -:--------------- GAS   MSCF  ---------------:
+                           :     LIQUID         VAPOUR         TOTAL   :       TOTAL    :       FREE      DISSOLVED         TOTAL   :
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :CURRENTLY IN PLACE       :      3555221.                     3555221.:       1512288. :       213559.      4732624.       4946183.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO OTHER REGIONS :       114037.                      114037.:          7852. :         2974.       151131.        154105.:
+ :OUTFLOW THROUGH WELLS    :                                         0.:             0. :                                         0.:
+ :MATERIAL BALANCE ERROR.  :                                       -15.:           -10. :                                       -40.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :ORIGINALLY IN PLACE      :      3669243.                     3669243.:       1520130. :            0.      5100248.       5100248.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO REGION   5    :      -315457.                     -315457.:        -17026. :      -665606.      -428978.      -1094584.:
+ :OUTFLOW TO REGION   7    :       429494.                      429494.:         24878. :       668580.       580109.       1248689.:
+ ====================================================================================================================================
+
+
+                                                =================================
+                                                : FIPNUM  REPORT REGION    7    :
+                                                :     PAV =       3408.18  PSIA :
+                                                :     PORV=      3198004.   RB  :
+                           :--------------- OIL    STB  ---------------:-- WAT    STB  -:--------------- GAS   MSCF  ---------------:
+                           :     LIQUID         VAPOUR         TOTAL   :       TOTAL    :       FREE      DISSOLVED         TOTAL   :
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :CURRENTLY IN PLACE       :      1990209.                     1990209.:        912714. :       117475.      2651862.       2769338.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO OTHER REGIONS :      -540383.                     -540383.:       -263912. :      -668800.      -730341.      -1399141.:
+ :OUTFLOW THROUGH WELLS    :                                    608292.:        262692. :                                   1490601.:
+ :MATERIAL BALANCE ERROR.  :                                         8.:           -10. :                                        -1.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :ORIGINALLY IN PLACE      :      2058127.                     2058127.:        911485. :            0.      2860797.       2860797.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO REGION   6    :      -429494.                     -429494.:        -24878. :      -668580.      -580109.      -1248689.:
+ :OUTFLOW TO REGION   8    :      -110889.                     -110889.:       -239034. :         -221.      -150231.       -150452.:
+ ====================================================================================================================================
+
+
+                                                =================================
+                                                : FIPNUM  REPORT REGION    8    :
+                                                :     PAV =       3411.35  PSIA :
+                                                :     PORV=      1504943.   RB  :
+                           :--------------- OIL    STB  ---------------:-- WAT    STB  -:--------------- GAS   MSCF  ---------------:
+                           :     LIQUID         VAPOUR         TOTAL   :       TOTAL    :       FREE      DISSOLVED         TOTAL   :
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :CURRENTLY IN PLACE       :       920359.                      920359.:        448612. :        53407.      1227210.       1280617.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO OTHER REGIONS :        21374.                       21374.:        -55727. :          221.        28510.         28730.:
+ :OUTFLOW THROUGH WELLS    :                                     13421.:         50898. :                                     18317.:
+ :MATERIAL BALANCE ERROR.  :                                        -2.:             4. :                                        -2.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :ORIGINALLY IN PLACE      :       955152.                      955152.:        443786. :            0.      1327662.       1327662.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO REGION   7    :       110889.                      110889.:        239034. :          221.       150231.        150452.:
+ :OUTFLOW TO REGION   9    :       -89515.                      -89515.:       -294762. :            0.      -121722.       -121722.:
+ ====================================================================================================================================
+
+
+                                                =================================
+                                                : FIPNUM  REPORT REGION    9    :
+                                                :     PAV =       3416.45  PSIA :
+                                                :     PORV=      5925713.   RB  :
+                           :--------------- OIL    STB  ---------------:-- WAT    STB  -:--------------- GAS   MSCF  ---------------:
+                           :     LIQUID         VAPOUR         TOTAL   :       TOTAL    :       FREE      DISSOLVED         TOTAL   :
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :CURRENTLY IN PLACE       :      3411800.                     3411800.:       2013178. :       190576.      4554527.       4745102.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO OTHER REGIONS :        95454.                       95454.:         15116. :            0.       129977.        129977.:
+ :OUTFLOW THROUGH WELLS    :                                         0.:             0. :                                         0.:
+ :MATERIAL BALANCE ERROR.  :                                         7.:            -6. :                                        12.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :ORIGINALLY IN PLACE      :      3507260.                     3507260.:       2028289. :            0.      4875092.       4875092.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO REGION   8    :        89515.                       89515.:        294762. :            0.       121722.        121722.:
+ :OUTFLOW TO REGION  10    :         5939.                        5939.:       -279645. :            0.         8256.          8256.:
+ ====================================================================================================================================
+
+
+                                                =================================
+                                                : FIPNUM  REPORT REGION   10    :
+                                                :     PAV =       3422.30  PSIA :
+                                                :     PORV=      3668298.   RB  :
+                           :--------------- OIL    STB  ---------------:-- WAT    STB  -:--------------- GAS   MSCF  ---------------:
+                           :     LIQUID         VAPOUR         TOTAL   :       TOTAL    :       FREE      DISSOLVED         TOTAL   :
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :CURRENTLY IN PLACE       :      1862319.                     1862319.:       1533182. :       100191.      2489344.       2589535.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO OTHER REGIONS :        35254.                       35254.:         25236. :            0.        48091.         48091.:
+ :OUTFLOW THROUGH WELLS    :                                         0.:             0. :                                         0.:
+ :MATERIAL BALANCE ERROR.  :                                        -1.:            -2. :                                        -2.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :ORIGINALLY IN PLACE      :      1897572.                     1897572.:       1558416. :            0.      2637625.       2637625.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO REGION   9    :        -5939.                       -5939.:        279645. :            0.        -8256.         -8256.:
+ :OUTFLOW TO REGION  11    :        41194.                       41194.:       -254409. :            0.        56347.         56347.:
+ ====================================================================================================================================
+
+
+                                                =================================
+                                                : FIPNUM  REPORT REGION   11    :
+                                                :     PAV =       3428.36  PSIA :
+                                                :     PORV=      5361359.   RB  :
+                           :--------------- OIL    STB  ---------------:-- WAT    STB  -:--------------- GAS   MSCF  ---------------:
+                           :     LIQUID         VAPOUR         TOTAL   :       TOTAL    :       FREE      DISSOLVED         TOTAL   :
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :CURRENTLY IN PLACE       :      2117015.                     2117015.:       2932218. :       108706.      2833644.       2942350.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO OTHER REGIONS :       -18239.                      -18239.:         91825. :            0.       -25051.        -25051.:
+ :OUTFLOW THROUGH WELLS    :                                         0.:             0. :                                         0.:
+ :MATERIAL BALANCE ERROR.  :                                        -1.:             0. :                                        -2.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :ORIGINALLY IN PLACE      :      2098775.                     2098775.:       3024044. :            0.      2917297.       2917297.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO REGION  10    :       -41194.                      -41194.:        254409. :            0.       -56347.        -56347.:
+ :OUTFLOW TO REGION  12    :        22954.                       22954.:       -162584. :            0.        31296.         31296.:
+ ====================================================================================================================================
+
+
+                                                =================================
+                                                : FIPNUM  REPORT REGION   12    :
+                                                :     PAV =       3435.54  PSIA :
+                                                :     PORV=      4444285.   RB  :
+                           :--------------- OIL    STB  ---------------:-- WAT    STB  -:--------------- GAS   MSCF  ---------------:
+                           :     LIQUID         VAPOUR         TOTAL   :       TOTAL    :       FREE      DISSOLVED         TOTAL   :
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :CURRENTLY IN PLACE       :      1084098.                     1084098.:       3194485. :        52903.      1453408.       1506311.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO OTHER REGIONS :       -22009.                      -22009.:         61994. :            0.       -30008.        -30008.:
+ :OUTFLOW THROUGH WELLS    :                                         0.:             0. :                                         0.:
+ :MATERIAL BALANCE ERROR.  :                                        -5.:             2. :                                        -8.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :ORIGINALLY IN PLACE      :      1062083.                     1062083.:       3256481. :            0.      1476296.       1476296.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO REGION  11    :       -22954.                      -22954.:        162584. :            0.       -31296.        -31296.:
+ :OUTFLOW TO REGION  13    :          945.                         945.:       -100590. :            0.         1288.          1288.:
+ ====================================================================================================================================
+
+
+                                                =================================
+                                                : FIPNUM  REPORT REGION   13    :
+                                                :     PAV =       3442.89  PSIA :
+                                                :     PORV=      5643536.   RB  :
+                           :--------------- OIL    STB  ---------------:-- WAT    STB  -:--------------- GAS   MSCF  ---------------:
+                           :     LIQUID         VAPOUR         TOTAL   :       TOTAL    :       FREE      DISSOLVED         TOTAL   :
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :CURRENTLY IN PLACE       :       465977.                      465977.:       5090127. :        21938.       625744.        647682.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO OTHER REGIONS :         -945.                        -945.:         22549. :            0.        -1288.         -1288.:
+ :OUTFLOW THROUGH WELLS    :                                         0.:             0. :                                         0.:
+ :MATERIAL BALANCE ERROR.  :                                        -3.:            -3. :                                        -5.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :ORIGINALLY IN PLACE      :       465028.                      465028.:       5112673. :            0.       646389.        646389.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO REGION  12    :         -945.                        -945.:        100590. :            0.        -1288.         -1288.:
+ :OUTFLOW TO REGION  14    :            0.                           0.:        -78041. :            0.            0.             0.:
+ ====================================================================================================================================
+
+
+                                                =================================
+                                                : FIPNUM  REPORT REGION   14    :
+                                                :     PAV =       3457.64  PSIA :
+                                                :     PORV=     13638545.   RB  :
+                           :--------------- OIL    STB  ---------------:-- WAT    STB  -:--------------- GAS   MSCF  ---------------:
+                           :     LIQUID         VAPOUR         TOTAL   :       TOTAL    :       FREE      DISSOLVED         TOTAL   :
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :CURRENTLY IN PLACE       :            9.                           9.:      13578645. :            8.           12.            20.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO OTHER REGIONS :            0.                           0.:         21044. :            0.            0.             0.:
+ :OUTFLOW THROUGH WELLS    :                                         0.:             0. :                                         0.:
+ :MATERIAL BALANCE ERROR.  :                                        -9.:             5. :                                       -20.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :ORIGINALLY IN PLACE      :            0.                           0.:      13599694. :            0.            0.             0.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO REGION  13    :            0.                           0.:         78041. :            0.            0.             0.:
+ :OUTFLOW TO REGION  15    :            0.                           0.:        -56998. :            0.            0.             0.:
+ ====================================================================================================================================
+
+
+                                                =================================
+                                                : FIPNUM  REPORT REGION   15    :
+                                                :     PAV =       3490.38  PSIA :
+                                                :     PORV=     36918132.   RB  :
+                           :--------------- OIL    STB  ---------------:-- WAT    STB  -:--------------- GAS   MSCF  ---------------:
+                           :     LIQUID         VAPOUR         TOTAL   :       TOTAL    :       FREE      DISSOLVED         TOTAL   :
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :CURRENTLY IN PLACE       :           20.                          20.:      36764404. :           19.           26.            46.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO OTHER REGIONS :            0.                           0.:         56998. :            0.            0.             0.:
+ :OUTFLOW THROUGH WELLS    :                                         0.:             0. :                                         0.:
+ :MATERIAL BALANCE ERROR.  :                                       -20.:           -10. :                                       -46.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :ORIGINALLY IN PLACE      :            0.                           0.:      36821392. :            0.            0.             0.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO REGION  14    :            0.                           0.:         56998. :            0.            0.             0.:
+ ====================================================================================================================================
+
+
+                                                     ===================================
+                                                     :  FIPNUM OIL RECOVERY FACTORS    :
+ :---------:-----------------------------:---------------------------------------------:--------------------------------------------:
+ :         :                             : RATIO OF       RATIO OF       RATIO OF      : RATIO OF       RATIO OF       RATIO OF     :
+ : REGION  : MOBILE OIIP    MOBILE OIIP  : DISPLACED OIL  DISPLACED OIL  DISPLACED OIL : WELL FLOW      WELL FLOW      WELL FLOW    :
+ :         : (W.R.T WATER)  (W.R.T GAS)  : TO INITIAL     TO INITIAL     TO INITIAL    : TO INITIAL     TO INITIAL     TO INITIAL   :
+ :         :                             : OIP            MOBILE OIL     MOBILE OIL    : OIP            MOBILE OIL     MOBILE OIL   :
+ :         :                             :                (WATER)        (GAS)         :                (WATER)        (GAS)        :
+ :---------:-----------------------------:---------------------------------------------:--------------------------------------------:
+ :   FIELD :    1.930E+07      1.158E+07 :   0.02154        0.03221       0.05368      :   0.02154        0.03221        0.05368    :
+ :       1 :    0.000E+00      0.000E+00 :                                             :                                            :
+ :       2 :    6.018E+05      4.692E+04 :  -0.09618       -0.19471      -2.49707      :   0.00000        0.00000        0.00000    :
+ :       3 :    3.532E+06      2.432E+06 :   0.04047        0.05447       0.07913      :         0              0              0    :
+ :       4 :    2.872E+06      1.956E+06 :   0.03463        0.04690       0.06884      :         0              0              0    :
+ :       5 :    2.406E+06      1.612E+06 :   0.03210        0.04386       0.06544      :         0              0              0    :
+ :       6 :    2.660E+06      1.752E+06 :   0.03108        0.04286       0.06506      :         0              0              0    :
+ :       7 :    1.482E+06      9.628E+05 :   0.03300        0.04584       0.07055      :   0.29556        0.41059        0.63183    :
+ :       8 :    6.838E+05      4.397E+05 :   0.03643        0.05088       0.07914      :   0.01405        0.01963        0.03053    :
+ :       9 :    2.439E+06      1.477E+06 :   0.02722        0.03915       0.06462      :         0              0              0    :
+ :      10 :    1.236E+06      6.409E+05 :   0.01858        0.02852       0.05501      :         0              0              0    :
+ :      11 :    1.132E+06      2.620E+05 :  -0.00869       -0.01612      -0.06961      :         0              0              0    :
+ :      12 :    2.606E+05      0.000E+00 :  -0.02073       -0.08447                    :         0              0                   :
+ :      13 :    0.000E+00      0.000E+00 :  -0.00204                                   :         0                                  :
+ :      14 :    0.000E+00      0.000E+00 :                                             :                                            :
+ :      15 :    0.000E+00      0.000E+00 :                                             :                                            :
+ ====================================================================================================================================
+1                             **********************************************************************   9
+  PRESSURE AT   980.00   DAYS *      Test restart Chappelear 3 phase radial coning study               * ECLIPSE  VERSION 2009.1     
+  REPORT  14     7 SEP 1984   *  RUN                                                                   * RUN AT 14:33 ON 24 MAR 2017 
+                              **************************************************************************
+
+ UNITS   PSIA          
+
+ MINIMUM VALUE =  3237.48  AT (  1,  1,  7)     MAXIMUM VALUE =  3490.45  AT ( 10,  1, 15)                                           
+
+ (I,  J,  K) I=  1       2       3       4       5       6       7       8       9      10
+
+ (*,  1,  1)  3370.30 3370.30 3370*30 3370.66 3371.01 3371.34 3371.64 3371.98 3372.28 3372.53
+ (*,  1,  2)  3375.38 3375.38 3375*39 3375.40 3375.43 3375.52 3375.72 3376.08 3376.40 3376.93
+ (*,  1,  3)  3378.19 3378.19 3378.20 3378.21 3378.26 3378.46 3378.92 3380.26 3383.13 3384.73
+ (*,  1,  4)  3381.07 3381.08 3381.09 3381.15 3381.35 3382.06 3384.21 3388.10 3391.07 3392.66
+ (*,  1,  5)  3379.82 3379.83 3379.89 3380.13 3381.08 3383.77 3389.36 3394.07 3397.10 3398.65
+ (*,  1,  6)  3369.29 3369.49 3370.04 3371.79 3376.43 3385.17 3394.32 3399.86 3402.93 3404.45
+ (*,  1,  7)  3237*48 3278.75 3311.66 3342.77 3369.32 3388.01 3398.71 3404.17 3407.20 3408.71
+ (*,  1,  8)  3372*65 3373.21 3374.73 3378.89 3387.19 3396.79 3403.40 3407.66 3410.34 3411.80
+ (*,  1,  9)  3407.43 3407.43 3407.45 3407.54 3407.87 3408.82 3410.73 3413.28 3415.48 3416.82
+ (*,  1, 10)  3415.46 3415.46 3415.47 3415.49 3415.62 3416.05 3417.30 3419.35 3421.34 3422.63
+ (*,  1, 11)  3424.28 3424.28 3424.28 3424.29 3424.34 3424.52 3425.16 3426.41 3427.67 3428.62
+ (*,  1, 12)  3433.09 3433.09 3433.09 3433.09 3433.10 3433.16 3433.41 3434.10 3435.00 3435.74
+ (*,  1, 13)  3441.05 3441.05 3441.05 3441.05 3441.06 3441.09 3441.24 3441.70 3442.42 3443.06
+ (*,  1, 14)  3456.51 3456.51 3456.51 3456.51 3456.52 3456.53 3456.58 3456.79 3457.26 3457.80
+ (*,  1, 15)  3489.67 3489.67 3489.67 3489.67 3489.67 3489.67 3489.69 3489.76 3490.01 3490.45
+1                             **********************************************************************  10
+  SOIL     AT   980.00   DAYS *      Test restart Chappelear 3 phase radial coning study               * ECLIPSE  VERSION 2009.1     
+  REPORT  14     7 SEP 1984   *  RUN                                                                   * RUN AT 14:33 ON 24 MAR 2017 
+                              **************************************************************************
+
+ UNITS                 
+
+ MINIMUM VALUE = -0.00008  AT (  7,  1,  1)     MAXIMUM VALUE =  0.74749  AT ( 10,  1,  3)                                           
+
+ (I,  J,  K) I=  1       2       3       4       5       6       7       8       9      10
+
+ (*,  1,  1)  0.00000 0.00000 0*00000 0.00000-0.00001-0.00003-0.00008-0.00003-0.00002-0.00001
+ (*,  1,  2)  0.38180 0.38180 0*38182 0.38183 0.38186 0.38197 0.38230 0.38314 0.38764 0.44326
+ (*,  1,  3)  0.42738 0.42748 0.42785 0.42948 0.43631 0.45992 0.52066 0.68960 0.74601 0.74749
+ (*,  1,  4)  0.59375 0.59426 0.59612 0.60365 0.62738 0.67964 0.72751 0.73072 0.73332 0.73583
+ (*,  1,  5)  0.63713 0.63842 0.64263 0.65391 0.67502 0.70307 0.70347 0.70522 0.71472 0.72058
+ (*,  1,  6)  0.66282 0.66441 0.66626 0.66822 0.66976 0.66957 0.66785 0.68000 0.69634 0.70475
+ (*,  1,  7)  0*61414 0.61404 0.61369 0.61262 0.60934 0.60210 0.60382 0.64180 0.68305 0.69206
+ (*,  1,  8)  0*44718 0.44788 0.44916 0.45215 0.45924 0.47668 0.52220 0.59960 0.66701 0.68350
+ (*,  1,  9)  0.44209 0.44165 0.44126 0.44286 0.44932 0.46245 0.48843 0.54232 0.61172 0.64807
+ (*,  1, 10)  0.39617 0.39621 0.39636 0.39707 0.39978 0.40226 0.40818 0.42921 0.51023 0.58026
+ (*,  1, 11)  0.36977 0.36979 0.36984 0.37009 0.37111 0.37451 0.38414 0.39798 0.41606 0.44351
+ (*,  1, 12)  0.25638 0.25638 0.25638 0.25641 0.25651 0.25692 0.25830 0.26112 0.26356 0.27166
+ (*,  1, 13)  0.09114 0.09114 0.09114 0.09114 0.09114 0.09114 0.09115 0.09115 0.09115 0.09138
+ (*,  1, 14)  0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
+ (*,  1, 15)  0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
+1                             **********************************************************************  11
+  SWAT     AT   980.00   DAYS *      Test restart Chappelear 3 phase radial coning study               * ECLIPSE  VERSION 2009.1     
+  REPORT  14     7 SEP 1984   *  RUN                                                                   * RUN AT 14:33 ON 24 MAR 2017 
+                              **************************************************************************
+
+ UNITS                 
+
+ MINIMUM VALUE =  0.22005  AT (  3,  1,  2)     MAXIMUM VALUE =  1.00000  AT (  1,  1, 14)                                           
+
+ (I,  J,  K) I=  1       2       3       4       5       6       7       8       9      10
+
+ (*,  1,  1)  0.22009 0.22009 0*22009 0.22009 0.22009 0.22009 0.22009 0.22009 0.22009 0.22010
+ (*,  1,  2)  0.22005 0.22005 0*22005 0.22005 0.22005 0.22005 0.22005 0.22007 0.22015 0.22026
+ (*,  1,  3)  0.22007 0.22007 0.22007 0.22007 0.22007 0.22009 0.22022 0.22104 0.22152 0.22147
+ (*,  1,  4)  0.22223 0.22225 0.22233 0.22266 0.22374 0.22640 0.23223 0.23947 0.23713 0.23487
+ (*,  1,  5)  0.23352 0.23358 0.23384 0.23494 0.23812 0.24628 0.25646 0.26675 0.25735 0.25169
+ (*,  1,  6)  0.28253 0.28264 0.28305 0.28418 0.28640 0.29011 0.29741 0.29322 0.27724 0.26899
+ (*,  1,  7)  0*34378 0.34408 0.34466 0.34614 0.35009 0.35789 0.35697 0.33210 0.29157 0.28278
+ (*,  1,  8)  0*51275 0.51207 0.51081 0.50784 0.50075 0.48332 0.44993 0.37618 0.30835 0.29211
+ (*,  1,  9)  0.53851 0.53830 0.53748 0.53450 0.52789 0.51584 0.49084 0.43674 0.36642 0.32964
+ (*,  1, 10)  0.58910 0.58905 0.58887 0.58808 0.58517 0.58243 0.57633 0.55459 0.47173 0.40064
+ (*,  1, 11)  0.61738 0.61736 0.61731 0.61705 0.61600 0.61255 0.60278 0.58873 0.57028 0.54248
+ (*,  1, 12)  0.73554 0.73554 0.73554 0.73551 0.73541 0.73500 0.73361 0.73079 0.72835 0.72018
+ (*,  1, 13)  0.90617 0.90617 0.90617 0.90617 0.90617 0.90617 0.90617 0.90618 0.90619 0.90596
+ (*,  1, 14)  1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000
+ (*,  1, 15)  1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000
+1                             **********************************************************************  12
+  SGAS     AT   980.00   DAYS *      Test restart Chappelear 3 phase radial coning study               * ECLIPSE  VERSION 2009.1     
+  REPORT  14     7 SEP 1984   *  RUN                                                                   * RUN AT 14:33 ON 24 MAR 2017 
+                              **************************************************************************
+
+ UNITS                 
+
+ MINIMUM VALUE =  0.00000  AT (  7,  1, 14)     MAXIMUM VALUE =  0.77999  AT (  7,  1,  1)                                           
+
+ (I,  J,  K) I=  1       2       3       4       5       6       7       8       9      10
+
+ (*,  1,  1)  0.77991 0.77991 0*77991 0.77991 0.77991 0.77994 0.77999 0.77994 0.77992 0.77991
+ (*,  1,  2)  0.39815 0.39815 0*39814 0.39812 0.39809 0.39798 0.39765 0.39680 0.39221 0.33648
+ (*,  1,  3)  0.35254 0.35245 0.35208 0.35045 0.34362 0.31999 0.25912 0.08937 0.03247 0.03104
+ (*,  1,  4)  0.18402 0.18349 0.18155 0.17369 0.14888 0.09396 0.04026 0.02981 0.02955 0.02930
+ (*,  1,  5)  0.12935 0.12800 0.12353 0.11115 0.08686 0.05066 0.04007 0.02803 0.02793 0.02773
+ (*,  1,  6)  0.05465 0.05295 0.05069 0.04760 0.04384 0.04032 0.03475 0.02678 0.02641 0.02625
+ (*,  1,  7)  0*04208 0.04188 0.04165 0.04124 0.04056 0.04001 0.03921 0.02611 0.02538 0.02516
+ (*,  1,  8)  0*04007 0.04005 0.04003 0.04002 0.04001 0.04001 0.02787 0.02422 0.02464 0.02439
+ (*,  1,  9)  0.01940 0.02005 0.02126 0.02264 0.02279 0.02171 0.02073 0.02093 0.02187 0.02229
+ (*,  1, 10)  0.01473 0.01474 0.01476 0.01485 0.01505 0.01530 0.01549 0.01620 0.01804 0.01910
+ (*,  1, 11)  0.01285 0.01285 0.01285 0.01286 0.01288 0.01294 0.01307 0.01329 0.01365 0.01401
+ (*,  1, 12)  0.00808 0.00808 0.00808 0.00808 0.00808 0.00808 0.00809 0.00810 0.00809 0.00817
+ (*,  1, 13)  0.00269 0.00269 0.00269 0.00269 0.00269 0.00268 0.00268 0.00267 0.00266 0.00265
+ (*,  1, 14)  0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
+ (*,  1, 15)  0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
+1                             **********************************************************************  13
+  RS       AT   980.00   DAYS *      Test restart Chappelear 3 phase radial coning study               * ECLIPSE  VERSION 2009.1     
+  REPORT  14     7 SEP 1984   *  RUN                                                                   * RUN AT 14:33 ON 24 MAR 2017 
+                              **************************************************************************
+
+ UNITS MSCF/STB        
+
+ MINIMUM VALUE =  1.24363  AT (  1,  1,  7)     MAXIMUM VALUE =  1.35714  AT ( 10,  1, 15)                                           
+
+ (I,  J,  K) I=  1       2       3       4       5       6       7       8       9      10
+
+ (*,  1,  1)  1.32109 1.32109 1*32109 1.32120 1.32130 1.32140 1.32149 1.32159 1.32168 1.32176
+ (*,  1,  2)  1.32262 1.32262 1*32262 1.32262 1.32263 1.32266 1.32272 1.32282 1.32292 1.32308
+ (*,  1,  3)  1.32346 1.32346 1.32346 1.32346 1.32348 1.32354 1.32368 1.32408 1.32494 1.32542
+ (*,  1,  4)  1.32432 1.32432 1.32433 1.32434 1.32441 1.32462 1.32526 1.32643 1.32732 1.32780
+ (*,  1,  5)  1.32394 1.32395 1.32397 1.32404 1.32432 1.32513 1.32681 1.32822 1.32913 1.32960
+ (*,  1,  6)  1.31954 1.31964 1.31994 1.32088 1.32293 1.32555 1.32830 1.32996 1.33088 1.33134
+ (*,  1,  7)  1*24363 1.26907 1.28667 1.30337 1.31799 1.32640 1.32961 1.33125 1.33216 1.33261
+ (*,  1,  8)  1*25021 1.27730 1.29622 1.31298 1.32533 1.32904 1.33102 1.33230 1.33310 1.33354
+ (*,  1,  9)  1.33223 1.33223 1.33224 1.33226 1.33236 1.33265 1.33322 1.33398 1.33464 1.33505
+ (*,  1, 10)  1.33464 1.33464 1.33464 1.33465 1.33468 1.33482 1.33519 1.33581 1.33640 1.33679
+ (*,  1, 11)  1.33728 1.33728 1.33729 1.33729 1.33730 1.33736 1.33755 1.33792 1.33830 1.33859
+ (*,  1, 12)  1.33993 1.33993 1.33993 1.33993 1.33993 1.33995 1.34002 1.34023 1.34050 1.34072
+ (*,  1, 13)  1.34232 1.34232 1.34232 1.34232 1.34232 1.34233 1.34237 1.34251 1.34273 1.34292
+ (*,  1, 14)  1.34695 1.34695 1.34695 1.34695 1.34695 1.34696 1.34697 1.34704 1.34718 1.34734
+ (*,  1, 15)  1.35690 1.35690 1.35690 1.35690 1.35690 1.35690 1.35691 1.35693 1.35700 1.35714
+
+ @--MESSAGE  AT TIME      980.0   DAYS    ( 7-SEP-1984):
+ @           RESTART FILE WRITTEN   REPORT    14                             
+ @           RESTART INCLUDES FLUIDS IN PLACE                                
+ =======================================================
+ TIMING REPORTS AT CPU=     0 SECS - ELAPSED=     0 SECS
+ =======================================================
+ ZZSS    1  0  0
+                RR      1  0  0
+ SR      1  0  0
+ TS      1  0  0
+                NX      1  0  0
+                               WC      4  0  0
+                               LMRS    4  0  0
+                               CONV    4  0  0
+                               LMJC    3  0  0
+                               LXX     3  0  0
+                                              WGIN    3  0  0
+                                              RGIN    3  0  0
+                                              GINV    3  0  0
+                                                             GINV    3  0  0
+                                              WRES    3  0  0
+                                              RRES    3  0  0
+                                              ITER    3  0  0
+                                                             NORM   13  0  0
+                                                             SRCH   10  0  0
+                                                             WADX   20  0  0
+                                                             ORTH   10  0  0
+                                                             UPDA   10  0  0
+                                              WSOL    3  0  0
+                               XUIT    3  0  0
+                               LC      3  0  0
+ WWX     1  0  0
+ FWXR    1  0  0
+ XW      1  0  0
+ YW      1  0  0
+1                             **********************************************************************  14
+  SIMULATE AT   980.00   DAYS *      Test restart Chappelear 3 phase radial coning study               * ECLIPSE  VERSION 2009.1     
+  REPORT  14     7 SEP 1984   *  RUN                                                                   * RUN AT 14:33 ON 24 MAR 2017 
+                              **************************************************************************
+
+ IT= 0   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL-0.00293(  8,  1,  3)  6.0D-05     0.00  0.00000  0.00000                              
+ WAT-0.00085(  6,  1,  8)  3.8D-05     0.00  0.00000  0.00000                              
+ GAS 0.00106(  6,  1,  8)  1.0D-04     0.00  0.00000  0.00000                              
+
+       LINIT= 6 NSCHP=    0 NCHOP=    0 NSTAT1,2,3=    0  150    0 NTRAN=    0   
+ IT= 1   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.07421(  1,  1,  7) -3.3D-09    -2.95  0.00037 -0.00001                              
+ WAT 0.04760(  1,  1,  7)  2.4D-09    -2.95  0.00037 -0.00001                              
+ GAS 0.08975(  1,  1,  7) -5.4D-08    -2.95  0.00037 -0.00001                              
+
+       LINIT= 1 NSCHP=    0 NCHOP=    0 NSTAT1,2,3=    0  150    0 NTRAN=    0   
+ IT= 2   CNV      CELL     MAT BAL   DPRESS    DSWAT    DSGAS                              
+ OIL 0.00001(  2,  1,  8)  3.1D-16    -2.20  0.00067  0.00000                              
+ WAT-0.00002(  2,  1,  7)  4.1D-14    -2.71  0.00037 -0.00001                              
+ GAS 0.00005(  2,  1,  4)  4.5D-14    -2.03  0.00014 -0.00102                              
+
+
+ STEP   40 TIME= 1000.00  DAYS ( +20.0  DAYS REPT  2 ITS) (27-SEP-1984)          
+  PAV=  3398.5  PSIA   WCT=0.414 GOR=     2.32 MSCF/STB WGR=   0.3049 STB/MSCF   
+
+      PR.RATE   PR.TOTAL  IN.RATE   IN.TOTAL  MAX SATURN CHANGE   MAX TIME TRNC ERR
+
+ OIL     300.    627713.       0.         0.  0.003(  8,  1,  3) -0.001(  1,  1,  4)
+ WAT     212.    317826.       0.         0.  0.001(  6,  1,  8)  0.000(  6,  1,  5)
+ GAS     695.   1538812.       0.         0. -0.003(  8,  1,  3)  0.001(  1,  1,  4)
+
+      MAX DP =   -2.95(  1,  1,  7)  MAX DRS= -0.0006(  5,  1,  6) 
+1                             **********************************************************************  15
+  WELLS    AT  1000.00   DAYS *      Test restart Chappelear 3 phase radial coning study               * ECLIPSE  VERSION 2009.1     
+  REPORT  15    27 SEP 1984   *  RUN                                                                   * RUN AT 14:33 ON 24 MAR 2017 
+                              **************************************************************************
+
+
+                                                          PRODUCTION REPORT
+                                                          -----------------
+
+------------------------------------------------------------------------------------------------------------------------------------
+:  WELL  :  LOCATION :CTRL:    OIL    :   WATER   :    GAS    :   FLUID   :WATER: GAS/OIL: WAT/GAS: BHP OR : THP OR : STEADY-ST PI :
+:  NAME  :  (I,J,K)  :MODE:    RATE   :   RATE    :    RATE   :  RES.VOL. : CUT :  RATIO :  RATIO : CON.PR.: BLK.PR.: OR POTN OF   :
+: OR GRID:           :    :   STB/DAY :   STB/DAY :  MSCF/DAY :   RB/DAY  :     :MSCF/STB:STB/MSCF:  PSIA  :  PSIA  : PREFERRED PH :
+====================================================================================================================================
+:        :           :    :           :           :           :           :     :        :        :        :        :              :
+:FIELD               :    :      300.0:      211.8:      694.7:      748.5:0.414:    2.32:  0.3049:        :        :              :
+====================================================================================================================================
+:        :           :    :           :           :           :           :     :        :        :        :        :              :
+:G         GROUP     :    :      300.0:      211.8:      694.7:      748.5:0.414:    2.32:  0.3049:        :        :              :
+------------------------------------------------------------------------------------------------------------------------------------
+:        :           :    :           :           :           :           :     :        :        :        :        :              :
+:P1      :  1,  1    :ORAT:      300.0:      211.8:      494.7:      610.1:0.414:    1.65:  0.4281:  3163.3:     0.0:     4.2  O PI:
+:  BLOCK :  1,  1,  7:    :      300.0:      211.8:      494.7:      609.6:0.414:    1.65:  0.4281:  3163.3:  3234.5:     4.2  O PI:
+:  BLOCK :  1,  1,  8:SHUT:        0.0:        0.0:        0.0:        0.0:0.000:    0.00:  0.0000:  3166.2:  3370.4:     0.0  O PI:
+:        :           :    :           :           :           :           :     :        :        :        :        :              :
+:P2      :  3,  1    :GRAT:        0.0:        0.0:      200.0:      138.4:1.000:    0.00:  0.0000:  3366.7:     0.0:   124.5  G PI:
+:  BLOCK :  3,  1,  1:    :        0.0:        0.0:      200.0:      139.7:1.000:    0.00:  0.0000:  3366.7:  3368.3:   124.5  G PI:
+:  BLOCK :  3,  1,  2:SHUT:        0.0:        0.0:        0.0:        0.0:0.000:    0.00:  0.0000:  3368.8:  3373.4:     0.0  G PI:
+====================================================================================================================================
+
+
+                                                CUMULATIVE PRODUCTION/INJECTION TOTALS
+                                                --------------------------------------
+
+    --------------------------------------------------------------------------------------------------------------------------------
+    :  WELL  :  LOCATION :WELL:WELL:    OIL    :   WATER   :    GAS    :  RES.VOL. :    OIL    :   WATER   :    GAS    :  RES.VOL. :
+    :  NAME  :  (I,J,K)  :TYPE:CTRL: PRODUCTION: PRODUCTION: PRODUCTION: PRODUCTION: INJECTION : INJECTION : INJECTION : INJECTION :
+    : OR GRID:           :    :MODE:    MSTB   :    MSTB   :    MMSCF  :    MRBL   :    MSTB   :    MSTB   :    MMSCF  :    MRBL   :
+    ================================================================================================================================
+    :        :           :    :    :           :           :           :           :           :           :           :           :
+    :FIELD               :    :    :      627.7:      317.8:     1538.8:     1470.7:        0.0:        0.0:        0.0:        0.0: 
+    ================================================================================================================================
+    :        :           :    :    :           :           :           :           :           :           :           :           :
+    :G         GROUP     :    :    :      627.7:      317.8:     1538.8:     1470.7:        0.0:        0.0:        0.0:        0.0: 
+    --------------------------------------------------------------------------------------------------------------------------------
+    :        :           :    :    :           :           :           :           :           :           :           :           :
+    :P1      :  1,  1    :PROD:ORAT:      627.7:      317.8:     1518.8:     1456.9:        0.0:        0.0:        0.0:        0.0: 
+    :  BLOCK :  1,  1,  7:    :    :      614.3:      266.9:     1500.5:     1389.1:        0.0:        0.0:        0.0:        0.0: 
+    :  BLOCK :  1,  1,  8:    :SHUT:       13.4:       50.9:       18.3:       65.9:        0.0:        0.0:        0.0:        0.0: 
+    :        :           :    :    :           :           :           :           :           :           :           :           :
+    :P2      :  3,  1    :PROD:GRAT:        0.0:        0.0:       20.0:       13.8:        0.0:        0.0:        0.0:        0.0: 
+    :  BLOCK :  3,  1,  1:    :    :        0.0:        0.0:       14.3:       10.0:        0.0:        0.0:        0.0:        0.0: 
+    :  BLOCK :  3,  1,  2:    :SHUT:        0.0:        0.0:        5.7:        4.0:        0.0:        0.0:        0.0:        0.0: 
+    ================================================================================================================================
+1                             **********************************************************************  16
+  BALANCE  AT  1000.00   DAYS *      Test restart Chappelear 3 phase radial coning study               * ECLIPSE  VERSION 2009.1     
+  REPORT  15    27 SEP 1984   *  RUN                                                                   * RUN AT 14:33 ON 24 MAR 2017 
+                              **************************************************************************
+
+
+                                                     ==================================================
+                                                     :               FIELD TOTALS                     :
+                                                     :         PAV =       3398.54  PSIA              :
+                                                     :         PORV=    110733232.   RB               :
+                                                     :(PRESSURE IS WEIGHTED BY HYDROCARBON PORE VOLUME:
+                                                     : PORE VOLUMES ARE TAKEN AT REFERENCE CONDITIONS):
+                           :--------------- OIL    STB  ---------------:-- WAT    STB  -:--------------- GAS   MSCF  ---------------:
+                           :     LIQUID         VAPOUR         TOTAL   :       TOTAL    :       FREE      DISSOLVED         TOTAL   :
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :CURRENTLY IN PLACE       :     28235314.                    28235314.:      73671234. :      7937478.     37571676.      45509155.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW THROUGH WELLS    :                                    627713.:        317826. :                                   1538812.:
+ :WELL  MATERIAL BAL. ERROR:                                         0.:             0. :                                         0.:
+ :FIELD MATERIAL BAL. ERROR:                                        -5.:             0. :                                        28.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :ORIGINALLY IN PLACE      :     28863023.                    28863023.:      73989060. :      6929463.     40118533.      47047995.:
+ ====================================================================================================================================
+
+
+                                                =================================
+                                                : FIPNUM  REPORT REGION    1    :
+                                                :     PAV =       3370.45  PSIA :
+                                                :     PORV=      4091564.   RB  :
+                           :--------------- OIL    STB  ---------------:-- WAT    STB  -:--------------- GAS   MSCF  ---------------:
+                           :     LIQUID         VAPOUR         TOTAL   :       TOTAL    :       FREE      DISSOLVED         TOTAL   :
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :CURRENTLY IN PLACE       :          -45.                         -45.:        896019. :      4568316.          -60.       4568256.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO OTHER REGIONS :            0.                           0.:           973. :       322176.            0.        322176.:
+ :OUTFLOW THROUGH WELLS    :                                         0.:             0. :                                     14318.:
+ :MATERIAL BALANCE ERROR.  :                                        45.:            29. :                                         4.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :ORIGINALLY IN PLACE      :            0.                           0.:        897021. :      4904755.            0.       4904755.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO REGION   2    :            0.                           0.:           973. :       322176.            0.        322176.:
+ ====================================================================================================================================
+
+
+                                                =================================
+                                                : FIPNUM  REPORT REGION    2    :
+                                                :     PAV =       3374.78  PSIA :
+                                                :     PORV=      3421394.   RB  :
+                           :--------------- OIL    STB  ---------------:-- WAT    STB  -:--------------- GAS   MSCF  ---------------:
+                           :     LIQUID         VAPOUR         TOTAL   :       TOTAL    :       FREE      DISSOLVED         TOTAL   :
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :CURRENTLY IN PLACE       :      1335288.                     1335288.:        749740. :      1709245.      1765836.       3475081.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO OTHER REGIONS :      -117017.                     -117017.:           378. :       394414.      -158029.        236385.:
+ :OUTFLOW THROUGH WELLS    :                                         0.:             0. :                                      5682.:
+ :MATERIAL BALANCE ERROR.  :                                        16.:             0. :                                       -90.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :ORIGINALLY IN PLACE      :      1218287.                     1218287.:        750118. :      2024708.      1692350.       3717058.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO REGION   1    :            0.                           0.:          -973. :      -322176.            0.       -322176.:
+ :OUTFLOW TO REGION   3    :      -117017.                     -117017.:          1351. :       716590.      -158029.        558562.:
+ ====================================================================================================================================
+
+
+                                                =================================
+                                                : FIPNUM  REPORT REGION    3    :
+                                                :     PAV =       3382.25  PSIA :
+                                                :     PORV=      6786352.   RB  :
+                           :--------------- OIL    STB  ---------------:-- WAT    STB  -:--------------- GAS   MSCF  ---------------:
+                           :     LIQUID         VAPOUR         TOTAL   :       TOTAL    :       FREE      DISSOLVED         TOTAL   :
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :CURRENTLY IN PLACE       :      4562161.                     4562161.:       1495321. :       350072.      6043416.       6393488.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO OTHER REGIONS :       193239.                      193239.:          7827. :       -46317.       262562.        216246.:
+ :OUTFLOW THROUGH WELLS    :                                         0.:             0. :                                         0.:
+ :MATERIAL BALANCE ERROR.  :                                       -22.:             5. :                                       242.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :ORIGINALLY IN PLACE      :      4755378.                     4755378.:       1503153. :            0.      6609976.       6609976.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO REGION   2    :       117017.                      117017.:         -1351. :      -716590.       158029.       -558562.:
+ :OUTFLOW TO REGION   4    :        76222.                       76222.:          9178. :       670274.       104534.        774807.:
+ ====================================================================================================================================
+
+
+                                                =================================
+                                                : FIPNUM  REPORT REGION    4    :
+                                                :     PAV =       3390.15  PSIA :
+                                                :     PORV=      5643536.   RB  :
+                           :--------------- OIL    STB  ---------------:-- WAT    STB  -:--------------- GAS   MSCF  ---------------:
+                           :     LIQUID         VAPOUR         TOTAL   :       TOTAL    :       FREE      DISSOLVED         TOTAL   :
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :CURRENTLY IN PLACE       :      3752948.                     3752948.:       1321838. :       242806.      4980334.       5223140.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO OTHER REGIONS :       135958.                      135958.:          1392. :        -1879.       184360.        182481.:
+ :OUTFLOW THROUGH WELLS    :                                         0.:             0. :                                         0.:
+ :MATERIAL BALANCE ERROR.  :                                        -2.:            -5. :                                       -43.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :ORIGINALLY IN PLACE      :      3888905.                     3888905.:       1323225. :            0.      5405578.       5405578.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO REGION   3    :       -76222.                      -76222.:         -9178. :      -670274.      -104534.       -774807.:
+ :OUTFLOW TO REGION   5    :       212180.                      212180.:         10570. :       668395.       288893.        957288.:
+ ====================================================================================================================================
+
+
+                                                =================================
+                                                : FIPNUM  REPORT REGION    5    :
+                                                :     PAV =       3396.13  PSIA :
+                                                :     PORV=      4891065.   RB  :
+                           :--------------- OIL    STB  ---------------:-- WAT    STB  -:--------------- GAS   MSCF  ---------------:
+                           :     LIQUID         VAPOUR         TOTAL   :       TOTAL    :       FREE      DISSOLVED         TOTAL   :
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :CURRENTLY IN PLACE       :      3180700.                     3180700.:       1232336. :       199039.      4226645.       4425684.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO OTHER REGIONS :       106513.                      106513.:          6821. :         -867.       144378.        143511.:
+ :OUTFLOW THROUGH WELLS    :                                         0.:             0. :                                         0.:
+ :MATERIAL BALANCE ERROR.  :                                        -2.:            -1. :                                        29.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :ORIGINALLY IN PLACE      :      3287211.                     3287211.:       1239155. :            0.      4569224.       4569224.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO REGION   4    :      -212180.                     -212180.:        -10570. :      -668395.      -288893.       -957288.:
+ :OUTFLOW TO REGION   6    :       318694.                      318694.:         17391. :       667528.       433272.       1100799.:
+ ====================================================================================================================================
+
+
+                                                =================================
+                                                : FIPNUM  REPORT REGION    6    :
+                                                :     PAV =       3401.92  PSIA :
+                                                :     PORV=      5596507.   RB  :
+                           :--------------- OIL    STB  ---------------:-- WAT    STB  -:--------------- GAS   MSCF  ---------------:
+                           :     LIQUID         VAPOUR         TOTAL   :       TOTAL    :       FREE      DISSOLVED         TOTAL   :
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :CURRENTLY IN PLACE       :      3554125.                     3554125.:       1512085. :       215684.      4729039.       4944722.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO OTHER REGIONS :       115133.                      115133.:          8056. :         2997.       152569.        155566.:
+ :OUTFLOW THROUGH WELLS    :                                         0.:             0. :                                         0.:
+ :MATERIAL BALANCE ERROR.  :                                       -15.:           -10. :                                       -40.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :ORIGINALLY IN PLACE      :      3669243.                     3669243.:       1520130. :            0.      5100248.       5100248.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO REGION   5    :      -318694.                     -318694.:        -17391. :      -667528.      -433272.      -1100799.:
+ :OUTFLOW TO REGION   7    :       433827.                      433827.:         25446. :       670525.       585840.       1256365.:
+ ====================================================================================================================================
+
+
+                                                =================================
+                                                : FIPNUM  REPORT REGION    7    :
+                                                :     PAV =       3406.19  PSIA :
+                                                :     PORV=      3198004.   RB  :
+                           :--------------- OIL    STB  ---------------:-- WAT    STB  -:--------------- GAS   MSCF  ---------------:
+                           :     LIQUID         VAPOUR         TOTAL   :       TOTAL    :       FREE      DISSOLVED         TOTAL   :
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :CURRENTLY IN PLACE       :      1989541.                     1989541.:        912659. :       118667.      2649783.       2768450.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO OTHER REGIONS :      -545715.                     -545715.:       -268093. :      -670748.      -737400.      -1408149.:
+ :OUTFLOW THROUGH WELLS    :                                    614292.:        266928. :                                   1500495.:
+ :MATERIAL BALANCE ERROR.  :                                         8.:           -10. :                                         0.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :ORIGINALLY IN PLACE      :      2058127.                     2058127.:        911485. :            0.      2860797.       2860797.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO REGION   6    :      -433827.                     -433827.:        -25446. :      -670525.      -585840.      -1256365.:
+ :OUTFLOW TO REGION   8    :      -111889.                     -111889.:       -242647. :         -224.      -151560.       -151784.:
+ ====================================================================================================================================
+
+
+                                                =================================
+                                                : FIPNUM  REPORT REGION    8    :
+                                                :     PAV =       3409.35  PSIA :
+                                                :     PORV=      1504943.   RB  :
+                           :--------------- OIL    STB  ---------------:-- WAT    STB  -:--------------- GAS   MSCF  ---------------:
+                           :     LIQUID         VAPOUR         TOTAL   :       TOTAL    :       FREE      DISSOLVED         TOTAL   :
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :CURRENTLY IN PLACE       :       920009.                      920009.:        448632. :        53959.      1226193.       1280152.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO OTHER REGIONS :        21724.                       21724.:        -55748. :          224.        28971.         29195.:
+ :OUTFLOW THROUGH WELLS    :                                     13421.:         50898. :                                     18317.:
+ :MATERIAL BALANCE ERROR.  :                                        -2.:             4. :                                        -2.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :ORIGINALLY IN PLACE      :       955152.                      955152.:        443786. :            0.      1327662.       1327662.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO REGION   7    :       111889.                      111889.:        242647. :          224.       151560.        151784.:
+ :OUTFLOW TO REGION   9    :       -90164.                      -90164.:       -298395. :            0.      -122589.       -122589.:
+ ====================================================================================================================================
+
+
+                                                =================================
+                                                : FIPNUM  REPORT REGION    9    :
+                                                :     PAV =       3414.45  PSIA :
+                                                :     PORV=      5925713.   RB  :
+                           :--------------- OIL    STB  ---------------:-- WAT    STB  -:--------------- GAS   MSCF  ---------------:
+                           :     LIQUID         VAPOUR         TOTAL   :       TOTAL    :       FREE      DISSOLVED         TOTAL   :
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :CURRENTLY IN PLACE       :      3411056.                     3411056.:       2012647. :       192618.      4551493.       4744111.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO OTHER REGIONS :        96197.                       96197.:         15647. :            0.       130968.        130968.:
+ :OUTFLOW THROUGH WELLS    :                                         0.:             0. :                                         0.:
+ :MATERIAL BALANCE ERROR.  :                                         7.:            -6. :                                        12.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :ORIGINALLY IN PLACE      :      3507260.                     3507260.:       2028289. :            0.      4875092.       4875092.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO REGION   8    :        90164.                       90164.:        298395. :            0.       122589.        122589.:
+ :OUTFLOW TO REGION  10    :         6033.                        6033.:       -282747. :            0.         8380.          8380.:
+ ====================================================================================================================================
+
+
+                                                =================================
+                                                : FIPNUM  REPORT REGION   10    :
+                                                :     PAV =       3420.31  PSIA :
+                                                :     PORV=      3668298.   RB  :
+                           :--------------- OIL    STB  ---------------:-- WAT    STB  -:--------------- GAS   MSCF  ---------------:
+                           :     LIQUID         VAPOUR         TOTAL   :       TOTAL    :       FREE      DISSOLVED         TOTAL   :
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :CURRENTLY IN PLACE       :      1862146.                     1862146.:       1532633. :       101305.      2487999.       2589304.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO OTHER REGIONS :        35427.                       35427.:         25784. :            0.        48323.         48323.:
+ :OUTFLOW THROUGH WELLS    :                                         0.:             0. :                                         0.:
+ :MATERIAL BALANCE ERROR.  :                                        -1.:            -2. :                                        -2.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :ORIGINALLY IN PLACE      :      1897572.                     1897572.:       1558416. :            0.      2637625.       2637625.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO REGION   9    :        -6033.                       -6033.:        282747. :            0.        -8380.         -8380.:
+ :OUTFLOW TO REGION  11    :        41460.                       41460.:       -256963. :            0.        56702.         56702.:
+ ====================================================================================================================================
+
+
+                                                =================================
+                                                : FIPNUM  REPORT REGION   11    :
+                                                :     PAV =       3426.37  PSIA :
+                                                :     PORV=      5361359.   RB  :
+                           :--------------- OIL    STB  ---------------:-- WAT    STB  -:--------------- GAS   MSCF  ---------------:
+                           :     LIQUID         VAPOUR         TOTAL   :       TOTAL    :       FREE      DISSOLVED         TOTAL   :
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :CURRENTLY IN PLACE       :      2116979.                     2116979.:       2931406. :       109972.      2832328.       2942301.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO OTHER REGIONS :       -18203.                      -18203.:         92637. :            0.       -25002.        -25002.:
+ :OUTFLOW THROUGH WELLS    :                                         0.:             0. :                                         0.:
+ :MATERIAL BALANCE ERROR.  :                                        -1.:             0. :                                        -2.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :ORIGINALLY IN PLACE      :      2098775.                     2098775.:       3024044. :            0.      2917297.       2917297.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO REGION  10    :       -41460.                      -41460.:        256963. :            0.       -56702.        -56702.:
+ :OUTFLOW TO REGION  12    :        23257.                       23257.:       -164326. :            0.        31701.         31701.:
+ ====================================================================================================================================
+
+
+                                                =================================
+                                                : FIPNUM  REPORT REGION   12    :
+                                                :     PAV =       3433.54  PSIA :
+                                                :     PORV=      4444285.   RB  :
+                           :--------------- OIL    STB  ---------------:-- WAT    STB  -:--------------- GAS   MSCF  ---------------:
+                           :     LIQUID         VAPOUR         TOTAL   :       TOTAL    :       FREE      DISSOLVED         TOTAL   :
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :CURRENTLY IN PLACE       :      1084382.                     1084382.:       3193715. :        53552.      1453141.       1506692.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO OTHER REGIONS :       -22294.                      -22294.:         62764. :            0.       -30388.        -30388.:
+ :OUTFLOW THROUGH WELLS    :                                         0.:             0. :                                         0.:
+ :MATERIAL BALANCE ERROR.  :                                        -5.:             2. :                                        -8.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :ORIGINALLY IN PLACE      :      1062083.                     1062083.:       3256481. :            0.      1476296.       1476296.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO REGION  11    :       -23257.                      -23257.:        164326. :            0.       -31701.        -31701.:
+ :OUTFLOW TO REGION  13    :          963.                         963.:       -101561. :            0.         1312.          1312.:
+ ====================================================================================================================================
+
+
+                                                =================================
+                                                : FIPNUM  REPORT REGION   13    :
+                                                :     PAV =       3440.89  PSIA :
+                                                :     PORV=      5643536.   RB  :
+                           :--------------- OIL    STB  ---------------:-- WAT    STB  -:--------------- GAS   MSCF  ---------------:
+                           :     LIQUID         VAPOUR         TOTAL   :       TOTAL    :       FREE      DISSOLVED         TOTAL   :
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :CURRENTLY IN PLACE       :       465995.                      465995.:       5089859. :        22217.       625489.        647706.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO OTHER REGIONS :         -963.                        -963.:         22816. :            0.        -1312.         -1312.:
+ :OUTFLOW THROUGH WELLS    :                                         0.:             0. :                                         0.:
+ :MATERIAL BALANCE ERROR.  :                                        -3.:            -3. :                                        -5.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :ORIGINALLY IN PLACE      :       465028.                      465028.:       5112673. :            0.       646389.        646389.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO REGION  12    :         -963.                        -963.:        101561. :            0.        -1312.         -1312.:
+ :OUTFLOW TO REGION  14    :            0.                           0.:        -78745. :            0.            0.             0.:
+ ====================================================================================================================================
+
+
+                                                =================================
+                                                : FIPNUM  REPORT REGION   14    :
+                                                :     PAV =       3455.64  PSIA :
+                                                :     PORV=     13638545.   RB  :
+                           :--------------- OIL    STB  ---------------:-- WAT    STB  -:--------------- GAS   MSCF  ---------------:
+                           :     LIQUID         VAPOUR         TOTAL   :       TOTAL    :       FREE      DISSOLVED         TOTAL   :
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :CURRENTLY IN PLACE       :            9.                           9.:      13578455. :            8.           13.            20.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO OTHER REGIONS :            0.                           0.:         21233. :            0.            0.             0.:
+ :OUTFLOW THROUGH WELLS    :                                         0.:             0. :                                         0.:
+ :MATERIAL BALANCE ERROR.  :                                        -9.:             6. :                                       -20.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :ORIGINALLY IN PLACE      :            0.                           0.:      13599694. :            0.            0.             0.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO REGION  13    :            0.                           0.:         78745. :            0.            0.             0.:
+ :OUTFLOW TO REGION  15    :            0.                           0.:        -57511. :            0.            0.             0.:
+ ====================================================================================================================================
+
+
+                                                =================================
+                                                : FIPNUM  REPORT REGION   15    :
+                                                :     PAV =       3488.38  PSIA :
+                                                :     PORV=     36918132.   RB  :
+                           :--------------- OIL    STB  ---------------:-- WAT    STB  -:--------------- GAS   MSCF  ---------------:
+                           :     LIQUID         VAPOUR         TOTAL   :       TOTAL    :       FREE      DISSOLVED         TOTAL   :
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :CURRENTLY IN PLACE       :           20.                          20.:      36763890. :           19.           27.            46.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO OTHER REGIONS :            0.                           0.:         57511. :            0.            0.             0.:
+ :OUTFLOW THROUGH WELLS    :                                         0.:             0. :                                         0.:
+ :MATERIAL BALANCE ERROR.  :                                       -20.:            -9. :                                       -46.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :ORIGINALLY IN PLACE      :            0.                           0.:      36821392. :            0.            0.             0.:
+ :-------------------------:-------------------------------------------:----------------:-------------------------------------------:
+ :OUTFLOW TO REGION  14    :            0.                           0.:         57511. :            0.            0.             0.:
+ ====================================================================================================================================
+
+
+                                                     ===================================
+                                                     :  FIPNUM OIL RECOVERY FACTORS    :
+ :---------:-----------------------------:---------------------------------------------:--------------------------------------------:
+ :         :                             : RATIO OF       RATIO OF       RATIO OF      : RATIO OF       RATIO OF       RATIO OF     :
+ : REGION  : MOBILE OIIP    MOBILE OIIP  : DISPLACED OIL  DISPLACED OIL  DISPLACED OIL : WELL FLOW      WELL FLOW      WELL FLOW    :
+ :         : (W.R.T WATER)  (W.R.T GAS)  : TO INITIAL     TO INITIAL     TO INITIAL    : TO INITIAL     TO INITIAL     TO INITIAL   :
+ :         :                             : OIP            MOBILE OIL     MOBILE OIL    : OIP            MOBILE OIL     MOBILE OIL   :
+ :         :                             :                (WATER)        (GAS)         :                (WATER)        (GAS)        :
+ :---------:-----------------------------:---------------------------------------------:--------------------------------------------:
+ :   FIELD :    1.930E+07      1.158E+07 :   0.02175        0.03252       0.05419      :   0.02175        0.03252        0.05419    :
+ :       1 :    0.000E+00      0.000E+00 :                                             :                                            :
+ :       2 :    6.018E+05      4.692E+04 :  -0.09604       -0.19442      -2.49343      :   0.00000        0.00000        0.00000    :
+ :       3 :    3.532E+06      2.432E+06 :   0.04063        0.05470       0.07945      :         0              0              0    :
+ :       4 :    2.872E+06      1.956E+06 :   0.03496        0.04734       0.06949      :         0              0              0    :
+ :       5 :    2.406E+06      1.612E+06 :   0.03240        0.04428       0.06606      :         0              0              0    :
+ :       6 :    2.660E+06      1.752E+06 :   0.03137        0.04327       0.06569      :         0              0              0    :
+ :       7 :    1.482E+06      9.628E+05 :   0.03332        0.04629       0.07124      :   0.29847        0.41464        0.63806    :
+ :       8 :    6.838E+05      4.397E+05 :   0.03679        0.05140       0.07993      :   0.01405        0.01963        0.03053    :
+ :       9 :    2.439E+06      1.477E+06 :   0.02743        0.03945       0.06512      :         0              0              0    :
+ :      10 :    1.236E+06      6.409E+05 :   0.01867        0.02866       0.05528      :         0              0              0    :
+ :      11 :    1.132E+06      2.620E+05 :  -0.00867       -0.01608      -0.06947      :         0              0              0    :
+ :      12 :    2.606E+05      0.000E+00 :  -0.02100       -0.08556                    :         0              0                   :
+ :      13 :    0.000E+00      0.000E+00 :  -0.00208                                   :         0                                  :
+ :      14 :    0.000E+00      0.000E+00 :                                             :                                            :
+ :      15 :    0.000E+00      0.000E+00 :                                             :                                            :
+ ====================================================================================================================================
+1                             **********************************************************************  17
+  PRESSURE AT  1000.00   DAYS *      Test restart Chappelear 3 phase radial coning study               * ECLIPSE  VERSION 2009.1     
+  REPORT  15    27 SEP 1984   *  RUN                                                                   * RUN AT 14:33 ON 24 MAR 2017 
+                              **************************************************************************
+
+ UNITS   PSIA          
+
+ MINIMUM VALUE =  3234.52  AT (  1,  1,  7)     MAXIMUM VALUE =  3488.46  AT ( 10,  1, 15)                                           
+
+ (I,  J,  K) I=  1       2       3       4       5       6       7       8       9      10
+
+ (*,  1,  1)  3368.28 3368.28 3368*28 3368.64 3368.99 3369.32 3369.62 3369.96 3370.26 3370.52
+ (*,  1,  2)  3373.36 3373.36 3373*36 3373.37 3373.41 3373.50 3373.70 3374.06 3374.38 3374.91
+ (*,  1,  3)  3376.16 3376.16 3376.16 3376.18 3376.23 3376.42 3376.91 3378.26 3381.13 3382.74
+ (*,  1,  4)  3379.05 3379.05 3379.07 3379.12 3379.32 3380.04 3382.19 3386.10 3389.08 3390.67
+ (*,  1,  5)  3377.75 3377.77 3377.83 3378.07 3379.02 3381.73 3387.34 3392.07 3395.10 3396.66
+ (*,  1,  6)  3367.12 3367.31 3367.87 3369.63 3374.30 3383.08 3392.29 3397.85 3400.93 3402.46
+ (*,  1,  7)  3234*52 3276.03 3309.14 3340.42 3367.13 3385.92 3396.68 3402.16 3405.20 3406.72
+ (*,  1,  8)  3370*44 3371.01 3372.54 3376.73 3385.07 3394.72 3401.37 3405.65 3408.35 3409.81
+ (*,  1,  9)  3405.39 3405.40 3405.42 3405.51 3405.84 3406.80 3408.71 3411.27 3413.48 3414.83
+ (*,  1, 10)  3413.44 3413.44 3413.44 3413.47 3413.59 3414.03 3415.29 3417.35 3419.34 3420.64
+ (*,  1, 11)  3422.27 3422.27 3422.27 3422.28 3422.32 3422.51 3423.15 3424.41 3425.68 3426.62
+ (*,  1, 12)  3431.08 3431.08 3431.08 3431.08 3431.10 3431.16 3431.41 3432.10 3433.00 3433.75
+ (*,  1, 13)  3439.05 3439.05 3439.05 3439.05 3439.06 3439.09 3439.24 3439.70 3440.43 3441.07
+ (*,  1, 14)  3454.51 3454.51 3454.51 3454.51 3454.52 3454.53 3454.58 3454.79 3455.27 3455.81
+ (*,  1, 15)  3487.67 3487.67 3487.67 3487.67 3487.67 3487.68 3487.69 3487.77 3488.02 3488.46
+1                             **********************************************************************  18
+  SOIL     AT  1000.00   DAYS *      Test restart Chappelear 3 phase radial coning study               * ECLIPSE  VERSION 2009.1     
+  REPORT  15    27 SEP 1984   *  RUN                                                                   * RUN AT 14:33 ON 24 MAR 2017 
+                              **************************************************************************
+
+ UNITS                 
+
+ MINIMUM VALUE = -0.00008  AT (  7,  1,  1)     MAXIMUM VALUE =  0.74721  AT ( 10,  1,  3)                                           
+
+ (I,  J,  K) I=  1       2       3       4       5       6       7       8       9      10
+
+ (*,  1,  1)  0.00000 0.00000 0*00000 0.00000-0.00001-0.00003-0.00008-0.00003-0.00001-0.00001
+ (*,  1,  2)  0.38173 0.38173 0*38174 0.38175 0.38178 0.38189 0.38221 0.38304 0.38756 0.44319
+ (*,  1,  3)  0.42629 0.42639 0.42675 0.42838 0.43515 0.45897 0.52239 0.69240 0.74572 0.74721
+ (*,  1,  4)  0.59465 0.59514 0.59698 0.60443 0.62803 0.68018 0.72720 0.73006 0.73297 0.73558
+ (*,  1,  5)  0.63741 0.63869 0.64287 0.65402 0.67508 0.70278 0.70306 0.70468 0.71438 0.72035
+ (*,  1,  6)  0.66269 0.66426 0.66609 0.66803 0.66953 0.66931 0.66733 0.67956 0.69601 0.70454
+ (*,  1,  7)  0*61378 0.61368 0.61333 0.61225 0.60894 0.60162 0.60310 0.64104 0.68272 0.69184
+ (*,  1,  8)  0*44651 0.44721 0.44849 0.45146 0.45852 0.47585 0.52116 0.59892 0.66652 0.68328
+ (*,  1,  9)  0.44146 0.44102 0.44063 0.44224 0.44868 0.46174 0.48765 0.54144 0.61131 0.64800
+ (*,  1, 10)  0.39569 0.39573 0.39588 0.39659 0.39949 0.40204 0.40784 0.42859 0.50962 0.58032
+ (*,  1, 11)  0.36931 0.36932 0.36938 0.36962 0.37065 0.37406 0.38373 0.39771 0.41577 0.44356
+ (*,  1, 12)  0.25627 0.25627 0.25627 0.25630 0.25640 0.25681 0.25821 0.26106 0.26353 0.27174
+ (*,  1, 13)  0.09114 0.09114 0.09114 0.09114 0.09114 0.09114 0.09114 0.09114 0.09114 0.09138
+ (*,  1, 14)  0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
+ (*,  1, 15)  0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
+1                             **********************************************************************  19
+  SWAT     AT  1000.00   DAYS *      Test restart Chappelear 3 phase radial coning study               * ECLIPSE  VERSION 2009.1     
+  REPORT  15    27 SEP 1984   *  RUN                                                                   * RUN AT 14:33 ON 24 MAR 2017 
+                              **************************************************************************
+
+ UNITS                 
+
+ MINIMUM VALUE =  0.22005  AT (  3,  1,  2)     MAXIMUM VALUE =  1.00000  AT (  1,  1, 14)                                           
+
+ (I,  J,  K) I=  1       2       3       4       5       6       7       8       9      10
+
+ (*,  1,  1)  0.22009 0.22009 0*22009 0.22009 0.22009 0.22009 0.22009 0.22009 0.22009 0.22010
+ (*,  1,  2)  0.22005 0.22005 0*22005 0.22005 0.22005 0.22005 0.22005 0.22006 0.22015 0.22026
+ (*,  1,  3)  0.22007 0.22007 0.22007 0.22007 0.22007 0.22009 0.22022 0.22104 0.22151 0.22145
+ (*,  1,  4)  0.22236 0.22238 0.22247 0.22281 0.22392 0.22665 0.23255 0.23983 0.23718 0.23483
+ (*,  1,  5)  0.23386 0.23392 0.23417 0.23529 0.23852 0.24674 0.25687 0.26701 0.25741 0.25163
+ (*,  1,  6)  0.28276 0.28288 0.28328 0.28442 0.28663 0.29035 0.29760 0.29337 0.27729 0.26893
+ (*,  1,  7)  0*34415 0.34445 0.34503 0.34652 0.35050 0.35837 0.35735 0.33258 0.29163 0.28272
+ (*,  1,  8)  0*51342 0.51274 0.51148 0.50852 0.50147 0.48415 0.45070 0.37661 0.30857 0.29206
+ (*,  1,  9)  0.53896 0.53874 0.53792 0.53492 0.52832 0.51635 0.49141 0.43741 0.36658 0.32946
+ (*,  1, 10)  0.58942 0.58937 0.58919 0.58840 0.58530 0.58249 0.57650 0.55504 0.47213 0.40035
+ (*,  1, 11)  0.61769 0.61768 0.61762 0.61737 0.61632 0.61286 0.60305 0.58885 0.57042 0.54226
+ (*,  1, 12)  0.73555 0.73555 0.73555 0.73552 0.73542 0.73500 0.73360 0.73074 0.72827 0.71999
+ (*,  1, 13)  0.90614 0.90614 0.90614 0.90614 0.90614 0.90614 0.90614 0.90615 0.90616 0.90593
+ (*,  1, 14)  1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000
+ (*,  1, 15)  1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000 1.00000
+1                             **********************************************************************  20
+  SGAS     AT  1000.00   DAYS *      Test restart Chappelear 3 phase radial coning study               * ECLIPSE  VERSION 2009.1     
+  REPORT  15    27 SEP 1984   *  RUN                                                                   * RUN AT 14:33 ON 24 MAR 2017 
+                              **************************************************************************
+
+ UNITS                 
+
+ MINIMUM VALUE =  0.00000  AT (  7,  1, 14)     MAXIMUM VALUE =  0.77999  AT (  7,  1,  1)                                           
+
+ (I,  J,  K) I=  1       2       3       4       5       6       7       8       9      10
+
+ (*,  1,  1)  0.77991 0.77991 0*77991 0.77991 0.77992 0.77994 0.77999 0.77994 0.77992 0.77991
+ (*,  1,  2)  0.39823 0.39822 0*39821 0.39820 0.39817 0.39806 0.39774 0.39690 0.39230 0.33655
+ (*,  1,  3)  0.35364 0.35354 0.35318 0.35155 0.34478 0.32095 0.25739 0.08656 0.03277 0.03134
+ (*,  1,  4)  0.18299 0.18247 0.18055 0.17276 0.14806 0.09317 0.04026 0.03010 0.02984 0.02959
+ (*,  1,  5)  0.12873 0.12739 0.12295 0.11069 0.08640 0.05048 0.04007 0.02831 0.02821 0.02802
+ (*,  1,  6)  0.05456 0.05286 0.05062 0.04756 0.04384 0.04034 0.03506 0.02706 0.02669 0.02653
+ (*,  1,  7)  0*04207 0.04187 0.04164 0.04123 0.04056 0.04001 0.03955 0.02638 0.02565 0.02544
+ (*,  1,  8)  0*04007 0.04005 0.04003 0.04002 0.04001 0.04001 0.02814 0.02447 0.02491 0.02466
+ (*,  1,  9)  0.01959 0.02024 0.02145 0.02283 0.02299 0.02191 0.02094 0.02115 0.02211 0.02254
+ (*,  1, 10)  0.01489 0.01490 0.01492 0.01501 0.01521 0.01547 0.01566 0.01637 0.01824 0.01933
+ (*,  1, 11)  0.01300 0.01300 0.01300 0.01301 0.01303 0.01309 0.01323 0.01344 0.01382 0.01418
+ (*,  1, 12)  0.00818 0.00818 0.00818 0.00818 0.00818 0.00818 0.00819 0.00820 0.00819 0.00827
+ (*,  1, 13)  0.00272 0.00272 0.00272 0.00272 0.00272 0.00272 0.00272 0.00271 0.00270 0.00269
+ (*,  1, 14)  0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
+ (*,  1, 15)  0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
+1                             **********************************************************************  21
+  RS       AT  1000.00   DAYS *      Test restart Chappelear 3 phase radial coning study               * ECLIPSE  VERSION 2009.1     
+  REPORT  15    27 SEP 1984   *  RUN                                                                   * RUN AT 14:33 ON 24 MAR 2017 
+                              **************************************************************************
+
+ UNITS MSCF/STB        
+
+ MINIMUM VALUE =  1.24363  AT (  1,  1,  7)     MAXIMUM VALUE =  1.35654  AT ( 10,  1, 15)                                           
+
+ (I,  J,  K) I=  1       2       3       4       5       6       7       8       9      10
+
+ (*,  1,  1)  1.32048 1.32048 1*32048 1.32059 1.32070 1.32080 1.32089 1.32099 1.32108 1.32116
+ (*,  1,  2)  1.32201 1.32201 1*32201 1.32201 1.32202 1.32205 1.32211 1.32222 1.32231 1.32247
+ (*,  1,  3)  1.32285 1.32285 1.32285 1.32285 1.32287 1.32293 1.32307 1.32348 1.32434 1.32482
+ (*,  1,  4)  1.32371 1.32372 1.32372 1.32374 1.32380 1.32401 1.32466 1.32583 1.32672 1.32720
+ (*,  1,  5)  1.32333 1.32333 1.32335 1.32342 1.32371 1.32452 1.32620 1.32762 1.32853 1.32900
+ (*,  1,  6)  1.31954 1.31964 1.31994 1.32088 1.32229 1.32492 1.32769 1.32936 1.33028 1.33074
+ (*,  1,  7)  1*24363 1.26907 1.28667 1.30337 1.31799 1.32578 1.32901 1.33065 1.33156 1.33202
+ (*,  1,  8)  1*25021 1.27730 1.29622 1.31298 1.32533 1.32842 1.33041 1.33170 1.33250 1.33294
+ (*,  1,  9)  1.33162 1.33162 1.33163 1.33165 1.33175 1.33204 1.33261 1.33338 1.33404 1.33445
+ (*,  1, 10)  1.33403 1.33403 1.33403 1.33404 1.33408 1.33421 1.33459 1.33521 1.33580 1.33619
+ (*,  1, 11)  1.33668 1.33668 1.33668 1.33668 1.33670 1.33675 1.33694 1.33732 1.33770 1.33799
+ (*,  1, 12)  1.33932 1.33932 1.33932 1.33933 1.33933 1.33935 1.33942 1.33963 1.33990 1.34012
+ (*,  1, 13)  1.34171 1.34171 1.34171 1.34172 1.34172 1.34173 1.34177 1.34191 1.34213 1.34232
+ (*,  1, 14)  1.34635 1.34635 1.34635 1.34635 1.34635 1.34636 1.34637 1.34644 1.34658 1.34674
+ (*,  1, 15)  1.35630 1.35630 1.35630 1.35630 1.35630 1.35630 1.35631 1.35633 1.35640 1.35654
+
+ @--MESSAGE  AT TIME     1000.0   DAYS    (27-SEP-1984):
+ @           RESTART FILE WRITTEN   REPORT    15                             
+ @           RESTART INCLUDES FLUIDS IN PLACE                                
+ =======================================================
+ TIMING REPORTS AT CPU=     0 SECS - ELAPSED=     0 SECS
+ =======================================================
+ ZZSS    1  0  0
+                RR      1  0  0
+ SR      1  0  0
+ TS      2  0  0
+                NX      2  0  0
+                               WC      7  0  0
+                               LMRS    7  0  0
+                               CONV    7  0  0
+                               LMJC    5  0  0
+                               LXX     5  0  0
+                                              WGIN    5  0  0
+                                              RGIN    5  0  0
+                                              GINV    5  0  0
+                                                             GINV    5  0  0
+                                              WRES    5  0  0
+                                              RRES    5  0  0
+                                              ITER    5  0  0
+                                                             NORM   22  0  0
+                                                             SRCH   17  0  0
+                                                             WADX   34  0  0
+                                                             ORTH   17  0  0
+                                                             UPDA   17  0  0
+                                              WSOL    5  0  0
+                               XUIT    5  0  0
+                               LC      5  0  0
+ WWX     2  0  0
+ FWXR    2  0  0
+ XW      2  0  0
+ YW      2  0  0
+    64 READING END     
+
+ Error summary 
+ Comments               0
+ Warnings               1
+ Problems               0
+ Errors                 0
+ Bugs                   0
+ Final cpu       0.00 elapsed       0.00
+1                                                                                                                                  
+ -------------------------------------------------------------------------------------------------------------------------------
+ SUMMARY OF RUN SPE2_CHAPRST ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE desktop-td27ru7                                         
+ -------------------------------------------------------------------------------------------------------------------------------
+ TIME         YEARS        FWCT         FGOR         FPR          FOPR         FWPR         FLPR         FVPR         WBHP         
+ DAYS         YEARS                     MSCF/STB     PSIA         STB/DAY      STB/DAY      STB/DAY      RB/DAY       PSIA         
+                                                                                                                      P1           
+                                                                                                                                   
+ -------------------------------------------------------------------------------------------------------------------------------
+ 721.0000     1.973990     0.425148     2.652382     3424.128     300.0000     221.8734     521.8734     825.1530     3198.813     
+ 724.0000     1.982204     0.424469     2.359837     3423.821     300.0000     221.2574     521.2574     764.2756     3202.124     
+ 733.0000     2.006845     0.422675     2.155880     3422.913     300.0000     219.6380     519.6381     720.6646     3204.083     
+ 756.9566     2.072434     0.420359     1.983330     3420.666     300.0000     217.5621     517.5621     683.1164     3204.573     
+ 778.4783     2.131357     0.418129     1.881615     3418.739     300.0000     215.5783     515.5782     660.3638     3204.734     
+ 800.0000     2.190281     0.416300     1.814621     3416.863     300.0000     213.9630     513.9630     645.0900     3204.429     
+ 830.0000     2.272416     0.414998     1.765268     3414.302     300.0000     212.8192     512.8192     633.9113     3203.000     
+ 860.0000     2.354552     0.398813     1.754680     3411.812     300.0000     199.0126     499.0126     618.0734     3185.770     
+ 880.0000     2.409309     0.400730     1.752416     3410.150     300.0000     200.6092     500.6092     619.4124     3182.949     
+ 900.0000     2.464066     0.402214     1.754987     3408.485     300.0000     201.8521     501.8521     621.3287     3180.334     
+ 901.0000     2.466804     0.402582     2.411479     3408.387     300.0014     202.1618     502.1632     757.7104     3179.887     
+ 904.0000     2.475017     0.403413     2.396215     3408.091     300.0013     202.8614     502.8627     755.2645     3179.076     
+ 913.0000     2.499658     0.404933     2.374550     3407.198     300.0013     204.1459     504.1472     752.1045     3177.323     
+ 930.0000     2.546201     0.406819     2.344224     3405.507     300.0013     205.7485     505.7497     747.5421     3174.626     
+ 960.0000     2.628337     0.409778     2.318768     3402.525     300.0012     208.2845     508.2856     745.0184     3169.913     
+ 980.0000     2.683094     0.411768     2.315946     3400.534     300.0000     210.0032     510.0032     746.5156     3166.658     
+ 1000.000     2.737851     0.413844     2.315771     3398.539     300.0000     211.8092     511.8092     748.5323     3163.296     
+1                                                                                                                                  
+ -------------------------------------------------------------------------------------------------------------------------------
+ SUMMARY OF RUN SPE2_CHAPRST ECLIPSE 2009.1 DATESTAMP 27-APR-2009 USER   MACHINE desktop-td27ru7                                         
+ -------------------------------------------------------------------------------------------------------------------------------
+ TIME         WGPR         WGPR         WBHP                                                                                       
+ DAYS         MSCF/DAY     MSCF/DAY     PSIA                                                                                       
+              P1           P2           P2                                                                                         
+                                                                                                                                   
+ -------------------------------------------------------------------------------------------------------------------------------
+ 721.0000     795.7145            0            0                                                                                   
+ 724.0000     707.9510            0            0                                                                                   
+ 733.0000     646.7640            0            0                                                                                   
+ 756.9566     594.9990            0            0                                                                                   
+ 778.4783     564.4845            0            0                                                                                   
+ 800.0000     544.3863            0            0                                                                                   
+ 830.0000     529.5803            0            0                                                                                   
+ 860.0000     526.4041            0            0                                                                                   
+ 880.0000     525.7249            0            0                                                                                   
+ 900.0000     526.4962            0            0                                                                                   
+ 901.0000     523.4470     200.0000     3378.361                                                                                   
+ 904.0000     518.8679     200.0000     3377.816                                                                                   
+ 913.0000     512.3680     200.0000     3376.770                                                                                   
+ 930.0000     503.2701     200.0000     3374.987                                                                                   
+ 960.0000     495.6332     200.0000     3371.950                                                                                   
+ 980.0000     494.7838     200.0000     3368.695                                                                                   
+ 1000.000     494.7313     200.0000     3366.673                                                                                   

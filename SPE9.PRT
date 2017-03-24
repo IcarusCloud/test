@@ -1,0 +1,694 @@
+
+
+
+ $$$$$   $$$   $      $$$  $$$$    $$$   $$$$$     $    $$$    $$$ 
+ $      $   $  $       $   $   $  $   $  $        $$   $   $  $   $
+ $      $      $       $   $   $  $      $         $   $   $  $   $
+ $$$$   $      $       $   $$$$    $$$   $$$$      $   $   $  $   $
+ $      $      $       $   $          $  $         $   $   $  $   $
+ $      $   $  $       $   $      $   $  $         $   $   $  $   $
+ $$$$$   $$$   $$$$$  $$$  $       $$$   $$$$$    $$$   $$$    $$$ 
+
+
+
+                       $$$$$   $$$   $      $$$  $$$$    $$$   $$$$$     $    $$$    $$$ 
+                       $      $   $  $       $   $   $  $   $  $        $$   $   $  $   $
+                       $      $      $       $   $   $  $      $         $   $   $  $   $
+                       $$$$   $      $       $   $$$$    $$$   $$$$      $   $   $  $   $
+                       $      $      $       $   $          $  $         $   $   $  $   $
+                       $      $   $  $       $   $      $   $  $         $   $   $  $   $
+                       $$$$$   $$$   $$$$$  $$$  $       $$$   $$$$$    $$$   $$$    $$$ 
+
+
+
+                                             $$$$$   $$$   $      $$$  $$$$    $$$   $$$$$     $    $$$    $$$ 
+                                             $      $   $  $       $   $   $  $   $  $        $$   $   $  $   $
+                                             $      $      $       $   $   $  $      $         $   $   $  $   $
+                                             $$$$   $      $       $   $$$$    $$$   $$$$      $   $   $  $   $
+                                             $      $      $       $   $          $  $         $   $   $  $   $
+                                             $      $   $  $       $   $      $   $  $         $   $   $  $   $
+                                             $$$$$   $$$   $$$$$  $$$  $       $$$   $$$$$    $$$   $$$    $$$ 
+
+
+
+                                                                   $$$$$   $$$   $      $$$  $$$$    $$$   $$$$$     $    $$$    $$$ 
+                                                                   $      $   $  $       $   $   $  $   $  $        $$   $   $  $   $
+                                                                   $      $      $       $   $   $  $      $         $   $   $  $   $
+                                                                   $$$$   $      $       $   $$$$    $$$   $$$$      $   $   $  $   $
+                                                                   $      $      $       $   $          $  $         $   $   $  $   $
+                                                                   $      $   $  $       $   $      $   $  $         $   $   $  $   $
+                                                                   $$$$$   $$$   $$$$$  $$$  $       $$$   $$$$$    $$$   $$$    $$$ 
+ 
+ Version =  2009.1
+ Arch    =  PC WINDOWS (32 bit)
+Annex    | Modification date    | Update date          | baseline             
+=====    | =================    | ===========          | ========             
+ECLIPSE  | 27-APR-2009 16:22:47 | 27-APR-2009 19:37:10 | S:\2009.1_w18i
+system   | 22-APR-2009 14:52:01 | 25-APR-2009 05:27:35 | S:\2009.1_w18
+utility  | 17-FEB-2009 08:34:11 | 25-APR-2009 05:40:00 | S:\2009.1_w18
+ 
+
+1
+
+ ******** ECHO OF INPUT DATA FOR RUN SPE9
+
+ 0: NOECHO
+
+ ******** END OF INPUT DATA FOR RUN SPE9
+     1 READING NOECHO  
+     2 READING RUNSPEC 
+     3 READING TITLE   
+     4 READING DIMENS  
+     5 READING NONNC   
+     6 READING OIL     
+     7 READING WATER   
+     8 READING GAS     
+     9 READING DISGAS  
+    10 READING FIELD   
+    11 READING TABDIMS 
+    12 READING WELLDIMS
+    13 READING START   
+    14 READING NSTACK  
+    15 READING GRID    
+
+ @--MESSAGE  AT TIME        0.0   DAYS    ( 1-JAN-1990):
+ @           CHECKING FOR LICENSES                                           
+
+ @--MESSAGE  AT TIME        0.0   DAYS    ( 1-JAN-1990):
+ @           THE MEMORY REQUIRED TO PROCESS THE GRID SECTION IS              
+ @                 3412 KBYTES                                               
+    17 READING EQUALS  
+    18 READING EQUALS  
+    19 READING PERMX   
+    20 READING COPY    
+    21 READING MULTIPLY
+    22 READING PROPS   
+
+ @--MESSAGE  AT TIME        0.0   DAYS    ( 1-JAN-1990):
+ @           UNSPECIFIED TOPS VALUES OBTAINED BY ADDING DZ                   
+ @           TO TOPS VALUE FOR LAYER ABOVE                                   
+
+ @--MESSAGE  AT TIME        0.0   DAYS    ( 1-JAN-1990):
+ @           NEITHER OLDTRAN,OLDTRANR NOR NEWTRAN SPECIFIED                  
+ @           BLOCK CENTRE TRANSMISSIBILITIES TO BE CALCULATED                
+ @           USING  OLDTRAN                                                  
+
+ @--MESSAGE  AT TIME        0.0   DAYS    ( 1-JAN-1990):
+ @           NUMBER OF ACTIVE CELLS IS 9000                                  
+
+ @--MESSAGE  AT TIME        0.0   DAYS    ( 1-JAN-1990):
+ @           THE MEMORY REQUIRED TO PROCESS THE SOLUTION SECTION IS          
+ @                12089 KBYTES                                               
+
+ @--MESSAGE  AT TIME        0.0   DAYS    ( 1-JAN-1990):
+ @              58738 CHARACTER VARIABLES USED                               
+    23 READING SWOF    
+    24 READING SGOF    
+    25 READING PVTO    
+    26 READING PVDG    
+    27 READING PVTW    
+    28 READING ROCK    
+    29 READING DENSITY 
+    30 READING SOLUTION
+    31 READING EQUIL   
+    32 READING PBVD    
+    33 READING SUMMARY 
+    34 READING SEPARATE
+    35 READING NEWTON  
+    36 READING TCPU    
+    37 READING ELAPSED 
+    38 READING MAXDPR  
+    39 READING WMCTL   
+    40 READING WBHP    
+    41 READING BOKR    
+    42 READING BOSAT   
+    43 READING BWSAT   
+    44 READING BGSAT   
+    45 READING WOPR    
+    46 READING WGPR    
+    47 READING FOPR    
+    48 READING GOPR    
+    49 READING WWIR    
+    50 READING BPR     
+    51 READING BGSAT   
+    52 READING BWSAT   
+    53 READING SCHEDULE
+    54 READING GRUPTREE
+    55 READING WELSPECS
+    56 READING COMPDAT 
+    57 READING WCONINJE
+    58 READING WCONPROD
+    59 READING TUNING  
+    60 READING TSTEP   
+
+ @--WARNING  AT TIME        0.0   DAYS    ( 1-JAN-1990):
+ @           WELL INJE1    HAS A BOTTOM HOLE REFERENCE                       
+ @           DEPTH OF   9110.0   FEET                                        
+ @           THE CENTRE DEPTHS OF THE CONNECTING GRID BLOCKS LIE             
+ @           BETWEEN  10378.2 AND  10525.7   FEET                            
+
+ @--WARNING  AT TIME        0.0   DAYS    ( 1-JAN-1990):
+ @           WELL PROD9    HAS A BOTTOM HOLE REFERENCE                       
+ @           DEPTH OF   9110.0   FEET                                        
+ @           THE CENTRE DEPTHS OF THE CONNECTING GRID BLOCKS LIE             
+ @           BETWEEN   9715.2 AND   9756.2   FEET                            
+
+ @--WARNING  AT TIME        0.0   DAYS    ( 1-JAN-1990):
+ @           WELL PROD16   HAS A BOTTOM HOLE REFERENCE                       
+ @           DEPTH OF   9110.0   FEET                                        
+ @           THE CENTRE DEPTHS OF THE CONNECTING GRID BLOCKS LIE             
+ @           BETWEEN   9662.3 AND   9703.3   FEET                            
+
+ @--WARNING  AT TIME        0.0   DAYS    ( 1-JAN-1990):
+ @           WELL PROD17   HAS A BOTTOM HOLE REFERENCE                       
+ @           DEPTH OF   9110.0   FEET                                        
+ @           THE CENTRE DEPTHS OF THE CONNECTING GRID BLOCKS LIE             
+ @           BETWEEN   9768.1 AND   9809.1   FEET                            
+
+ @--WARNING  AT TIME        0.0   DAYS    ( 1-JAN-1990):
+ @           WELL PROD23   HAS A BOTTOM HOLE REFERENCE                       
+ @           DEPTH OF   9110.0   FEET                                        
+ @           THE CENTRE DEPTHS OF THE CONNECTING GRID BLOCKS LIE             
+ @           BETWEEN   9768.1 AND   9809.1   FEET                            
+
+ @--WARNING  AT TIME        0.0   DAYS    ( 1-JAN-1990):
+ @           WELL PROD26   HAS A BOTTOM HOLE REFERENCE                       
+ @           DEPTH OF   9110.0   FEET                                        
+ @           THE CENTRE DEPTHS OF THE CONNECTING GRID BLOCKS LIE             
+ @           BETWEEN   9873.9 AND   9914.9   FEET                            
+
+ @--MESSAGE  AT TIME        0.0   DAYS    ( 1-JAN-1990):
+ @           DRSDT KEYWORD HAS NOT BEEN ENTERED, SO THE                      
+ @           MAXIMUM GAS RE-SOLUTION RATE IS DEFAULTED TO INFINITY.          
+1                             **********************************************************************   1
+  SIMULATE AT     0.00   DAYS *SPE 9TH COMPARATIVE STUDY                                               * ECLIPSE  VERSION 2009.1     
+  REPORT   0     1 JAN 1990   *  RUN                                                                   * RUN AT 14:33 ON 24 MAR 2017 
+                              **************************************************************************
+
+ @--MESSAGE  AT TIME        0.0   DAYS    ( 1-JAN-1990):
+ @           ******************************************                      
+ @           * WELL INJE1    HAS CHANGED TO           *                      
+ @           * CONTROL BY BOTTOM HOLE PRESSURE        *                      
+ @           * FROM TIME      0.00   DAYS  .          *                      
+ @           ******************************************                      
+
+ @--MESSAGE  AT TIME        0.0   DAYS    ( 1-JAN-1990):
+ @           ******************************************                      
+ @           * WELL PROD26   HAS CHANGED TO           *                      
+ @           * CONTROL BY BOTTOM HOLE PRESSURE        *                      
+ @           * FROM TIME      0.00   DAYS  .          *                      
+ @           ******************************************                      
+
+ STEP    1 TIME=    1.00  DAYS (  +1.0  DAYS REPT  5 ITS) (2-JAN-1990)           
+  PAV=  3790.8  PSIA   WCT=0.001 GOR=     1.37 MSCF/STB WGR=   0.0007 STB/MSCF   
+1                             **********************************************************************   2
+  SIMULATE AT     1.00   DAYS *SPE 9TH COMPARATIVE STUDY                                               * ECLIPSE  VERSION 2009.1     
+  REPORT   1     2 JAN 1990   *  RUN                                                                   * RUN AT 14:33 ON 24 MAR 2017 
+                              **************************************************************************
+
+ @--MESSAGE  AT TIME        1.0   DAYS    ( 2-JAN-1990):
+ @           ******************************************                      
+ @           * WELL PROD21   HAS CHANGED TO           *                      
+ @           * CONTROL BY BOTTOM HOLE PRESSURE        *                      
+ @           * FROM TIME      1.00   DAYS  .          *                      
+ @           ******************************************                      
+
+ STEP    2 TIME=    2.96  DAYS (  +2.0  DAYS TRNC  4 ITS) (3-JAN-1990)           
+  PAV=  3766.5  PSIA   WCT=0.001 GOR=     1.36 MSCF/STB WGR=   0.0007 STB/MSCF   
+
+ @--MESSAGE  AT TIME        3.0   DAYS    ( 3-JAN-1990):
+ @           ******************************************                      
+ @           * WELL PROD23   HAS CHANGED TO           *                      
+ @           * CONTROL BY BOTTOM HOLE PRESSURE        *                      
+ @           * FROM TIME      2.96   DAYS  .          *                      
+ @           ******************************************                      
+
+ STEP    3 TIME=    6.28  DAYS (  +3.3  DAYS TRNC  4 ITS) (7-JAN-1990)           
+  PAV=  3741.2  PSIA   WCT=0.001 GOR=     1.36 MSCF/STB WGR=   0.0008 STB/MSCF   
+
+ STEP    4 TIME=   12.89  DAYS (  +6.6  DAYS TRNC  3 ITS) (13-JAN-1990)          
+  PAV=  3706.9  PSIA   WCT=0.001 GOR=     1.35 MSCF/STB WGR=   0.0008 STB/MSCF   
+
+ STEP    5 TIME=   29.13  DAYS ( +16.2  DAYS TRNC  4 ITS) (30-JAN-1990)          
+  PAV=  3653.4  PSIA   WCT=0.002 GOR=     1.36 MSCF/STB WGR=   0.0016 STB/MSCF   
+
+ STEP    6 TIME=   50.00  DAYS ( +20.9  DAYS REPT  4 ITS) (20-FEB-1990)          
+  PAV=  3608.5  PSIA   WCT=0.006 GOR=     1.46 MSCF/STB WGR=   0.0038 STB/MSCF   
+1                             **********************************************************************   3
+  SIMULATE AT    50.00   DAYS *SPE 9TH COMPARATIVE STUDY                                               * ECLIPSE  VERSION 2009.1     
+  REPORT   2    20 FEB 1990   *  RUN                                                                   * RUN AT 14:33 ON 24 MAR 2017 
+                              **************************************************************************
+
+ @--MESSAGE  AT TIME       50.0   DAYS    (20-FEB-1990):
+ @           ******************************************                      
+ @           * WELL PROD9    HAS CHANGED TO           *                      
+ @           * CONTROL BY BOTTOM HOLE PRESSURE        *                      
+ @           * FROM TIME     50.00   DAYS  .          *                      
+ @           ******************************************                      
+
+ STEP    7 TIME=   75.00  DAYS ( +25.0  DAYS HALF  4 ITS) (17-MAR-1990)          
+  PAV=  3562.6  PSIA   WCT=0.012 GOR=     1.79 MSCF/STB WGR=   0.0065 STB/MSCF   
+
+ @--MESSAGE  AT TIME       75.0   DAYS    (17-MAR-1990):
+ @           ******************************************                      
+ @           * WELL PROD16   HAS CHANGED TO           *                      
+ @           * CONTROL BY BOTTOM HOLE PRESSURE        *                      
+ @           * FROM TIME     75.00   DAYS  .          *                      
+ @           ******************************************                      
+
+ STEP    8 TIME=  100.00  DAYS ( +25.0  DAYS REPT  5 ITS) (11-APR-1990)          
+  PAV=  3517.7  PSIA   WCT=0.020 GOR=     2.21 MSCF/STB WGR=   0.0091 STB/MSCF   
+    61 READING NEXTSTEP
+    62 READING TSTEP   
+1                             **********************************************************************   4
+  SIMULATE AT   100.00   DAYS *SPE 9TH COMPARATIVE STUDY                                               * ECLIPSE  VERSION 2009.1     
+  REPORT   3    11 APR 1990   *  RUN                                                                   * RUN AT 14:33 ON 24 MAR 2017 
+                              **************************************************************************
+
+ STEP    9 TIME=  115.00  DAYS ( +15.0  DAYS INIT  4 ITS) (26-APR-1990)          
+  PAV=  3491.1  PSIA   WCT=0.025 GOR=     2.46 MSCF/STB WGR=   0.0103 STB/MSCF   
+
+ @--MESSAGE  AT TIME      115.0   DAYS    (26-APR-1990):
+ @           ******************************************                      
+ @           * WELL PROD22   HAS CHANGED TO           *                      
+ @           * CONTROL BY BOTTOM HOLE PRESSURE        *                      
+ @           * FROM TIME    115.00   DAYS  .          *                      
+ @           ******************************************                      
+
+ STEP   10 TIME=  140.10  DAYS ( +25.1  DAYS TRNC  4 ITS) (21-MAY-1990)          
+  PAV=  3444.1  PSIA   WCT=0.036 GOR=     2.85 MSCF/STB WGR=   0.0131 STB/MSCF   
+
+ STEP   11 TIME=  170.05  DAYS ( +29.9  DAYS HALF  4 ITS) (20-JUN-1990)          
+  PAV=  3384.4  PSIA   WCT=0.049 GOR=     3.35 MSCF/STB WGR=   0.0154 STB/MSCF   
+
+ @--MESSAGE  AT TIME      170.1   DAYS    (20-JUN-1990):
+ @           ******************************************                      
+ @           * WELL PROD6    HAS CHANGED TO           *                      
+ @           * CONTROL BY BOTTOM HOLE PRESSURE        *                      
+ @           * FROM TIME    170.05   DAYS  .          *                      
+ @           ******************************************                      
+
+ @--MESSAGE  AT TIME      170.1   DAYS    (20-JUN-1990):
+ @           ******************************************                      
+ @           * WELL PROD11   HAS CHANGED TO           *                      
+ @           * CONTROL BY BOTTOM HOLE PRESSURE        *                      
+ @           * FROM TIME    170.05   DAYS  .          *                      
+ @           ******************************************                      
+
+ @--MESSAGE  AT TIME      170.1   DAYS    (20-JUN-1990):
+ @           ******************************************                      
+ @           * WELL PROD12   HAS CHANGED TO           *                      
+ @           * CONTROL BY BOTTOM HOLE PRESSURE        *                      
+ @           * FROM TIME    170.05   DAYS  .          *                      
+ @           ******************************************                      
+
+ STEP   12 TIME=  200.00  DAYS ( +29.9  DAYS REPT  4 ITS) (20-JLY-1990)          
+  PAV=  3322.2  PSIA   WCT=0.062 GOR=     3.83 MSCF/STB WGR=   0.0172 STB/MSCF   
+1                             **********************************************************************   5
+  SIMULATE AT   200.00   DAYS *SPE 9TH COMPARATIVE STUDY                                               * ECLIPSE  VERSION 2009.1     
+  REPORT   4    20 JLY 1990   *  RUN                                                                   * RUN AT 14:33 ON 24 MAR 2017 
+                              **************************************************************************
+
+ @--MESSAGE  AT TIME      200.0   DAYS    (20-JLY-1990):
+ @           ******************************************                      
+ @           * WELL PROD2    HAS CHANGED TO           *                      
+ @           * CONTROL BY BOTTOM HOLE PRESSURE        *                      
+ @           * FROM TIME    200.00   DAYS  .          *                      
+ @           ******************************************                      
+
+ @--MESSAGE  AT TIME      200.0   DAYS    (20-JLY-1990):
+ @           ******************************************                      
+ @           * WELL PROD3    HAS CHANGED TO           *                      
+ @           * CONTROL BY BOTTOM HOLE PRESSURE        *                      
+ @           * FROM TIME    200.00   DAYS  .          *                      
+ @           ******************************************                      
+
+ @--MESSAGE  AT TIME      200.0   DAYS    (20-JLY-1990):
+ @           ******************************************                      
+ @           * WELL PROD20   HAS CHANGED TO           *                      
+ @           * CONTROL BY BOTTOM HOLE PRESSURE        *                      
+ @           * FROM TIME    200.00   DAYS  .          *                      
+ @           ******************************************                      
+
+ STEP   13 TIME=  250.00  DAYS ( +50.0  DAYS HALF  9 ITS) (8-SEP-1990)           
+  PAV=  3219.4  PSIA   WCT=0.084 GOR=     4.37 MSCF/STB WGR=   0.0209 STB/MSCF   
+
+ STEP   14 TIME=  300.00  DAYS ( +50.0  DAYS REPT  5 ITS) (28-OCT-1990)          
+  PAV=  3119.0  PSIA   WCT=0.106 GOR=     4.88 MSCF/STB WGR=   0.0243 STB/MSCF   
+    63 READING WELTARG 
+    64 READING NEXTSTEP
+    65 READING TSTEP   
+1                             **********************************************************************   6
+  SIMULATE AT   300.00   DAYS *SPE 9TH COMPARATIVE STUDY                                               * ECLIPSE  VERSION 2009.1     
+  REPORT   5    28 OCT 1990   *  RUN                                                                   * RUN AT 14:33 ON 24 MAR 2017 
+                              **************************************************************************
+
+ @--MESSAGE  AT TIME      300.0   DAYS    (28-OCT-1990):
+ @           ******************************************                      
+ @           * WELL PROD2    HAS CHANGED TO           *                      
+ @           * CONTROL BY OIL RATE                    *                      
+ @           * FROM TIME    300.00   DAYS  .          *                      
+ @           ******************************************                      
+
+ @--MESSAGE  AT TIME      300.0   DAYS    (28-OCT-1990):
+ @           ******************************************                      
+ @           * WELL PROD3    HAS CHANGED TO           *                      
+ @           * CONTROL BY OIL RATE                    *                      
+ @           * FROM TIME    300.00   DAYS  .          *                      
+ @           ******************************************                      
+
+ @--MESSAGE  AT TIME      300.0   DAYS    (28-OCT-1990):
+ @           ******************************************                      
+ @           * WELL PROD6    HAS CHANGED TO           *                      
+ @           * CONTROL BY OIL RATE                    *                      
+ @           * FROM TIME    300.00   DAYS  .          *                      
+ @           ******************************************                      
+
+ @--MESSAGE  AT TIME      300.0   DAYS    (28-OCT-1990):
+ @           ******************************************                      
+ @           * WELL PROD9    HAS CHANGED TO           *                      
+ @           * CONTROL BY OIL RATE                    *                      
+ @           * FROM TIME    300.00   DAYS  .          *                      
+ @           ******************************************                      
+
+ @--MESSAGE  AT TIME      300.0   DAYS    (28-OCT-1990):
+ @           ******************************************                      
+ @           * WELL PROD11   HAS CHANGED TO           *                      
+ @           * CONTROL BY OIL RATE                    *                      
+ @           * FROM TIME    300.00   DAYS  .          *                      
+ @           ******************************************                      
+
+ @--MESSAGE  AT TIME      300.0   DAYS    (28-OCT-1990):
+ @           ******************************************                      
+ @           * WELL PROD12   HAS CHANGED TO           *                      
+ @           * CONTROL BY OIL RATE                    *                      
+ @           * FROM TIME    300.00   DAYS  .          *                      
+ @           ******************************************                      
+
+ @--MESSAGE  AT TIME      300.0   DAYS    (28-OCT-1990):
+ @           ******************************************                      
+ @           * WELL PROD16   HAS CHANGED TO           *                      
+ @           * CONTROL BY OIL RATE                    *                      
+ @           * FROM TIME    300.00   DAYS  .          *                      
+ @           ******************************************                      
+
+ @--MESSAGE  AT TIME      300.0   DAYS    (28-OCT-1990):
+ @           ******************************************                      
+ @           * WELL PROD20   HAS CHANGED TO           *                      
+ @           * CONTROL BY OIL RATE                    *                      
+ @           * FROM TIME    300.00   DAYS  .          *                      
+ @           ******************************************                      
+
+ @--MESSAGE  AT TIME      300.0   DAYS    (28-OCT-1990):
+ @           ******************************************                      
+ @           * WELL PROD21   HAS CHANGED TO           *                      
+ @           * CONTROL BY OIL RATE                    *                      
+ @           * FROM TIME    300.00   DAYS  .          *                      
+ @           ******************************************                      
+
+ @--MESSAGE  AT TIME      300.0   DAYS    (28-OCT-1990):
+ @           ******************************************                      
+ @           * WELL PROD22   HAS CHANGED TO           *                      
+ @           * CONTROL BY OIL RATE                    *                      
+ @           * FROM TIME    300.00   DAYS  .          *                      
+ @           ******************************************                      
+
+ @--MESSAGE  AT TIME      300.0   DAYS    (28-OCT-1990):
+ @           ******************************************                      
+ @           * WELL PROD23   HAS CHANGED TO           *                      
+ @           * CONTROL BY OIL RATE                    *                      
+ @           * FROM TIME    300.00   DAYS  .          *                      
+ @           ******************************************                      
+
+ @--MESSAGE  AT TIME      300.0   DAYS    (28-OCT-1990):
+ @           ******************************************                      
+ @           * WELL PROD26   HAS CHANGED TO           *                      
+ @           * CONTROL BY OIL RATE                    *                      
+ @           * FROM TIME    300.00   DAYS  .          *                      
+ @           ******************************************                      
+
+ STEP   15 TIME=  320.00  DAYS ( +20.0  DAYS INIT  7 ITS) (17-NOV-1990)          
+  PAV=  3111.4  PSIA   WCT=0.186 GOR=     2.52 MSCF/STB WGR=   0.0904 STB/MSCF   
+
+ @--WARNING  AT TIME      320.0   DAYS    (17-NOV-1990):
+ @           LINEAR EQUATIONS NOT FULLY CONVERGED - RUN MAY GO FASTER        
+ @           IF YOU INCREASE LITMAX (= 15 - TUNING KEYWORD)                  
+
+ STEP   16 TIME=  340.00  DAYS ( +20.0  DAYS HALF  5 ITS) (7-DEC-1990)           
+  PAV=  3105.5  PSIA   WCT=0.209 GOR=     2.07 MSCF/STB WGR=   0.1277 STB/MSCF   
+
+ @--WARNING  AT TIME      340.0   DAYS    ( 7-DEC-1990):
+ @           LINEAR EQUATIONS NOT FULLY CONVERGED - RUN MAY GO FASTER        
+ @           IF YOU INCREASE LITMAX (= 15 - TUNING KEYWORD)                  
+
+ @--WARNING  AT TIME      340.0   DAYS    ( 7-DEC-1990):
+ @           LINEAR EQUATIONS NOT FULLY CONVERGED - RUN MAY GO FASTER        
+ @           IF YOU INCREASE LITMAX (= 15 - TUNING KEYWORD)                  
+
+ STEP   17 TIME=  360.00  DAYS ( +20.0  DAYS REPT  4 ITS) (27-DEC-1990)          
+  PAV=  3100.7  PSIA   WCT=0.221 GOR=     1.79 MSCF/STB WGR=   0.1583 STB/MSCF   
+    66 READING TUNING  
+    67 READING WELTARG 
+    68 READING TSTEP   
+1                             **********************************************************************   7
+  SIMULATE AT   360.00   DAYS *SPE 9TH COMPARATIVE STUDY                                               * ECLIPSE  VERSION 2009.1     
+  REPORT   6    27 DEC 1990   *  RUN                                                                   * RUN AT 14:33 ON 24 MAR 2017 
+                              **************************************************************************
+
+ @--MESSAGE  AT TIME      360.0   DAYS    (27-DEC-1990):
+ @           ******************************************                      
+ @           * WELL PROD2    HAS CHANGED TO           *                      
+ @           * CONTROL BY BOTTOM HOLE PRESSURE        *                      
+ @           * FROM TIME    360.00   DAYS  .          *                      
+ @           ******************************************                      
+
+ @--MESSAGE  AT TIME      360.0   DAYS    (27-DEC-1990):
+ @           ******************************************                      
+ @           * WELL PROD3    HAS CHANGED TO           *                      
+ @           * CONTROL BY BOTTOM HOLE PRESSURE        *                      
+ @           * FROM TIME    360.00   DAYS  .          *                      
+ @           ******************************************                      
+
+ @--MESSAGE  AT TIME      360.0   DAYS    (27-DEC-1990):
+ @           ******************************************                      
+ @           * WELL PROD6    HAS CHANGED TO           *                      
+ @           * CONTROL BY BOTTOM HOLE PRESSURE        *                      
+ @           * FROM TIME    360.00   DAYS  .          *                      
+ @           ******************************************                      
+
+ @--MESSAGE  AT TIME      360.0   DAYS    (27-DEC-1990):
+ @           ******************************************                      
+ @           * WELL PROD9    HAS CHANGED TO           *                      
+ @           * CONTROL BY BOTTOM HOLE PRESSURE        *                      
+ @           * FROM TIME    360.00   DAYS  .          *                      
+ @           ******************************************                      
+
+ @--MESSAGE  AT TIME      360.0   DAYS    (27-DEC-1990):
+ @           ******************************************                      
+ @           * WELL PROD11   HAS CHANGED TO           *                      
+ @           * CONTROL BY BOTTOM HOLE PRESSURE        *                      
+ @           * FROM TIME    360.00   DAYS  .          *                      
+ @           ******************************************                      
+
+ @--MESSAGE  AT TIME      360.0   DAYS    (27-DEC-1990):
+ @           ******************************************                      
+ @           * WELL PROD12   HAS CHANGED TO           *                      
+ @           * CONTROL BY BOTTOM HOLE PRESSURE        *                      
+ @           * FROM TIME    360.00   DAYS  .          *                      
+ @           ******************************************                      
+
+ @--MESSAGE  AT TIME      360.0   DAYS    (27-DEC-1990):
+ @           ******************************************                      
+ @           * WELL PROD16   HAS CHANGED TO           *                      
+ @           * CONTROL BY BOTTOM HOLE PRESSURE        *                      
+ @           * FROM TIME    360.00   DAYS  .          *                      
+ @           ******************************************                      
+
+ @--MESSAGE  AT TIME      360.0   DAYS    (27-DEC-1990):
+ @           ******************************************                      
+ @           * WELL PROD20   HAS CHANGED TO           *                      
+ @           * CONTROL BY BOTTOM HOLE PRESSURE        *                      
+ @           * FROM TIME    360.00   DAYS  .          *                      
+ @           ******************************************                      
+
+ @--MESSAGE  AT TIME      360.0   DAYS    (27-DEC-1990):
+ @           ******************************************                      
+ @           * WELL PROD21   HAS CHANGED TO           *                      
+ @           * CONTROL BY BOTTOM HOLE PRESSURE        *                      
+ @           * FROM TIME    360.00   DAYS  .          *                      
+ @           ******************************************                      
+
+ @--MESSAGE  AT TIME      360.0   DAYS    (27-DEC-1990):
+ @           ******************************************                      
+ @           * WELL PROD22   HAS CHANGED TO           *                      
+ @           * CONTROL BY BOTTOM HOLE PRESSURE        *                      
+ @           * FROM TIME    360.00   DAYS  .          *                      
+ @           ******************************************                      
+
+ @--MESSAGE  AT TIME      360.0   DAYS    (27-DEC-1990):
+ @           ******************************************                      
+ @           * WELL PROD23   HAS CHANGED TO           *                      
+ @           * CONTROL BY BOTTOM HOLE PRESSURE        *                      
+ @           * FROM TIME    360.00   DAYS  .          *                      
+ @           ******************************************                      
+
+ @--MESSAGE  AT TIME      360.0   DAYS    (27-DEC-1990):
+ @           ******************************************                      
+ @           * WELL PROD26   HAS CHANGED TO           *                      
+ @           * CONTROL BY BOTTOM HOLE PRESSURE        *                      
+ @           * FROM TIME    360.00   DAYS  .          *                      
+ @           ******************************************                      
+
+ STEP   18 TIME=  420.00  DAYS ( +60.0  DAYS REPT 10 ITS) (25-FEB-1991)          
+  PAV=  3005.0  PSIA   WCT=0.115 GOR=     4.04 MSCF/STB WGR=   0.0322 STB/MSCF   
+    69 READING TUNING  
+    70 READING TSTEP   
+1                             **********************************************************************   8
+  SIMULATE AT   420.00   DAYS *SPE 9TH COMPARATIVE STUDY                                               * ECLIPSE  VERSION 2009.1     
+  REPORT   7    25 FEB 1991   *  RUN                                                                   * RUN AT 14:33 ON 24 MAR 2017 
+                              **************************************************************************
+
+ @--MESSAGE  AT TIME      420.0   DAYS    (25-FEB-1991):
+ @           ******************************************                      
+ @           * WELL PROD5    HAS CHANGED TO           *                      
+ @           * CONTROL BY BOTTOM HOLE PRESSURE        *                      
+ @           * FROM TIME    420.00   DAYS  .          *                      
+ @           ******************************************                      
+
+ @--MESSAGE  AT TIME      420.0   DAYS    (25-FEB-1991):
+ @           ******************************************                      
+ @           * WELL PROD7    HAS CHANGED TO           *                      
+ @           * CONTROL BY BOTTOM HOLE PRESSURE        *                      
+ @           * FROM TIME    420.00   DAYS  .          *                      
+ @           ******************************************                      
+
+ @--MESSAGE  AT TIME      420.0   DAYS    (25-FEB-1991):
+ @           ******************************************                      
+ @           * WELL PROD13   HAS CHANGED TO           *                      
+ @           * CONTROL BY BOTTOM HOLE PRESSURE        *                      
+ @           * FROM TIME    420.00   DAYS  .          *                      
+ @           ******************************************                      
+
+ @--MESSAGE  AT TIME      420.0   DAYS    (25-FEB-1991):
+ @           ******************************************                      
+ @           * WELL PROD17   HAS CHANGED TO           *                      
+ @           * CONTROL BY BOTTOM HOLE PRESSURE        *                      
+ @           * FROM TIME    420.00   DAYS  .          *                      
+ @           ******************************************                      
+
+ @--MESSAGE  AT TIME      420.0   DAYS    (25-FEB-1991):
+ @           ******************************************                      
+ @           * WELL PROD25   HAS CHANGED TO           *                      
+ @           * CONTROL BY BOTTOM HOLE PRESSURE        *                      
+ @           * FROM TIME    420.00   DAYS  .          *                      
+ @           ******************************************                      
+
+ STEP   19 TIME=  480.00  DAYS ( +60.0  DAYS REPT  6 ITS) (26-APR-1991)          
+  PAV=  2899.2  PSIA   WCT=0.130 GOR=     5.44 MSCF/STB WGR=   0.0275 STB/MSCF   
+1                             **********************************************************************   9
+  SIMULATE AT   480.00   DAYS *SPE 9TH COMPARATIVE STUDY                                               * ECLIPSE  VERSION 2009.1     
+  REPORT   8    26 APR 1991   *  RUN                                                                   * RUN AT 14:33 ON 24 MAR 2017 
+                              **************************************************************************
+
+ @--MESSAGE  AT TIME      480.0   DAYS    (26-APR-1991):
+ @           ******************************************                      
+ @           * WELL PROD15   HAS CHANGED TO           *                      
+ @           * CONTROL BY BOTTOM HOLE PRESSURE        *                      
+ @           * FROM TIME    480.00   DAYS  .          *                      
+ @           ******************************************                      
+
+ @--MESSAGE  AT TIME      480.0   DAYS    (26-APR-1991):
+ @           ******************************************                      
+ @           * WELL PROD19   HAS CHANGED TO           *                      
+ @           * CONTROL BY BOTTOM HOLE PRESSURE        *                      
+ @           * FROM TIME    480.00   DAYS  .          *                      
+ @           ******************************************                      
+
+ STEP   20 TIME=  510.00  DAYS ( +30.0  DAYS HALF  4 ITS) (26-MAY-1991)          
+  PAV=  2847.8  PSIA   WCT=0.141 GOR=     5.85 MSCF/STB WGR=   0.0282 STB/MSCF   
+
+ @--MESSAGE  AT TIME      510.0   DAYS    (26-MAY-1991):
+ @           ******************************************                      
+ @           * WELL PROD18   HAS CHANGED TO           *                      
+ @           * CONTROL BY BOTTOM HOLE PRESSURE        *                      
+ @           * FROM TIME    510.00   DAYS  .          *                      
+ @           ******************************************                      
+
+ STEP   21 TIME=  540.00  DAYS ( +30.0  DAYS REPT  3 ITS) (25-JUN-1991)          
+  PAV=  2798.9  PSIA   WCT=0.151 GOR=     6.09 MSCF/STB WGR=   0.0292 STB/MSCF   
+1                             **********************************************************************  10
+  SIMULATE AT   540.00   DAYS *SPE 9TH COMPARATIVE STUDY                                               * ECLIPSE  VERSION 2009.1     
+  REPORT   9    25 JUN 1991   *  RUN                                                                   * RUN AT 14:33 ON 24 MAR 2017 
+                              **************************************************************************
+
+ @--MESSAGE  AT TIME      540.0   DAYS    (25-JUN-1991):
+ @           ******************************************                      
+ @           * WELL PROD10   HAS CHANGED TO           *                      
+ @           * CONTROL BY BOTTOM HOLE PRESSURE        *                      
+ @           * FROM TIME    540.00   DAYS  .          *                      
+ @           ******************************************                      
+
+ STEP   22 TIME=  600.00  DAYS ( +60.0  DAYS REPT  6 ITS) (24-AUG-1991)          
+  PAV=  2711.8  PSIA   WCT=0.169 GOR=     6.22 MSCF/STB WGR=   0.0328 STB/MSCF   
+1                             **********************************************************************  11
+  SIMULATE AT   600.00   DAYS *SPE 9TH COMPARATIVE STUDY                                               * ECLIPSE  VERSION 2009.1     
+  REPORT  10    24 AUG 1991   *  RUN                                                                   * RUN AT 14:33 ON 24 MAR 2017 
+                              **************************************************************************
+
+ @--MESSAGE  AT TIME      600.0   DAYS    (24-AUG-1991):
+ @           ******************************************                      
+ @           * WELL PROD4    HAS CHANGED TO           *                      
+ @           * CONTROL BY BOTTOM HOLE PRESSURE        *                      
+ @           * FROM TIME    600.00   DAYS  .          *                      
+ @           ******************************************                      
+
+ STEP   23 TIME=  660.00  DAYS ( +60.0  DAYS REPT  5 ITS) (23-OCT-1991)          
+  PAV=  2635.0  PSIA   WCT=0.186 GOR=     6.19 MSCF/STB WGR=   0.0369 STB/MSCF   
+1                             **********************************************************************  12
+  SIMULATE AT   660.00   DAYS *SPE 9TH COMPARATIVE STUDY                                               * ECLIPSE  VERSION 2009.1     
+  REPORT  11    23 OCT 1991   *  RUN                                                                   * RUN AT 14:33 ON 24 MAR 2017 
+                              **************************************************************************
+
+ @--MESSAGE  AT TIME      660.0   DAYS    (23-OCT-1991):
+ @           ******************************************                      
+ @           * WELL PROD8    HAS CHANGED TO           *                      
+ @           * CONTROL BY BOTTOM HOLE PRESSURE        *                      
+ @           * FROM TIME    660.00   DAYS  .          *                      
+ @           ******************************************                      
+
+ STEP   24 TIME=  720.00  DAYS ( +60.0  DAYS REPT  6 ITS) (22-DEC-1991)          
+  PAV=  2566.5  PSIA   WCT=0.199 GOR=     6.11 MSCF/STB WGR=   0.0408 STB/MSCF   
+    71 READING NEXTSTEP
+    72 READING TSTEP   
+1                             **********************************************************************  13
+  SIMULATE AT   720.00   DAYS *SPE 9TH COMPARATIVE STUDY                                               * ECLIPSE  VERSION 2009.1     
+  REPORT  12    22 DEC 1991   *  RUN                                                                   * RUN AT 14:33 ON 24 MAR 2017 
+                              **************************************************************************
+
+ STEP   25 TIME=  750.00  DAYS ( +30.0  DAYS INIT  3 ITS) (21-JAN-1992)          
+  PAV=  2534.2  PSIA   WCT=0.204 GOR=     6.08 MSCF/STB WGR=   0.0423 STB/MSCF   
+
+ STEP   26 TIME=  810.00  DAYS ( +60.0  DAYS MAXS  4 ITS) (21-MAR-1992)          
+  PAV=  2474.4  PSIA   WCT=0.214 GOR=     6.04 MSCF/STB WGR=   0.0450 STB/MSCF   
+
+ @--MESSAGE  AT TIME      810.0   DAYS    (21-MAR-1992):
+ @           ******************************************                      
+ @           * WELL PROD24   HAS CHANGED TO           *                      
+ @           * CONTROL BY BOTTOM HOLE PRESSURE        *                      
+ @           * FROM TIME    810.00   DAYS  .          *                      
+ @           ******************************************                      
+
+ STEP   27 TIME=  855.00  DAYS ( +45.0  DAYS HALF  3 ITS) (5-MAY-1992)           
+  PAV=  2432.4  PSIA   WCT=0.222 GOR=     6.01 MSCF/STB WGR=   0.0476 STB/MSCF   
+
+ STEP   28 TIME=  900.00  DAYS ( +45.0  DAYS REPT  3 ITS) (19-JUN-1992)          
+  PAV=  2392.8  PSIA   WCT=0.228 GOR=     5.96 MSCF/STB WGR=   0.0497 STB/MSCF   
+    73 READING END     
+
+ Error summary 
+ Comments               0
+ Warnings               9
+ Problems               0
+ Errors                 0
+ Bugs                   0
+ Final cpu       3.00 elapsed       3.00

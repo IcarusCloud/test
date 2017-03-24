@@ -1,0 +1,32 @@
+ 'RESTART '           9 'CHAR'
+ '        ' '        ' '        ' '        ' '        ' '        ' '        '
+ '        ' '        '
+ 'DIMENS  '           6 'INTE'
+          11          10          10           3           0          -1
+ 'KEYWORDS'          11 'CHAR'
+ 'TIME    ' 'YEARS   ' 'FOPR    ' 'WGOR    ' 'WBHP    ' 'BGSAT   ' 'BGSAT   '
+ 'BOSAT   ' 'BOSAT   ' 'BPR     ' 'BPR     '
+ 'WGNAMES '          11 'CHAR'
+ ':+:+:+:+' ':+:+:+:+' 'FIELD   ' 'PRODUCER' 'PRODUCER' ':+:+:+:+' ':+:+:+:+'
+ ':+:+:+:+' ':+:+:+:+' ':+:+:+:+' ':+:+:+:+'
+ 'NUMS    '          11 'INTE'
+      -32767      -32767           0           0           0         300
+           1         300           1         300           1
+ 'UNITS   '          11 'CHAR'
+ '  DAYS  ' 'YEARS   ' ' STB/DAY' 'MSCF/STB' '  PSIA  ' '        ' '        '
+ '        ' '        ' '  PSIA  ' '  PSIA  '
+ 'STARTDAT'           3 'INTE'
+          19          10        1982
+ 'RUNTIMEI'          50 'INTE'
+           2           0         114        2017           3          24
+          14          33          34        2017           3          24
+          14          33          35          16           2        1986
+           2         109           0          11           0           0
+           0           0           2           0           1           1
+           0           0           0           0           2           0
+           0           0           0           0           0           0
+           0           0           0           0           0           0
+           0           0
+ 'RUNTIMED'           5 'DOUB'
+   0.12160000000000D+04   0.11710000000000D+01   0.15000000000000D+01
+   0.00000000000000D+00   0.00000000000000D+00

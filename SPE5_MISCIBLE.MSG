@@ -1,0 +1,69 @@
+<eclipse>
+<message date="1/1/1986" time="0.00000000000000">
+ CHECKING FOR LICENSES                                                   
+</message>
+<message date="1/1/1986" time="0.00000000000000">
+ THE MEMORY REQUIRED TO PROCESS THE GRID SECTION IS                      
+      63924 BYTES                                                        
+</message>
+<message date="1/1/1986" time="0.00000000000000">
+ UNSPECIFIED TOPS VALUES OBTAINED BY ADDING DZ                           
+ TO TOPS VALUE FOR LAYER ABOVE                                           
+</message>
+<message date="1/1/1986" time="0.00000000000000">
+ NEITHER OLDTRAN,OLDTRANR NOR NEWTRAN SPECIFIED                          
+ BLOCK CENTRE TRANSMISSIBILITIES TO BE CALCULATED                        
+ USING  OLDTRAN                                                          
+</message>
+<message date="1/1/1986" time="0.00000000000000">
+ NUMBER OF ACTIVE CELLS IS 147                                           
+</message>
+<message date="1/1/1986" time="0.00000000000000">
+ THE MEMORY REQUIRED TO PROCESS THE SOLUTION SECTION IS                  
+     438740 BYTES                                                        
+</message>
+<message date="1/1/1986" time="0.00000000000000">
+    58542 CHARACTER VARIABLES USED                                       
+</message>
+<message date="1/1/1986" time="0.00000000000000">
+ RESIDUAL OIL SATURATION VS. WATER SATURATION                            
+ TABLES HAVE NOT BEEN SPECIFIED IN RUN USING                             
+ THE MISCIBLE OPTION -- THE RESIDUAL OIL                                 
+ SATURATIONS ARE ASSUMED TO BE ZERO.                                     
+</message>
+<message date="1/1/1986" time="0.00000000000000">
+ MAXIMUM GAS RE-SOLUTION RATE SPECIFIED                                  
+ IN THE DRSDT KEYWORD WILL APPLY IN THE                                  
+ REGIONS OF IMMISCIBLE GAS DISPLACEMENT.                                 
+ A VALUE OF ZERO WILL BE USED IN THE                                     
+ MISCIBLE GAS ZONES.                                                     
+</message>
+<message date="1/1/1986" time="0.00000000000000">
+ ******************************************                              
+ * WELL INJ-W    HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME      0.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="23/1/1986" time="22.52986166618305">
+ ******************************************                              
+ * WELL PRODUCER HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME     22.53   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="2/4/1986" time="91.25000000000000">
+ ******************************************                              
+ * WELL INJ-G    HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME     91.25   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="7/4/1986" time="96.25655439296304">
+ ******************************************                              
+ * WELL INJ-G    HAS CHANGED TO           *                              
+ * CONTROL BY GAS RATE                    *                              
+ * FROM TIME     96.26   DAYS  .          *                              
+ ******************************************                              
+</message>
+</eclipse>
